@@ -8,6 +8,7 @@
 
 d4w:accessibilite a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2ellg7ynzzARb5uCCVpVYl" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:services ;
     skos:definition "Niveau d'accessibilité d'un lieu et respect des normes."@fr ;
@@ -16,6 +17,7 @@ d4w:accessibilite a skos:Concept ;
 
 d4w:accompagnement-citoyen a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5q6qx1SKaGMlPJeyGpe1zJ" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:services ;
     skos:definition "Ensemble des accompagnements disponibles et mis à disposition du citoyen."@fr ;
@@ -24,6 +26,7 @@ d4w:accompagnement-citoyen a skos:Concept ;
 
 d4w:actions-evenements a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4mtlfOe02244JRpmQN4Blk" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Acteurs présents ou participants à des actions et événements dédiés au numérique."@fr ;
@@ -32,6 +35,7 @@ d4w:actions-evenements a skos:Concept ;
 
 d4w:agrements a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "Jw1qJpjLSUaNdTXC3ECzt" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Organismes agréés ou labellisés par une autorité."@fr ;
@@ -40,6 +44,7 @@ d4w:agrements a skos:Concept ;
 
 d4w:anciennes-missions-internationales a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3yH2cONaRtT4nHt88lg74K" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:historique ;
     skos:definition "Missions internationales de plus de 3 ou 4 ans, gardées à des fins d'historiques et de statistiques mais plus distribuées sur les fronts."@fr ;
@@ -48,6 +53,7 @@ d4w:anciennes-missions-internationales a skos:Concept ;
 
 d4w:biomasse-cdv-rewan a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3eab1mjW98tOsOGfUDdid5" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Traitement qui permet de remplacer les énergies fossiles polluantes par une source d'énergie propre et renouvelable."@fr ;
@@ -56,6 +62,7 @@ d4w:biomasse-cdv-rewan a skos:Concept ;
 
 d4w:chaine-de-services a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5etjmbKiuhwUKF7s6tS6y1" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Chaîne de services des initiatives acteurs de soutien, d'accompagnement, de promotion, de la recherche, etc. Font partie de la chaîne de services les acteurs publics ou non commerciaux."@fr ;
@@ -64,6 +71,7 @@ d4w:chaine-de-services a skos:Concept ;
 
 d4w:chaines-de-valeurs-prioritaires a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1PSBmXFJQoybXPUYZntMxI" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:economie-circulaire ;
     skos:definition "Chaînes de valeurs identifiés comme prioritaire par le Gouvernement wallon dans le cadre de la Stratégie Régionale en économie circulaire, Circular Wallonia."@fr ;
@@ -72,6 +80,7 @@ d4w:chaines-de-valeurs-prioritaires a skos:Concept ;
 
 d4w:chaleur-verte-cdv-rewan a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6qMvqnfvaqEqhlBFigw8sm" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Production d'énergie renouvelable issue du soleil thermique, de la biomasse résidentielle, des pompes à chaleur et de la géothermie."@fr ;
@@ -80,6 +89,7 @@ d4w:chaleur-verte-cdv-rewan a skos:Concept ;
 
 d4w:cheques-creation a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1T3ZzsQFGyVyqWh5S4fZls" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèque de soutien à la création d'emploi, d'entreprise."@fr ;
@@ -88,6 +98,7 @@ d4w:cheques-creation a skos:Concept ;
 
 d4w:cheques-croissance a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4szYwArJt6NhV0Bzdhv3Ng" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèques soutenant la croissance d'entreprise."@fr ;
@@ -96,6 +107,7 @@ d4w:cheques-croissance a skos:Concept ;
 
 d4w:cheques-economie-circulaire a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "rWx49xOdUfWSVmectuTm6" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèque soutenant l'économie circulaire."@fr ;
@@ -104,6 +116,7 @@ d4w:cheques-economie-circulaire a skos:Concept ;
 
 d4w:cheques-energie a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "kUua4KKjGZYA390oeRVCg" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèque de soutien à l'audit énergétique et à l'investissement à l'efficience énergétique."@fr ;
@@ -112,6 +125,7 @@ d4w:cheques-energie a skos:Concept ;
 
 d4w:cheques-innovation a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6QSe68RCV8VgKrYjWAbNM3" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèques de soutien au développement de nouveau produit, de dépôt de brevet, etc."@fr ;
@@ -120,6 +134,7 @@ d4w:cheques-innovation a skos:Concept ;
 
 d4w:cheques-internationalisation a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2zwajOm2JaRU1e5pSmtg18" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèques de soutien au développement à l'international."@fr ;
@@ -128,6 +143,7 @@ d4w:cheques-internationalisation a skos:Concept ;
 
 d4w:cheques-numerique a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2lzuTA3P2SRiyHhOKm3zmj" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèques de soutien à la transformation numérique, à la cybersécurité et au coworking."@fr ;
@@ -136,6 +152,7 @@ d4w:cheques-numerique a skos:Concept ;
 
 d4w:cheques-relance-par-le-numerique a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "eduDXusPFmaUhfPUX6k0a" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèque de soutien à la relance économique par le numérique."@fr ;
@@ -144,6 +161,7 @@ d4w:cheques-relance-par-le-numerique a skos:Concept ;
 
 d4w:cheques-transmission a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1TX8blzqCiqnfzA8RHI8Hf" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:cheques-entreprises ;
     skos:definition "Chèques de soutien à la transmission ou à la reprise d'entreprise."@fr ;
@@ -152,102 +170,115 @@ d4w:cheques-transmission a skos:Concept ;
 
 d4w:commerce-en-ligne a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4Nv1YQaYh8uhHIECmMDRQJ" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de produits et services en ligne."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Commerce & services en ligne"@fr .
+    skos:prefLabel "Commerce   services en ligne"@fr .
 
 d4w:detecter-anomalies-and-events a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1LQgpEJPp9lqiAXqshzZU4" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Détection et gestion des tentatives de fraude et d'intrusion dans le système informatique et fuites d'informations."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Détecter - Anomalies and Events"@fr .
+    skos:prefLabel "Détecter   Anomalies and Events"@fr .
 
 d4w:detecter-detection-processes a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6rBU02FW8WRL2ahElRngr7" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Maintenance des processus de détection et d'information sur les événements anormaux."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Détecter - Detection Processes"@fr .
+    skos:prefLabel "Détecter   Detection Processes"@fr .
 
 d4w:detecter-security-continous-monitoring a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "wRoXb1NIttcMlRvACqzod" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Implémentation de technologies de protection pour assurer la sécurité et la résilience des systèmes conformes aux politiques, procédures et accords organisationnels."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Détecter - Security Continous Monitoring"@fr .
+    skos:prefLabel "Détecter   Security Continous Monitoring"@fr .
 
 d4w:developpement-economique-territorial a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3IwOA2dtzwq7uhgTVZIEmz" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:nature ;
     skos:definition "Acteurs du développement économique par le numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Développement économique & territorial"@fr .
+    skos:prefLabel "Développement économique   territorial"@fr .
 
 d4w:dis-1 a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3an6RXuUHXuj945QraJkS9" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:s3 ;
     skos:definition "Ce DIS regroupe les activités liées à la \"circularisation\" des matériaux, en vue de diminuer la consommation de ressources, accroître l’autonomie régionale et développer des opportunités de marché nouvelles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DIS 1 - Matériaux circulaires"@fr .
+    skos:prefLabel "DIS 1   Matériaux circulaires"@fr .
 
 d4w:dis-2 a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5yRV813aqBZqz3D2usO5sj" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:s3 ;
     skos:definition "Ce DIS regroupe les activités de nature technologique, organisationnelle et sociale pour assurer la transformation du système de santé au sens large, dans ses missions préventives, de diagnostic et curatives."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DIS 2 - Innovations pour une santé renforcée"@fr .
+    skos:prefLabel "DIS 2   Innovations pour une santé renforcée"@fr .
 
 d4w:dis-3 a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6zAwR2lIrXXvEkccdAI28k" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:s3 ;
     skos:definition "Ce DIS regroupe les activités en lien avec l’Industrie 4.0 et les processus de fabrication avancée, le développement des technologies numériques pour la modernisation des outils de production, le développement et l’intégration de matériaux avancés ou composites, ainsi que les technologies additives. Il concerne toute l’industrie manufacturière, la logistique, les services marchands et la production agricole."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DIS 3 - Modes de conception et de production agiles et sûrs"@fr .
+    skos:prefLabel "DIS 3   Modes de conception et de production agiles et sûrs"@fr .
 
 d4w:dis-4 a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "7zrkgcvtBmeraU2OhaGuTv" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:s3 ;
     skos:definition "Ce DIS regroupe les matières relatives à la transition énergétique verte et à l’habitat du futur. Il inclut des activités d’ingénierie, de conception et de simulation de systèmes, le stockage d’énergie, la gestion flexible des énergies au sein des bâtiments, le développement de nouvelles énergies et de nouveaux matériaux isolants, ainsi que le déploiement de concepts innovants en génie civil, architecture et urbanisme."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DIS 4 - Systèmes énergétiques et habitats durables"@fr .
+    skos:prefLabel "DIS 4   Systèmes énergétiques et habitats durables"@fr .
 
 d4w:dis-5 a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "dp18MkHhFstQ8Ne3sMGYe" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:s3 ;
     skos:definition "Ce DIS regroupe les activités innovantes pour soutenir l'émergence de produits et services à haute valeur ajoutée et haut potentiel de marché au sein d'un système agro-alimentaire durable."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DIS 5 - Chaines agro-alimentaires du futur et gestion innovante de l'environnement"@fr .
+    skos:prefLabel "DIS 5   Chaines agro alimentaires du futur et gestion innovante de l'environnement"@fr .
 
 d4w:eau-durable-metiers a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "7awWnOTYSjsLqKwabIkI6" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Captage, traitement, distribution, etc. de l'eau."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Eau durable - Métiers"@fr .
+    skos:prefLabel "Eau durable   Métiers"@fr .
 
 d4w:eau-durable-types a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "NtlYH2S5QFt9qrCuK521d" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Types d'eau concernés par les activités des organisations."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Eau durable - Types"@fr .
+    skos:prefLabel "Eau durable   Types"@fr .
 
 d4w:ecosystemes a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5zyGvfBWFwb6wFM2SloFbm" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Initiatives et acteurs impliqués dans le développement du secteur numérique wallon."@fr ;
@@ -256,6 +287,7 @@ d4w:ecosystemes a skos:Concept ;
 
 d4w:education a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1MLaxv7yo0ITddU2fjCosi" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Ecoles des différents réseaux d'enseignements présents en Wallonie et Espaces Publics Numériques labélisés \"EPN de Wallonie\"."@fr ;
@@ -264,6 +296,7 @@ d4w:education a skos:Concept ;
 
 d4w:education-formation a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2EMRFY4WTz2r7ZZVpZeClI" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de produits et services liés à l’éducation et à la formation."@fr ;
@@ -272,6 +305,7 @@ d4w:education-formation a skos:Concept ;
 
 d4w:elements-structurels a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6wysS16Hsg7qTl5q6lumGB" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:eco-materiaux ;
     skos:definition "Acteurs actifs dans la fabrication ou la mise en oeuvre d'éléments structurels de construction (ossatures, murs, charpentes)."@fr ;
@@ -280,6 +314,7 @@ d4w:elements-structurels a skos:Concept ;
 
 d4w:energies-renouvelables a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "63IrfvREuMaWWTlNVoydUN" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Filières des secteurs du renouvelable."@fr ;
@@ -288,6 +323,7 @@ d4w:energies-renouvelables a skos:Concept ;
 
 d4w:eolien-cdv-rewan a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3rG4pfwWj4yW88tebDiExP" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Chaîne de valeur verticale présentant les spécificités de l'éolien."@fr ;
@@ -296,6 +332,7 @@ d4w:eolien-cdv-rewan a skos:Concept ;
 
 d4w:equipement-a-dsiposition a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "7A9298HMgBCl1GD4uTGzsP" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:services ;
     skos:definition "Ensemble des équipements et prestations liées dans un lieu de service."@fr ;
@@ -304,6 +341,7 @@ d4w:equipement-a-dsiposition a skos:Concept ;
 
 d4w:finition-exterieure a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5GdEAp4RuE2C3zjxCzKE4g" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:eco-materiaux ;
     skos:definition "Acteurs actifs dans la fabrication ou la mise en oeuvre de finitions extérieures de construction. Activités liées à ce domaine."@fr ;
@@ -312,6 +350,7 @@ d4w:finition-exterieure a skos:Concept ;
 
 d4w:finition-interieure a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6erht8c78gnLWZN12XnAHB" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:eco-materiaux ;
     skos:definition "Acteurs actifs dans la fabrication ou la mise en oeuvre de finitions intérieures de construction.  Activités liées à ce domaine."@fr ;
@@ -320,6 +359,7 @@ d4w:finition-interieure a skos:Concept ;
 
 d4w:fonds-investissement a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5eDTiCkFhVvQtzRKBHHJEM" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Acteurs soutenus par des fonds d'investissement."@fr ;
@@ -328,6 +368,7 @@ d4w:fonds-investissement a skos:Concept ;
 
 d4w:formation a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1sMnpXQRBadS3mWio3hdBY" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:nature ;
     skos:definition "Types d'acteurs de formations ou accompagnement à disposition du citoyen ou demandeur d'emploi."@fr ;
@@ -336,22 +377,25 @@ d4w:formation a skos:Concept ;
 
 d4w:former-et-coacher-awareness-and-training a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2SJnBgxp3RwhHcYposVI8I" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Conscientisation du personnel au sein de l'organisation grâce à la sensibilisation et à la formation, y compris des formations basées sur les rôles et les utilisateurs privilégiés."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Former et coacher - Awareness and Training"@fr .
+    skos:prefLabel "Former et coacher   Awareness and Training"@fr .
 
 d4w:former-et-coacher-graduate-education a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5qv1LrGuiBT5KlUQKIGPRc" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Enseignement supérieur sépcialisé en cybersécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Former et coacher - Graduate education"@fr .
+    skos:prefLabel "Former et coacher   Graduate education"@fr .
 
 d4w:grappes-technologiques a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6YTKvAdoiqwVkPkrHCScD7" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Domaines d'application des technologies numériques dans lesquelles les acteurs agissent en tant que prestataires fournisseurs ou clients utilisateurs."@fr ;
@@ -360,6 +404,7 @@ d4w:grappes-technologiques a skos:Concept ;
 
 d4w:hydrogene-cdv-rewan a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "37z0e4nhf42xnd5U82eMiB" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Chaîne de valeur verticale présentant les spécificités de l'hydrogène."@fr ;
@@ -368,70 +413,79 @@ d4w:hydrogene-cdv-rewan a skos:Concept ;
 
 d4w:ict-advanced a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "7CvfIlgecXj4clzvTqJ9iH" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de technologies numériques de pointes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT - advanced"@fr .
+    skos:prefLabel "ICT   advanced"@fr .
 
 d4w:ict-hardware a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6k4yS6F73dJUXwScReCZal" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de produits et services lié au matériel informatique et électronique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT - hardware"@fr .
+    skos:prefLabel "ICT   hardware"@fr .
 
 d4w:ict-networks a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5rU5LJKKoVTVsj2jMPp8bk" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de produits et services liés aux réseaux informatiques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT - networks"@fr .
+    skos:prefLabel "ICT   networks"@fr .
 
 d4w:ict-services a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2wvPYXOev4S8Bsy0nausH4" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de services informatiques (monitoring, paiement électronique, etc.) et numériques (digital marketing, consultance, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT - services"@fr .
+    skos:prefLabel "ICT   services"@fr .
 
 d4w:ict-software a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3Q2kNQad0RtAz9hKr7dXfi" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de développement et déploiement de logiciels."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT - software"@fr .
+    skos:prefLabel "ICT   software"@fr .
 
 d4w:identifier-asset-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1aXIINMlVKhdJXn1qgUJWK" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Identification des actifs physiques et logiciels au sein de l'organisation pour établir la base d'un programme de gestion des actifs."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Identifier - Asset Mangement"@fr .
+    skos:prefLabel "Identifier   Asset Mangement"@fr .
 
 d4w:identifier-business-environment a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6i5ZD864PBscNr9pCV0eQB" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Identification de l'environnement commercial que l'organisation soutient, y compris son rôle dans la chaîne d'approvisionnement et les organisations placées dans le secteur des infrastructures critiques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Identifier - Business Environment"@fr .
+    skos:prefLabel "Identifier   Business Environment"@fr .
 
 d4w:identifier-governance-risk-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2aadYvYeBEs4PiiTJt4rXK" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Identification des politiques de cybersécurité établies au sein de l'organisation pour définir le programme de gouvernance ainsi que l'identification des exigences légales et réglementaires concernant les capacités de cybersécurité de l'organisation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Identifier - Governance & Risk Management"@fr .
+    skos:prefLabel "Identifier   Governance   Risk Management"@fr .
 
 d4w:incubateurs a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "257TMeLrIJr0W4fjmPN8OD" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Entreprises hébergées par les incubateurs et accélérateurs."@fr ;
@@ -440,14 +494,16 @@ d4w:incubateurs a skos:Concept ;
 
 d4w:initiatives-d-innovation-strategiques-iis a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2mzLmkRUKOktdSXuhN97bI" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:s3 ;
     skos:definition "Les IIS sont définies comme des ensembles cohérents et à masse critique suffisante d'activités et projets fédérant les forces distinctives et acteurs pertinents en réponse à une ou plusieurs ambitions d'un ou de plusieurs DIS."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Initiatives d'Innovation Stratégiques (IIS)"@fr .
+    skos:prefLabel "Initiatives d'Innovation Stratégiques  IIS "@fr .
 
 d4w:isolation-acoustique a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "mgLR8EqAMh8BSWHjyazbC" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:eco-materiaux ;
     skos:definition "Acteurs actifs dans les activités d'isolation acoustique de constructions. Activités liées à ce domaine."@fr ;
@@ -456,6 +512,7 @@ d4w:isolation-acoustique a skos:Concept ;
 
 d4w:isolation-thermique a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4Jo2CWqxjsWbAID0rAX2vo" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:eco-materiaux ;
     skos:definition "Acteurs actifs dans les activités d'isolation thermique de constructions. Activités liées à ce domaine."@fr ;
@@ -464,22 +521,25 @@ d4w:isolation-thermique a skos:Concept ;
 
 d4w:laureats-awards a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "66aP6YnSaFf9uydLM1EJxU" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Lauréats et distingués par un award des différents programmes Digitial Wallonia."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Lauréats & awards"@fr .
+    skos:prefLabel "Lauréats   awards"@fr .
 
 d4w:matieres-premieres-secondaires a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "9yxp10Rng2yKo5yzlz32f" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:economie-circulaire ;
     skos:definition "Matières premières et/ou matières premières secondaires. Utilisation de matières circulaires dans le cadre de réutilisation ou recyclage."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Matières premières (secondaires)"@fr .
+    skos:prefLabel "Matières premières  secondaires "@fr .
 
 d4w:medias a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4SeeuZackTvN9bocLpXPg8" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:nature ;
     skos:definition "Moyens de distribution, la diffusion ou la communication d'œuvres, de documents, ou de messages sonores ou audiovisuels (presse, cinéma, affiche, radiodiffusion, télédiffusion, vidéographie, télédistribution, télématique, télécommunication)."@fr ;
@@ -488,6 +548,7 @@ d4w:medias a skos:Concept ;
 
 d4w:menuiserie a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4bWGpGqFd2pCDB3Fp4cwSS" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:eco-materiaux ;
     skos:definition "Acteurs actifs dans la fabrication ou la mise en oeuvre de menuiserie de construction."@fr ;
@@ -496,6 +557,7 @@ d4w:menuiserie a skos:Concept ;
 
 d4w:metiers-et-produits-du-bois a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4EAH6zo6nafw0uBprZv5yi" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filiere-du-bois ;
     skos:definition "Produits, services et activités relatifs aux métiers du bois."@fr ;
@@ -504,14 +566,16 @@ d4w:metiers-et-produits-du-bois a skos:Concept ;
 
 d4w:metiers-expertises a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3L7rIKdaSzzUffUjksw90t" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Compétences et expertises particulières des acteurs et des personnes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Métiers & expertises"@fr .
+    skos:prefLabel "Métiers   expertises"@fr .
 
 d4w:missions-internationales a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1s45nxOJBCheQCWnFlytZS" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Acteurs présents ou participants à des missions internationales dédiées au numérique."@fr ;
@@ -520,6 +584,7 @@ d4w:missions-internationales a skos:Concept ;
 
 d4w:nature-de-la-promotion a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3gBlCeTLwLJ3YbIvkRXiev" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:promotion-steam ;
     skos:definition "Délimitation du champ d'action de la promotion exercée."@fr ;
@@ -528,6 +593,7 @@ d4w:nature-de-la-promotion a skos:Concept ;
 
 d4w:niveaux-enseignement a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5qyELoK3v5UFgmLKSIRxCl" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:nature ;
     skos:definition "Ensemble des réseaux wallons et de la Fédération Wallonie-Bruxelles."@fr ;
@@ -536,6 +602,7 @@ d4w:niveaux-enseignement a skos:Concept ;
 
 d4w:outils-de-promotion a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "qusl6P3pES38G1J7HFSNz" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:promotion-steam ;
     skos:definition "Outils de promotion d'actions."@fr ;
@@ -544,6 +611,7 @@ d4w:outils-de-promotion a skos:Concept ;
 
 d4w:parachevement-exterieur a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "28CTeRlFCzkotmZJZHpFpy" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:eco-materiaux ;
     skos:definition "Acteurs actifs dans les activités de parachèvement extérieur de constructions. Activités liées à ce domaine."@fr ;
@@ -552,6 +620,7 @@ d4w:parachevement-exterieur a skos:Concept ;
 
 d4w:parachevement-interieur a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2kU2s0m0TGmpFakzm3TxwL" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:eco-materiaux ;
     skos:definition "Acteurs actifs dans les activités de parachèvement intérieur de constructions. Activités liées à ce domaine."@fr ;
@@ -560,6 +629,7 @@ d4w:parachevement-interieur a skos:Concept ;
 
 d4w:photovoltaique-cdv-rewan a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6IdXcIIJx0QDXnmuOvH5R4" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Chaîne de valeur verticale présentant les spécificités du photovoltaïque."@fr ;
@@ -568,6 +638,7 @@ d4w:photovoltaique-cdv-rewan a skos:Concept ;
 
 d4w:piliers-commerce-exterieur a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4pqzBs8xQE1ylrhii3004Y" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Piliers de classification des opérateurs wallons du commerce extérieur."@fr ;
@@ -576,6 +647,7 @@ d4w:piliers-commerce-exterieur a skos:Concept ;
 
 d4w:pratiques-de-circularite a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2p69LUCv7ztvuGmT7lL85m" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:economie-circulaire ;
     skos:definition "Pratiques concrètes, économiquement viables et représentant un plus pour un secteur (construction, per exemple)."@fr ;
@@ -584,6 +656,7 @@ d4w:pratiques-de-circularite a skos:Concept ;
 
 d4w:programmes-acceleration a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "Y1xfqq5KyZQgYAoXAWCco" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Acteurs participants à des programmes d'accélération."@fr ;
@@ -592,6 +665,7 @@ d4w:programmes-acceleration a skos:Concept ;
 
 d4w:programmes-de-financement a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "7noF6UFS5y9bWuoGg8H6lU" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Financement de la recherche dans les universités, les institutions de niveau universitaire et les centres de recherche par le biais de programmes de financement régionaux, nationaux et internationaux."@fr ;
@@ -600,46 +674,52 @@ d4w:programmes-de-financement a skos:Concept ;
 
 d4w:proteger-data-security a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5YrHTtbNGV1ui8CELEH5Pw" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Implémentation d'outils de protection de la sécurité des données pour protéger la confidentialité, l'intégrité et la disponibilité des informations."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Protéger - Data Security"@fr .
+    skos:prefLabel "Protéger   Data Security"@fr .
 
 d4w:proteger-identity-management-et-access-control a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2fsTLMi58LdzNnPBX9vIKa" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Protection et gestion des accès, des authentification, des autorisations et des identités."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Protéger - Identity Management & Access Control"@fr .
+    skos:prefLabel "Protéger   Identity Management   Access Control"@fr .
 
 d4w:proteger-information-protection-processes-and-procedures a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5xpKlS89b2sFpRnvhaAwvn" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Classification et segmentation des biens à protéger(informations, processus, technologies); mise en œuvre de processus et de procédures de protection des informations."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Protéger - Information Protection Processes and Procedures"@fr .
+    skos:prefLabel "Protéger   Information Protection Processes and Procedures"@fr .
 
 d4w:proteger-maintenance a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6ubgi91NAyQNMZwMpSJw48" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Protection des ressources organisationnelles grâce à la maintenance, y compris la maintenance à distance."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Protéger - Maintenance"@fr .
+    skos:prefLabel "Protéger   Maintenance"@fr .
 
 d4w:proteger-protective-technology a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "1XeAALb2b2dGeNOq899LJn" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Implémentation de technologies de protection pour assurer la sécurité et la résilience des systèmes conformes aux politiques, procédures et accords organisationnels."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Protéger - Protective Technology"@fr .
+    skos:prefLabel "Protéger   Protective Technology"@fr .
 
 d4w:provinces a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3U63AP8FZr8p62DUmFiL7q" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:perimetre ;
     skos:definition "Zones géographiques où sont organisés ou diffusés des actions de promotion ou de sensibilisation ainsi que d'autres types d'action. Ces zones couvrent les provinces wallonnes."@fr ;
@@ -648,6 +728,7 @@ d4w:provinces a skos:Concept ;
 
 d4w:publics-cibles a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6NpFl7eFMJOcPlZC3bkRgr" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Catégories de personnes ou acteurs ciblés par des actions de promotion ou de sensibilisation ainsi que d'autres actions."@fr ;
@@ -656,14 +737,16 @@ d4w:publics-cibles a skos:Concept ;
 
 d4w:recherche-et-innovation a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4Hg0bM05EyB7Uh7uF8YPqN" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:nature ;
     skos:definition "Organismes actifs dans la recherche et l'innovation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Recherche & innovation"@fr .
+    skos:prefLabel "Recherche   innovation"@fr .
 
 d4w:regions a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2xMMNM9sarUNaKt96KcHN1" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:perimetre ;
     skos:definition "Régions d'origine ou d'activité."@fr ;
@@ -672,38 +755,43 @@ d4w:regions a skos:Concept ;
 
 d4w:repondre-analysis a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4QERuJsZU9XwCKKR97sGdp" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Investigation des fraudes et Forensics."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Répondre - Analysis"@fr .
+    skos:prefLabel "Répondre   Analysis"@fr .
 
 d4w:repondre-communications a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4HjU8JuNVDSliTT0ogX0XI" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Gestion des processus et de la communication de crise pendant et après un incident avec les parties prenantes, les forces de l'ordre, les parties prenantes externes,…."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Répondre - Communications"@fr .
+    skos:prefLabel "Répondre   Communications"@fr .
 
 d4w:repondre-mitigation a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "OEKiX8Rb2f6jbpoiFLh57" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Réduction d'impact d'incident afin de pouvoir permettre aux services attaqués de rester disponibles (DDoS protection, Incident Response Services (CSRIT aaS), Takedown Services)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Répondre -  Mitigation"@fr .
+    skos:prefLabel "Répondre    Mitigation"@fr .
 
 d4w:repondre-response-planning a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5oK62PogNzobg1NUsZxGkU" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Planification des processus d'intervention pendant et après un incident."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Répondre - Response Planning"@fr .
+    skos:prefLabel "Répondre   Response Planning"@fr .
 
 d4w:reseaux a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3IW6gi2ix0wJ60Tbahzek" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Membres des réseaux wallons liés au numérique."@fr ;
@@ -712,14 +800,16 @@ d4w:reseaux a skos:Concept ;
 
 d4w:restaurer-recovery-planning a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4mhdL5dLDSZn0tuD31agSm" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Mise en œuvre les processus et procédures de planification de la reprise pour restaurer les systèmes et / ou les actifs affectés par des incidents de cybersécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Restaurer - Recovery Planning"@fr .
+    skos:prefLabel "Restaurer   Recovery Planning"@fr .
 
 d4w:scripts a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5LMoII4XJE0tdZEaJ9R921" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:technique ;
     skos:definition "Catégories utilisées dans le cadre d'automatisations et scripts."@fr ;
@@ -728,6 +818,7 @@ d4w:scripts a skos:Concept ;
 
 d4w:secteur-prive a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "XgcBawT0wSo6hZwAMNVcz" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:nature ;
     skos:definition "Professions et secteurs d’activité ne dépendant pas de l’État, du moins, où l’Etat n’est pas employeur et n'intervient qu'en tant que cadre juridique et référent légal."@fr ;
@@ -736,6 +827,7 @@ d4w:secteur-prive a skos:Concept ;
 
 d4w:secteur-public a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "Ewr0atXBNOPhptMf5LZO1" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:nature ;
     skos:definition "Organismes et activités publics répondant à des missions de service d'intérêt général."@fr ;
@@ -744,6 +836,7 @@ d4w:secteur-public a skos:Concept ;
 
 d4w:secteurs-activite a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "36wtr27vxKHLGcPG4Z4b8X" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:communautes ;
     skos:definition "Entreprises et acteurs wallons actifs par secteur."@fr ;
@@ -752,6 +845,7 @@ d4w:secteurs-activite a skos:Concept ;
 
 d4w:secteurs-cibles a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6oSgHF420cc4V9BNhCk4Fm" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Marchés cibles auxquels l'acteur s'adresse plus particulièrement."@fr ;
@@ -760,6 +854,7 @@ d4w:secteurs-cibles a skos:Concept ;
 
 d4w:smartgrids-cdv-rewan a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "164lovKHpaoc8jjhqmPQC1" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Chaîne de valeur verticale présentant les spécificités des smartgrids."@fr ;
@@ -768,6 +863,7 @@ d4w:smartgrids-cdv-rewan a skos:Concept ;
 
 d4w:stockage-cdv-rewan a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5aBqH454g8hM3mlYqiylnQ" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Chaîne de valeur verticale présentant les spécificités du stockage."@fr ;
@@ -776,6 +872,7 @@ d4w:stockage-cdv-rewan a skos:Concept ;
 
 d4w:territoire a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6blj5CNwF4cy4wwf9FXN6V" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:perimetre ;
     skos:definition "Appartenance territoriale et institutionnelle."@fr ;
@@ -784,6 +881,7 @@ d4w:territoire a skos:Concept ;
 
 d4w:types-de-clients a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "4T9CEhpGsqJbXkvNofNl4Y" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:position-business ;
     skos:definition "Types de clients auxquels le fournisseur s'adresse : particuliers (B2C) ou entreprises (B2B)."@fr ;
@@ -792,6 +890,7 @@ d4w:types-de-clients a skos:Concept ;
 
 d4w:filiere-du-bois a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "63TAbZ4qXsOPcrnugS0qxm" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Initiatives et acteurs de la filière du bois, ainsi que leurs activités."@fr ;
     skos:inScheme d4w:digital-wallonia ;
@@ -800,6 +899,7 @@ d4w:filiere-du-bois a skos:Concept ;
 
 d4w:historique a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2qKlX2dFHECWJtGLkxkAz6" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Ensemble des catégories anciennes gardées à des fins d'historique et de statistiques."@fr ;
     skos:inScheme d4w:historique-et-technique ;
@@ -808,6 +908,7 @@ d4w:historique a skos:Concept ;
 
 d4w:technique a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6ORM6qDOBJfFB67P2FQZYa" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Catégories techniques pouvant, par exemple, être utilisées dans le cadre de scripts."@fr ;
     skos:inScheme d4w:historique-et-technique ;
@@ -816,6 +917,7 @@ d4w:technique a skos:Concept ;
 
 d4w:promotion-steam a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "13ovH2qLO8FDsxoy1AHIEm" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Promotion des métiers porteurs et sensibilisation aux STEAM et au numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
@@ -824,6 +926,7 @@ d4w:promotion-steam a skos:Concept ;
 
 d4w:economie-circulaire a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5hAOJdBxRhSQ0mvL2JqW3B" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Initiatives et acteurs s'intégrant dans une logique de circularité des matériaux (en amont ou en aval de la chaîne de valeur). L'économie circulaire regroupe un ensemble de pratiques pour produire des biens et des services dans un but d'optimiser l'utilisation des matières et des énergies et de limiter la consommation et le gaspillage."@fr ;
     skos:inScheme d4w:digital-wallonia ;
@@ -832,6 +935,7 @@ d4w:economie-circulaire a skos:Concept ;
 
 d4w:perimetre a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "cfevZajrxEkYO4412vgsR" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Appartenance institutionnelle (Wallonie (Région Wallonne), Fédération Wallonie Bruxelles, etc.) et localisation géographique (Wallonie, Bruxelles, etc.). Répond à la question: \"où suis-je situé ?\", \"Quel est mon périmètre institutionnel de travail ?\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
@@ -840,6 +944,7 @@ d4w:perimetre a skos:Concept ;
 
 d4w:services a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "zXkMnqPr4EjRdbKMuVqKK" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Ensemble des prestations et autres caractéristiques des lieux de services et soutien au citoyen et entreprises."@fr ;
     skos:inScheme d4w:digital-wallonia ;
@@ -848,7 +953,7 @@ d4w:services a skos:Concept ;
 
 d4w:historique-et-technique a skos:ConceptScheme ;
     dcterms:created "2024-12-18"^^xsd:date ;
-    dcterms:identifier "01QTyCOEcVicRW93V74pEu"@fr ;
+    dcterms:identifier "01QTyCOEcVicRW93V74pEu" ;
     dcterms:title "Historique et technique"@fr ;
     owl:versionInfo "0.0.1" ;
     skos:hasTopConcept d4w:historique,
@@ -857,14 +962,16 @@ d4w:historique-et-technique a skos:ConceptScheme ;
 
 d4w:s3 a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2txodAtOhiNEv9bjrk7QdY" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "La Stratégie de Spécialisation Intelligente (S3) est un outil stratégique de la politique régionale d'innovation et de transformation de la structure économique, pour l'adapter aux transitions industrielles et répondre aux grands défis sociétaux. La S3 repose sur le principe selon lequel chaque région européenne doit concentrer ses ressources sur les Domaines d'Innovation Stratégique (DIS) pour lesquels elle a les meilleurs atouts par rapport aux autres régions."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "S3 (Stratégie de Spécialisation Intelligente)"@fr ;
+    skos:prefLabel "S3  Stratégie de Spécialisation Intelligente "@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:nature a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "3GWlR2MqlAsW1isFqeyQ3g" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Acteurs impliqués dans la transformation stratégique et économique de la Wallonie. Répond à la question de \"qui suis-je ?\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
@@ -873,30 +980,34 @@ d4w:nature a skos:Concept ;
 
 d4w:produits-services a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6EVm1Elo34l6aACyLEz6dj" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Offre de produits et services. Répond à la question \"Quelle est mon offre ?\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Produits & services"@fr ;
+    skos:prefLabel "Produits   services"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:eco-materiaux a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5GDD34qVtokvckMqzzNRvD" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Sous-filières, matériaux et produits liés à l'éco-construction."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Eco-Matériaux"@fr ;
+    skos:prefLabel "Eco Matériaux"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:cheques-entreprises a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "7xHyC3ytEy4yePAPgrykfU" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Dédiés à soutenir la création d’activité, l’innovation, l’économie circulaire et la croissance des entreprises wallonnes, les chèques-entreprises sont destinés aux porteurs de projets, entreprises et starters."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Chèques-Entreprises"@fr ;
+    skos:prefLabel "Chèques Entreprises"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:position-business a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "2xlamuvT969y8zjbQ1zu81" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Contexte d'activité des acteurs. Répond aux questions \"Quel est mon rôle ou mon domaine de compétence ?\" et \"Quel est mon positionnement sur le marché?\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
@@ -905,14 +1016,16 @@ d4w:position-business a skos:Concept ;
 
 d4w:communautes a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "5gYXqjrK01IFAafMUpGJ9M" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Communautés liées au développement économique de la Wallonie. Répond à la question \"Quelle est ma communauté d'appartenance ?\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Communautés & réseaux"@fr ;
+    skos:prefLabel "Communautés   réseaux"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:filieres-durables a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6SvtJHeSiZ5mN50oxAQzzd" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Initiatives et acteurs technologiques du secteur des énergies renouvelables en Wallonie et à Bruxelles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
@@ -921,15 +1034,16 @@ d4w:filieres-durables a skos:Concept ;
 
 d4w:collection-grappe-cyber-securite a skos:Concept ;
     eurovoc:status status:CURRENT ;
+    dcterms:identifier "6DaGW7BIDcdz31JOG24HuD" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Produits et services du marché cybersécurité établi par l’Europe. ECSO market taxonomy."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Grappe Cyber & sécurité"@fr ;
+    skos:prefLabel "Grappe Cyber   sécurité"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:digital-wallonia a skos:ConceptScheme ;
     dcterms:created "2024-12-18"^^xsd:date ;
-    dcterms:identifier "26RIxUDYmtJFHKzU2eywzv"@fr ;
+    dcterms:identifier "26RIxUDYmtJFHKzU2eywzv" ;
     dcterms:title "Data 4 Wallonia"@fr ;
     owl:versionInfo "0.0.1" ;
     skos:hasTopConcept d4w:cheques-entreprises,
