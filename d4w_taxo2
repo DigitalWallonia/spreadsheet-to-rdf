@@ -1,0 +1,1271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/onto2.owl"
+         xmlns="http://test.org/onto2.owl#"
+         xmlns:term="http://purl.org/dc/terms/"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#"
+         xmlns:euvo="http://publications.europa.eu/ontology/euvoc#">
+
+<owl:Ontology rdf:about="http://test.org/onto2.owl"/>
+
+<owl:ObjectProperty rdf:about="#ReplacedBy">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.org/dc/terms/Replaces">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://publications.europa.eu/ontology/euvoc#status">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/created">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/identifier">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/issued">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/modified">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#digital-wallonia">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-18</term:created>
+  <term:identifier xml:lang="fr">26RIxUDYmtJFHKzU2eywzv</term:identifier>
+  <core:prefLabel xml:lang="fr">Data 4 Wallonia</core:prefLabel>
+  <term:title xml:lang="fr">Data 4 Wallonia</term:title>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#historique-et-technique">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-18</term:created>
+  <term:identifier xml:lang="fr">01QTyCOEcVicRW93V74pEu</term:identifier>
+  <core:prefLabel xml:lang="fr">Historique et technique</core:prefLabel>
+  <term:title xml:lang="fr">Historique et technique</term:title>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#http://publications.europa.eu/resource/authority/concept-status/CURRENT">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-creation">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèque de soutien à la création d'emploi, d'entreprise.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques création</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-entreprises">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Dédiés à soutenir la création d’activité, l’innovation, l’économie circulaire et la croissance des entreprises wallonnes, les chèques-entreprises sont destinés aux porteurs de projets, entreprises et starters.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques-Entreprises</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-croissance">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèques soutenant la croissance d'entreprise.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques croissance</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-economie-circulaire">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèque soutenant l'économie circulaire.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques économie Circulaire</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-energie">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèque de soutien à l'audit énergétique et à l'investissement à l'efficience énergétique.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques énergie</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-innovation">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèques de soutien au développement de nouveau produit, de dépôt de brevet, etc.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques innovation</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-internationalisation">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèques de soutien au développement à l'international.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques internationalisation</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-numerique">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèques de soutien à la transformation numérique, à la cybersécurité et au coworking.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques numérique</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-relance-par-le-numerique">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèque de soutien à la relance économique par le numérique.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques relance par le numérique</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cheques-transmission">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#cheques-entreprises"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chèques de soutien à la transmission ou à la reprise d'entreprise.</core:definition>
+  <core:prefLabel xml:lang="fr">Chèques transmission</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#actions-evenements">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs présents ou participants à des actions et événements dédiés au numérique.</core:definition>
+  <core:prefLabel xml:lang="fr">Actions et événements</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#communautes">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Communautés liées au développement économique de la Wallonie. Répond à la question "Quelle est ma communauté d'appartenance ?".</core:definition>
+  <core:prefLabel xml:lang="fr">Communautés &amp; réseaux</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#agrements">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Organismes agréés ou labellisés par une autorité.</core:definition>
+  <core:prefLabel xml:lang="fr">Agréments</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#education">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ecoles des différents réseaux d'enseignements présents en Wallonie et Espaces Publics Numériques labélisés "EPN de Wallonie".</core:definition>
+  <core:prefLabel xml:lang="fr">Education</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#fonds-investissement">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs soutenus par des fonds d'investissement.</core:definition>
+  <core:prefLabel xml:lang="fr">Fonds d'investissement</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#incubateurs">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Entreprises hébergées par les incubateurs et accélérateurs.</core:definition>
+  <core:prefLabel xml:lang="fr">Incubateurs et accélérateurs</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#laureats-awards">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Lauréats et distingués par un award des différents programmes Digitial Wallonia.</core:definition>
+  <core:prefLabel xml:lang="fr">Lauréats &amp; awards</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#missions-internationales">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs présents ou participants à des missions internationales dédiées au numérique.</core:definition>
+  <core:prefLabel xml:lang="fr">Missions internationales</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#programmes-acceleration">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs participants à des programmes d'accélération.</core:definition>
+  <core:prefLabel xml:lang="fr">Programmes d'accélération</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#reseaux">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Membres des réseaux wallons liés au numérique.</core:definition>
+  <core:prefLabel xml:lang="fr">Réseaux</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#secteurs-activite">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#communautes"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Entreprises et acteurs wallons actifs par secteur.</core:definition>
+  <core:prefLabel xml:lang="fr">Secteurs d'activité</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#finition-exterieure">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#eco-materiaux"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs actifs dans la fabrication ou la mise en oeuvre de finitions extérieures de construction. Activités liées à ce domaine.</core:definition>
+  <core:prefLabel xml:lang="fr">Finition extérieure</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#eco-materiaux">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Sous-filières, matériaux et produits liés à l'éco-construction.</core:definition>
+  <core:prefLabel xml:lang="fr">Eco-Matériaux</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#finition-interieure">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#eco-materiaux"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs actifs dans la fabrication ou la mise en oeuvre de finitions intérieures de construction.  Activités liées à ce domaine.</core:definition>
+  <core:prefLabel xml:lang="fr">Finition intérieure</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#isolation-acoustique">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#eco-materiaux"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs actifs dans les activités d'isolation acoustique de constructions. Activités liées à ce domaine.</core:definition>
+  <core:prefLabel xml:lang="fr">Isolation acoustique</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#isolation-thermique">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#eco-materiaux"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs actifs dans les activités d'isolation thermique de constructions. Activités liées à ce domaine.</core:definition>
+  <core:prefLabel xml:lang="fr">Isolation thermique</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#menuiserie">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#eco-materiaux"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs actifs dans la fabrication ou la mise en oeuvre de menuiserie de construction.</core:definition>
+  <core:prefLabel xml:lang="fr">Menuiserie</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#parachevement-exterieur">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#eco-materiaux"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs actifs dans les activités de parachèvement extérieur de constructions. Activités liées à ce domaine.</core:definition>
+  <core:prefLabel xml:lang="fr">Parachèvement extérieur</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#parachevement-interieur">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#eco-materiaux"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs actifs dans les activités de parachèvement intérieur de constructions. Activités liées à ce domaine.</core:definition>
+  <core:prefLabel xml:lang="fr">Parachèvement intérieur</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#elements-structurels">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#eco-materiaux"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs actifs dans la fabrication ou la mise en oeuvre d'éléments structurels de construction (ossatures, murs, charpentes).</core:definition>
+  <core:prefLabel xml:lang="fr">Structure</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#chaines-de-valeurs-prioritaires">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#economie-circulaire"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chaînes de valeurs identifiés comme prioritaire par le Gouvernement wallon dans le cadre de la Stratégie Régionale en économie circulaire, Circular Wallonia.</core:definition>
+  <core:prefLabel xml:lang="fr">Chaînes de valeurs prioritaires</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#economie-circulaire">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Initiatives et acteurs s'intégrant dans une logique de circularité des matériaux (en amont ou en aval de la chaîne de valeur). L'économie circulaire regroupe un ensemble de pratiques pour produire des biens et des services dans un but d'optimiser l'utilisation des matières et des énergies et de limiter la consommation et le gaspillage.</core:definition>
+  <core:prefLabel xml:lang="fr">Economie circulaire</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#matieres-premieres-secondaires">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#economie-circulaire"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Matières premières et/ou matières premières secondaires. Utilisation de matières circulaires dans le cadre de réutilisation ou recyclage.</core:definition>
+  <core:prefLabel xml:lang="fr">Matières premières (secondaires)</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#pratiques-de-circularite">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#economie-circulaire"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Pratiques concrètes, économiquement viables et représentant un plus pour un secteur (construction, per exemple).</core:definition>
+  <core:prefLabel xml:lang="fr">Pratiques de circularité</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#metiers-et-produits-du-bois">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filiere-du-bois"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Produits, services et activités relatifs aux métiers du bois.</core:definition>
+  <core:prefLabel xml:lang="fr">Métiers et produits du bois</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#filiere-du-bois">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Initiatives et acteurs de la filière du bois, ainsi que leurs activités.</core:definition>
+  <core:prefLabel xml:lang="fr">Filière du bois</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#biomasse-cdv-rewan">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Traitement qui permet de remplacer les énergies fossiles polluantes par une source d'énergie propre et renouvelable.</core:definition>
+  <core:prefLabel xml:lang="fr">Biomasse CDV ReWaN</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#filieres-durables">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Initiatives et acteurs technologiques du secteur des énergies renouvelables en Wallonie et à Bruxelles.</core:definition>
+  <core:prefLabel xml:lang="fr">Filières durables</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#chaleur-verte-cdv-rewan">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Production d'énergie renouvelable issue du soleil thermique, de la biomasse résidentielle, des pompes à chaleur et de la géothermie.</core:definition>
+  <core:prefLabel xml:lang="fr">Chaleur verte CDV ReWaN</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#eau-durable-metiers">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Captage, traitement, distribution, etc. de l'eau.</core:definition>
+  <core:prefLabel xml:lang="fr">Eau durable - Métiers</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#eau-durable-types">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Types d'eau concernés par les activités des organisations.</core:definition>
+  <core:prefLabel xml:lang="fr">Eau durable - Types</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#energies-renouvelables">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Filières des secteurs du renouvelable.</core:definition>
+  <core:prefLabel xml:lang="fr">Energies renouvelables</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#eolien-cdv-rewan">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chaîne de valeur verticale présentant les spécificités de l'éolien.</core:definition>
+  <core:prefLabel xml:lang="fr">Eolier CDV ReWaN</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#hydrogene-cdv-rewan">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chaîne de valeur verticale présentant les spécificités de l'hydrogène.</core:definition>
+  <core:prefLabel xml:lang="fr">Hydrogène CDV ReWaN</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#photovoltaique-cdv-rewan">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chaîne de valeur verticale présentant les spécificités du photovoltaïque.</core:definition>
+  <core:prefLabel xml:lang="fr">Photovoltaïque CDV ReWaN</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#smartgrids-cdv-rewan">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chaîne de valeur verticale présentant les spécificités des smartgrids.</core:definition>
+  <core:prefLabel xml:lang="fr">Smartgrids CDV ReWaN</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#stockage-cdv-rewan">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#filieres-durables"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chaîne de valeur verticale présentant les spécificités du stockage.</core:definition>
+  <core:prefLabel xml:lang="fr">Stockage CDV ReWaN</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#detecter-anomalies-and-events">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Détection et gestion des tentatives de fraude et d'intrusion dans le système informatique et fuites d'informations.</core:definition>
+  <core:prefLabel xml:lang="fr">Détecter - Anomalies and Events</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#collection-grappe-cyber-securite">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Produits et services du marché cybersécurité établi par l’Europe. ECSO market taxonomy.</core:definition>
+  <core:prefLabel xml:lang="fr">Grappe Cyber &amp; sécurité</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#detecter-detection-processes">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Maintenance des processus de détection et d'information sur les événements anormaux.</core:definition>
+  <core:prefLabel xml:lang="fr">Détecter - Detection Processes</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#detecter-security-continous-monitoring">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Implémentation de technologies de protection pour assurer la sécurité et la résilience des systèmes conformes aux politiques, procédures et accords organisationnels.</core:definition>
+  <core:prefLabel xml:lang="fr">Détecter - Security Continous Monitoring</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#former-et-coacher-awareness-and-training">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Conscientisation du personnel au sein de l'organisation grâce à la sensibilisation et à la formation, y compris des formations basées sur les rôles et les utilisateurs privilégiés.</core:definition>
+  <core:prefLabel xml:lang="fr">Former et coacher - Awareness and Training</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#former-et-coacher-graduate-education">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Enseignement supérieur sépcialisé en cybersécurité.</core:definition>
+  <core:prefLabel xml:lang="fr">Former et coacher - Graduate education</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#identifier-asset-management">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Identification des actifs physiques et logiciels au sein de l'organisation pour établir la base d'un programme de gestion des actifs.</core:definition>
+  <core:prefLabel xml:lang="fr">Identifier - Asset Mangement</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#identifier-business-environment">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Identification de l'environnement commercial que l'organisation soutient, y compris son rôle dans la chaîne d'approvisionnement et les organisations placées dans le secteur des infrastructures critiques.</core:definition>
+  <core:prefLabel xml:lang="fr">Identifier - Business Environment</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#identifier-governance-risk-management">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Identification des politiques de cybersécurité établies au sein de l'organisation pour définir le programme de gouvernance ainsi que l'identification des exigences légales et réglementaires concernant les capacités de cybersécurité de l'organisation.</core:definition>
+  <core:prefLabel xml:lang="fr">Identifier - Governance &amp; Risk Management</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#proteger-data-security">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Implémentation d'outils de protection de la sécurité des données pour protéger la confidentialité, l'intégrité et la disponibilité des informations.</core:definition>
+  <core:prefLabel xml:lang="fr">Protéger - Data Security</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#proteger-identity-management-et-access-control">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Protection et gestion des accès, des authentification, des autorisations et des identités.</core:definition>
+  <core:prefLabel xml:lang="fr">Protéger - Identity Management &amp; Access Control</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#proteger-information-protection-processes-and-procedures">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Classification et segmentation des biens à protéger(informations, processus, technologies); mise en œuvre de processus et de procédures de protection des informations.</core:definition>
+  <core:prefLabel xml:lang="fr">Protéger - Information Protection Processes and Procedures</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#proteger-maintenance">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Protection des ressources organisationnelles grâce à la maintenance, y compris la maintenance à distance.</core:definition>
+  <core:prefLabel xml:lang="fr">Protéger - Maintenance</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#proteger-protective-technology">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Implémentation de technologies de protection pour assurer la sécurité et la résilience des systèmes conformes aux politiques, procédures et accords organisationnels.</core:definition>
+  <core:prefLabel xml:lang="fr">Protéger - Protective Technology</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#repondre-mitigation">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Réduction d'impact d'incident afin de pouvoir permettre aux services attaqués de rester disponibles (DDoS protection, Incident Response Services (CSRIT aaS), Takedown Services).</core:definition>
+  <core:prefLabel xml:lang="fr">Répondre -  Mitigation</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#repondre-analysis">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Investigation des fraudes et Forensics.</core:definition>
+  <core:prefLabel xml:lang="fr">Répondre - Analysis</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#repondre-communications">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Gestion des processus et de la communication de crise pendant et après un incident avec les parties prenantes, les forces de l'ordre, les parties prenantes externes,….</core:definition>
+  <core:prefLabel xml:lang="fr">Répondre - Communications</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#repondre-response-planning">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Planification des processus d'intervention pendant et après un incident.</core:definition>
+  <core:prefLabel xml:lang="fr">Répondre - Response Planning</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#restaurer-recovery-planning">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#collection-grappe-cyber-securite"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Mise en œuvre les processus et procédures de planification de la reprise pour restaurer les systèmes et / ou les actifs affectés par des incidents de cybersécurité.</core:definition>
+  <core:prefLabel xml:lang="fr">Restaurer - Recovery Planning</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#developpement-economique-territorial">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#nature"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Acteurs du développement économique par le numérique.</core:definition>
+  <core:prefLabel xml:lang="fr">Développement économique &amp; territorial</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#nature">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Acteurs impliqués dans la transformation stratégique et économique de la Wallonie. Répond à la question de "qui suis-je ?".</core:definition>
+  <core:prefLabel xml:lang="fr">Nature et type</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#formation">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#nature"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Types d'acteurs de formations ou accompagnement à disposition du citoyen ou demandeur d'emploi.</core:definition>
+  <core:prefLabel xml:lang="fr">Formation</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#medias">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#nature"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Moyens de distribution, la diffusion ou la communication d'œuvres, de documents, ou de messages sonores ou audiovisuels (presse, cinéma, affiche, radiodiffusion, télédiffusion, vidéographie, télédistribution, télématique, télécommunication).</core:definition>
+  <core:prefLabel xml:lang="fr">Médias</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#niveaux-enseignement">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#nature"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ensemble des réseaux wallons et de la Fédération Wallonie-Bruxelles.</core:definition>
+  <core:prefLabel xml:lang="fr">Niveaux d'enseignement</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#recherche-et-innovation">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#nature"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Organismes actifs dans la recherche et l'innovation.</core:definition>
+  <core:prefLabel xml:lang="fr">Recherche &amp; innovation</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#secteur-prive">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#nature"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Professions et secteurs d’activité ne dépendant pas de l’État, du moins, où l’Etat n’est pas employeur et n'intervient qu'en tant que cadre juridique et référent légal.</core:definition>
+  <core:prefLabel xml:lang="fr">Secteur privé</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#secteur-public">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#nature"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Organismes et activités publics répondant à des missions de service d'intérêt général.</core:definition>
+  <core:prefLabel xml:lang="fr">Secteur public</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#provinces">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#perimetre"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Zones géographiques où sont organisés ou diffusés des actions de promotion ou de sensibilisation ainsi que d'autres types d'action. Ces zones couvrent les provinces wallonnes.</core:definition>
+  <core:prefLabel xml:lang="fr">Provinces</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#perimetre">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Appartenance institutionnelle (Wallonie (Région Wallonne), Fédération Wallonie Bruxelles, etc.) et localisation géographique (Wallonie, Bruxelles, etc.). Répond à la question: "où suis-je situé ?", "Quel est mon périmètre institutionnel de travail ?".</core:definition>
+  <core:prefLabel xml:lang="fr">Périmètre</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#regions">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#perimetre"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Régions d'origine ou d'activité.</core:definition>
+  <core:prefLabel xml:lang="fr">Régions</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#territoire">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#perimetre"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Appartenance territoriale et institutionnelle.</core:definition>
+  <core:prefLabel xml:lang="fr">Territoire et institutions</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#chaine-de-services">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Chaîne de services des initiatives acteurs de soutien, d'accompagnement, de promotion, de la recherche, etc. Font partie de la chaîne de services les acteurs publics ou non commerciaux.</core:definition>
+  <core:prefLabel xml:lang="fr">Chaîne de services</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#position-business">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Contexte d'activité des acteurs. Répond aux questions "Quel est mon rôle ou mon domaine de compétence ?" et "Quel est mon positionnement sur le marché?".</core:definition>
+  <core:prefLabel xml:lang="fr">Position business</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ecosystemes">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Initiatives et acteurs impliqués dans le développement du secteur numérique wallon.</core:definition>
+  <core:prefLabel xml:lang="fr">Ecosystèmes</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#grappes-technologiques">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Domaines d'application des technologies numériques dans lesquelles les acteurs agissent en tant que prestataires fournisseurs ou clients utilisateurs.</core:definition>
+  <core:prefLabel xml:lang="fr">Grappes technologiques</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#secteurs-cibles">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Marchés cibles auxquels l'acteur s'adresse plus particulièrement.</core:definition>
+  <core:prefLabel xml:lang="fr">Marchés cibles</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#metiers-expertises">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Compétences et expertises particulières des acteurs et des personnes.</core:definition>
+  <core:prefLabel xml:lang="fr">Métiers &amp; expertises</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#piliers-commerce-exterieur">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Piliers de classification des opérateurs wallons du commerce extérieur.</core:definition>
+  <core:prefLabel xml:lang="fr">Piliers commerce extérieur</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#programmes-de-financement">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Financement de la recherche dans les universités, les institutions de niveau universitaire et les centres de recherche par le biais de programmes de financement régionaux, nationaux et internationaux.</core:definition>
+  <core:prefLabel xml:lang="fr">Programmes de financements</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publics-cibles">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Catégories de personnes ou acteurs ciblés par des actions de promotion ou de sensibilisation ainsi que d'autres actions.</core:definition>
+  <core:prefLabel xml:lang="fr">Publics cibles</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#types-de-clients">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#position-business"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Types de clients auxquels le fournisseur s'adresse : particuliers (B2C) ou entreprises (B2B).</core:definition>
+  <core:prefLabel xml:lang="fr">Types de clients</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#commerce-en-ligne">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#produits-services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Offre de produits et services en ligne.</core:definition>
+  <core:prefLabel xml:lang="fr">Commerce &amp; services en ligne</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#produits-services">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Offre de produits et services. Répond à la question "Quelle est mon offre ?".</core:definition>
+  <core:prefLabel xml:lang="fr">Produits &amp; services</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#education-formation">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#produits-services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Offre de produits et services liés à l’éducation et à la formation.</core:definition>
+  <core:prefLabel xml:lang="fr">Education et formation</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ict-advanced">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#produits-services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Offre de technologies numériques de pointes.</core:definition>
+  <core:prefLabel xml:lang="fr">ICT - advanced</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ict-hardware">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#produits-services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Offre de produits et services lié au matériel informatique et électronique.</core:definition>
+  <core:prefLabel xml:lang="fr">ICT - hardware</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ict-networks">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#produits-services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Offre de produits et services liés aux réseaux informatiques.</core:definition>
+  <core:prefLabel xml:lang="fr">ICT - networks</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ict-services">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#produits-services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Offre de services informatiques (monitoring, paiement électronique, etc.) et numériques (digital marketing, consultance, etc.).</core:definition>
+  <core:prefLabel xml:lang="fr">ICT - services</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ict-software">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#produits-services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Offre de développement et déploiement de logiciels.</core:definition>
+  <core:prefLabel xml:lang="fr">ICT - software</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#nature-de-la-promotion">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#promotion-steam"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Délimitation du champ d'action de la promotion exercée.</core:definition>
+  <core:prefLabel xml:lang="fr">Nature de la promotion</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#promotion-steam">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Promotion des métiers porteurs et sensibilisation aux STEAM et au numérique.</core:definition>
+  <core:prefLabel xml:lang="fr">Promotion STEAM</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#outils-de-promotion">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#promotion-steam"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Outils de promotion d'actions.</core:definition>
+  <core:prefLabel xml:lang="fr">Outils de promotion</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#dis-1">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#s3"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ce DIS regroupe les activités liées à la "circularisation" des matériaux, en vue de diminuer la consommation de ressources, accroître l’autonomie régionale et développer des opportunités de marché nouvelles.</core:definition>
+  <core:prefLabel xml:lang="fr">DIS 1 - Matériaux circulaires</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#s3">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">La Stratégie de Spécialisation Intelligente (S3) est un outil stratégique de la politique régionale d'innovation et de transformation de la structure économique, pour l'adapter aux transitions industrielles et répondre aux grands défis sociétaux. La S3 repose sur le principe selon lequel chaque région européenne doit concentrer ses ressources sur les Domaines d'Innovation Stratégique (DIS) pour lesquels elle a les meilleurs atouts par rapport aux autres régions.</core:definition>
+  <core:prefLabel xml:lang="fr">S3 (Stratégie de Spécialisation Intelligente)</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#dis-2">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#s3"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ce DIS regroupe les activités de nature technologique, organisationnelle et sociale pour assurer la transformation du système de santé au sens large, dans ses missions préventives, de diagnostic et curatives.</core:definition>
+  <core:prefLabel xml:lang="fr">DIS 2 - Innovations pour une santé renforcée</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#dis-3">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#s3"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ce DIS regroupe les activités en lien avec l’Industrie 4.0 et les processus de fabrication avancée, le développement des technologies numériques pour la modernisation des outils de production, le développement et l’intégration de matériaux avancés ou composites, ainsi que les technologies additives. Il concerne toute l’industrie manufacturière, la logistique, les services marchands et la production agricole.</core:definition>
+  <core:prefLabel xml:lang="fr">DIS 3 - Modes de conception et de production agiles et sûrs</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#dis-4">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#s3"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ce DIS regroupe les matières relatives à la transition énergétique verte et à l’habitat du futur. Il inclut des activités d’ingénierie, de conception et de simulation de systèmes, le stockage d’énergie, la gestion flexible des énergies au sein des bâtiments, le développement de nouvelles énergies et de nouveaux matériaux isolants, ainsi que le déploiement de concepts innovants en génie civil, architecture et urbanisme.</core:definition>
+  <core:prefLabel xml:lang="fr">DIS 4 - Systèmes énergétiques et habitats durables</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#dis-5">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#s3"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ce DIS regroupe les activités innovantes pour soutenir l'émergence de produits et services à haute valeur ajoutée et haut potentiel de marché au sein d'un système agro-alimentaire durable.</core:definition>
+  <core:prefLabel xml:lang="fr">DIS 5 - Chaines agro-alimentaires du futur et gestion innovante de l'environnement</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#initiatives-d-innovation-strategiques-iis">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#s3"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Les IIS sont définies comme des ensembles cohérents et à masse critique suffisante d'activités et projets fédérant les forces distinctives et acteurs pertinents en réponse à une ou plusieurs ambitions d'un ou de plusieurs DIS.</core:definition>
+  <core:prefLabel xml:lang="fr">Initiatives d'Innovation Stratégiques (IIS)</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#accessibilite">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Niveau d'accessibilité d'un lieu et respect des normes.</core:definition>
+  <core:prefLabel xml:lang="fr">Accessibilité</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#services">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#digital-wallonia"/>
+  <core:definition xml:lang="fr">Ensemble des prestations et autres caractéristiques des lieux de services et soutien au citoyen et entreprises.</core:definition>
+  <core:prefLabel xml:lang="fr">Services</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#accompagnement-citoyen">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ensemble des accompagnements disponibles et mis à disposition du citoyen.</core:definition>
+  <core:prefLabel xml:lang="fr">Accompagnement citoyen</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#equipement-a-dsiposition">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#services"/>
+  <core:inScheme rdf:resource="#digital-wallonia"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Ensemble des équipements et prestations liées dans un lieu de service.</core:definition>
+  <core:prefLabel xml:lang="fr">Equipement à disposition</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#anciennes-missions-internationales">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#historique"/>
+  <core:inScheme rdf:resource="#historique-et-technique"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Missions internationales de plus de 3 ou 4 ans, gardées à des fins d'historiques et de statistiques mais plus distribuées sur les fronts.</core:definition>
+  <core:prefLabel xml:lang="fr">Anciennes missions internationales</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#historique">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#historique-et-technique"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#historique-et-technique"/>
+  <core:definition xml:lang="fr">Ensemble des catégories anciennes gardées à des fins d'historique et de statistiques.</core:definition>
+  <core:prefLabel xml:lang="fr">Historique</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#scripts">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#technique"/>
+  <core:inScheme rdf:resource="#historique-et-technique"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:definition xml:lang="fr">Catégories utilisées dans le cadre d'automatisations et scripts.</core:definition>
+  <core:prefLabel xml:lang="fr">Scripts</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#technique">
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:inScheme rdf:resource="#historique-et-technique"/>
+  <euvo:status rdf:resource="#http://publications.europa.eu/resource/authority/concept-status/CURRENT"/>
+  <core:topConceptOf rdf:resource="#historique-et-technique"/>
+  <core:definition xml:lang="fr">Catégories techniques pouvant, par exemple, être utilisées dans le cadre de scripts.</core:definition>
+  <core:prefLabel xml:lang="fr">Technique</core:prefLabel>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.0.1</owl:versionInfo>
+</owl:NamedIndividual>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+
+</rdf:RDF>
