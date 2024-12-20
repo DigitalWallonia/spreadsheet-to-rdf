@@ -434,7 +434,7 @@ d4w:biotherapies-preventives-et-curatives a skos:Concept ;
     dcterms:identifier "5g7n3PudYaluprGkSZ0YsU" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-2 ;
-    skos:definition "/"@fr ;
+    skos:definition "Aire stratégique se consacrant au renforcement de la recherche dans les sciences de la vie pour alimenter les innovations en biothérapie et en vaccins. Les actions associées à cette aire se focalisent en particulier sur les ATMP (Advanced Therapy Medicinal Product) tournées vers les thérapies cellulaires et géniques, les nouvelles molécules biologiques thérapeutiques et les nouveaux procédés de production."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Biothérapies préventives et curatives"@fr .
 
@@ -704,7 +704,7 @@ d4w:business-model-circulaires a skos:Concept ;
     dcterms:identifier "4O0BQ6ZUGSNXV9jVoqFz3n" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-1 ;
-    skos:definition "Innovations liées au développement de nouveaux modèles économiques et industriels : Economie de la fonctionnalité, économie de la coopération, consommation sans propriété des biens, économie du réemploi, de la réparation, notamment en mobilisant les acteurs de l'économie sociale. Stratégies de marché et services innovants et rentables qui peuvent prolonger la phase d'utilisation de produits, offrant une attractivité commerciale aux producteurs."@fr ;
+    skos:definition "Aire stratégique se consacrant aux innovations liées au développement de nouveaux modèles économiques et industriels : économie de la fonctionnalité, économie de la coopération, consommation sans propriété des biens, économie du réemploi et de la réparation, notamment en mobilisant les acteurs de l'économie sociale. Les projets de cette aire participent à des stratégies de marché et de services innovants et rentables qui peuvent prolonger la phase d'utilisation de produits, tout en offrant une attractivité commerciale aux producteurs."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Business model circulaires"@fr .
 
@@ -974,9 +974,18 @@ d4w:ces-2024 a skos:Concept ;
     dcterms:identifier "24h59svN2UGcPu6T7GNwio" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:missions-internationales ;
-    skos:definition "Entreprises wallonnes présentes au CES 2023  du 9 au 12 janvier 2024 à Las Vegas. Le Consumer Electronic Show (CES) est le plus grand rassemblement au monde dans le domaine de l'électronique grand public."@fr ;
+    skos:definition "Entreprises wallonnes présentes au CES 2024  du 9 au 12 janvier 2024 à Las Vegas. Le Consumer Electronic Show (CES) est le plus grand rassemblement au monde dans le domaine de l'électronique grand public."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "CES 2024"@fr .
+
+d4w:ces-2025 a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "0xM7JkLJnmfc01o7TEedu" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:missions-internationales ;
+    skos:definition "Entreprises wallonnes présentes au CES 2025  du 7 au 10 janvier 2025 à Las Vegas. Le Consumer Electronic Show (CES) est le plus grand rassemblement au monde dans le domaine de l'électronique grand public."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "CES 2025"@fr .
 
 d4w:cetwa a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1613,7 +1622,7 @@ d4w:conception-et-construction-des-batiments a skos:Concept ;
     dcterms:identifier "6vE9Jp5JTWse5kxKD6dHkK" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-4 ;
-    skos:definition "Outils de conception, méthodes et éléments constructifs des bâtiments."@fr ;
+    skos:definition "Aire stratégique considérant les outils de conception, les méthodes et les éléments constructifs au service d’une meilleure performance énergétique et environnementale de la construction et des bâtiments. Les projets reliés à cette aire contribuent à l'accélération des rénovations performantes, en ce compris la rénovation du patrimoine bâti. Les actions se consacrent notamment au développement d'enveloppes intelligentes ainsi qu’au déploiement de matériaux, composants et structures à faible impact environnemental."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Conception   construction des bâtiments"@fr .
 
@@ -2013,6 +2022,15 @@ d4w:digital-commerce-2024 a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Digital Commerce 2024"@fr .
 
+d4w:digital-commerce-2025 a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "idFiFtf4ohxvQ9Z7dJQIf" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:actions-evenements ;
+    skos:definition "Acteurs, événements et publications liés à Digital Commerce 2025, action se déroulant tout au long de l'année 2025 en vue d'aider les commerces de proximité à réussir leur transition numérique."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Digital Commerce 2025"@fr .
+
 d4w:digital-europe-programme a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "6q9uHNiW7eRSfwQWfE6Zjh" ;
@@ -2072,7 +2090,7 @@ d4w:digitalisation-et-gestion-des-flux a skos:Concept ;
     dcterms:identifier "VEmwMLSIeiFJmRNjO9RVW" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-4 ;
-    skos:definition "/"@fr ;
+    skos:definition "Aire stratégique dédiée aux innovations contribuant à l'optimisation des flux dans les domaines de l'énergie, du trafic et de la logistique, ainsi qu'à la gestion des réseaux. Cette aire envisage notamment les différentes solutions numériques et techniques nécessaires à leur optimisation. Les projets connectés à cette aire développent les compétences wallonnes de digitalisation et de gestion des flux dans les thématiques du bâti, de l'industrie, des énergies renouvelables et de la mobilité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Digitalisation et gestion des flux"@fr .
 
@@ -2126,7 +2144,7 @@ d4w:distribution-et-consommation-et-logistique a skos:Concept ;
     dcterms:identifier "1kJocn2fmpup7YUjylXnTT" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-1 ;
-    skos:definition "Modes de distribution, consommation et logistique circulaires. Recherche, développement et innovations liées aux opérations relatives au conditionnement du produit final, à sa distribution aux utilisateurs et aux consommateurs, à une meilleure connaissance des flux tout au long de la vie du produit ou service, au traçage des produits et de leurs composants, à l'optimisation de la supply chain , au développement de la logistique inverse et sa synchronisation avec la logistique directe, aux opérations liées à la récupération des produits/matériaux, déchets. L'aspect \"demande\" y sera également abordé sous l'angle de développement des marchés, mieux connaître les besoins et stimuler les demandes pour des matériaux circulaires."@fr ;
+    skos:definition "Aire stratégique dédiée à la recherche, au développement et aux innovations dans le domaine des opérations liées conditionnement du produit final, à sa distribution aux utilisateurs et à une meilleure connaissance des flux tout au long de la vie du produit ou du service. Les activités reliées à cette aire comprennent également le traçage des produits et de leurs composants, l'optimisation de la supply chain, le développement de la logistique inverse et sa synchronisation avec la logistique directe, ainsi que les opérations liées à la récupération des produits. L'aspect \"demande\" y est également abordé sous l'angle de développement des marchés, afin de mieux connaître les besoins et de stimuler les demandes pour des matériaux circulaires."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Distribution   consommation   logistique"@fr .
 
@@ -2369,7 +2387,7 @@ d4w:economie-de-l-hydrogene a skos:Concept ;
     dcterms:identifier "7DMNrtpshAuGFmM6pFp2eF" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-4 ;
-    skos:definition "/"@fr ;
+    skos:definition "Aire stratégique consacrée au développement de solutions de production, de stockage, de transport et d'utilisation de l'hydrogène. Les projets reliés à cette aire se consacrent au déploiement de technologies de production de l'hydrogène, à toutes les questions relatives à son transport et son stockage, au développement des technologies d'utilisation de l'hydrogène dans le domaine de la production d'énergie, ainsi qu'à l'ensemble de ses applications potentielles dans les secteurs industriels pour ses propriétés réactives ou protectrices."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Economie de l'hydrogène"@fr .
 
@@ -2990,7 +3008,7 @@ d4w:filiere-stockage-d-energie a skos:Concept ;
     dcterms:identifier "53EwitPktBnrnFNBdV2koi" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-4 ;
-    skos:definition "/"@fr ;
+    skos:definition "Aire stratégique dédiée aux innovations pour des solutions intégrées de stockage d’énergie. Cette aire envisage les questions d'intégration des modes de stockage dans les bâtiments et dans l'industrie, ainsi que les problématiques liées au transport et à la logistique. Elle vise le développement de l’écosystème wallon dans les domaines des matériaux avancés et des solutions de stockage pour permettre une flexibilité industrielle accrue, garantir l’alimentation électrique, améliorer le fonctionnement des réseaux et réaliser une prise en charge efficace de l’intermittence des énergies renouvelables."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Stockage d'énergie"@fr .
 
@@ -2999,7 +3017,7 @@ d4w:filieres-agro-alimentaires-innovantes a skos:Concept ;
     dcterms:identifier "3cXFgFYK5cw9lbBLeo74wc" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-5 ;
-    skos:definition "Innovations dans le domaine agro-alimentaire et structuration en filières."@fr ;
+    skos:definition "Aire stratégique dédiée aux innovations développées dans le secteur agro-alimentaire. Il s’agit notamment de contribuer au déploiement d'une filière complète de production de protéines végétales issues d’une agriculture raisonnée pour l’alimentation humaine et animale, en intégrant toute la chaîne de valeur du champ à la fourchette. Les actions menées dans cette aire stratégique envisagent également la création ou le renforcement de filières alimentaires en fonction de leur intérêt économique pour la Wallonie, la valorisation des coproduits et la révision des modèles de commercialisation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Filières agro alimentaires innovantes"@fr .
 
@@ -3701,7 +3719,7 @@ d4w:hopital-du-futur-et-prevention a skos:Concept ;
     dcterms:identifier "4lySz5UbDqGYCJJbkgASsA" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-2 ;
-    skos:definition "Hôpital du futur, prévention et nouvelles organisations."@fr ;
+    skos:definition "Aire stratégique dédiée au renforcement de la recherche dans la prévention, l'innovation sociale et les nouvelles organisations. Les projets associés à cette aire contribuent à l'émergence d'un \"hôpital du futur\" favorisant la qualité des soins prodigués, leur accessibilité, ainsi que le bien être des patients, des visiteurs et du personnel."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Hôpital du futur   prévention"@fr .
 
@@ -3900,7 +3918,7 @@ d4w:implementation-de-l-innovation a skos:Concept ;
     dcterms:identifier "5piUfNr7KmMq7XSIqFRzvm" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-3 ;
-    skos:definition "Implémentation de l'innovation (des produits, processus et modes organisationnels et stratégiques) à travers la transformation technologique et numérique des chaines de valeurs au sein du tissu productif."@fr ;
+    skos:definition "Aire stratégique consacrée à l'implémentation de l'innovation à travers la transformation technologique et numérique des chaines de valeurs au sein du tissu productif. Les projets connectés à cette aire s'appliquent à intégrer des solutions innovantes liées aux produits, aux processus et aux nouveaux modes organisationnels et stratégiques. Ils visent l'accélération de la transformation technologique et numérique de l’industrie et du tissu productif, tout en tenant compte des spécificités des secteurs impliqués."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Implémentation de l'innovation"@fr .
 
@@ -4372,6 +4390,15 @@ d4w:kikk-2023 a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Kikk 2023"@fr .
 
+d4w:kikk-2024 a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "1DPdRlpTEvp4FXwgI1gn9A" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:missions-internationales ;
+    skos:definition "Entreprises wallonnes présentes au Creative village du KIKK 2024 à Namur. Le KIKK est un festival international des cultures numériques et créatives."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Kikk 2024"@fr .
+
 d4w:kis a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "3RSNCH392WjTUluP9bCTRb" ;
@@ -4633,6 +4660,15 @@ d4w:laureats-implement-it-4-circularity-2023 a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Lauréats Implement IT 4 Circularity 2023"@fr .
 
+d4w:laureats-start-ia a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "t5yfPeywWbs3ZPNrPQjeb" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:laureats-awards ;
+    skos:definition "Entreprises wallonnes participantes aux appels à projets Start IA de DigitalWallonia4.ai, et bénéficiant de l'accompagnement d’un expert identifié au sein du Pool d'Experts IA."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Lauréats Start IA"@fr .
+
 d4w:laureats-territoire-intelligent-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "1CBXfoItcfiVtoffS5UrOr" ;
@@ -4659,6 +4695,15 @@ d4w:laureats-territoire-intelligent-2024 a skos:Concept ;
     skos:definition "Communes et intercommunales lauréates de l'appel à projets Territoire intelligent / Smart Region 2024."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Lauréats Territoire intelligent 2024"@fr .
+
+d4w:laureats-tremplin-ia a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "6ANoJDbafDMWqiR87yHHCH" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:laureats-awards ;
+    skos:definition "Entreprises wallonnes participantes aux appels à projets Tremplin IA de DigitalWallonia4.ai en vue de la mise en place de Proof of Concepts (PoCs), de démonstrateurs de cas d'usages potentiels de l'IA."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Lauréats Tremplin IA"@fr .
 
 d4w:laureats-usines-du-futur-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5605,6 +5650,15 @@ d4w:missions-awex-2024 a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Missions AWEX 2024"@fr .
 
+d4w:missions-awex-2025 a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "1oN8OGv1yOVUisSZr0bcmi" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:missions-internationales ;
+    skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2025, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Missions AWEX 2025"@fr .
+
 d4w:missions-wbi a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "1KlBwbauXPiQvSfLR0sNq4" ;
@@ -5655,7 +5709,7 @@ d4w:modes-de-production-circulaires a skos:Concept ;
     dcterms:identifier "52StjHWl4sayV7za8b5zkx" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-1 ;
-    skos:definition "Innovations liées aux modes de production optimisant l'utilisation des ressources et leur réintégration dans l'industrie en prévenant leur statut de déchets après un premier cycle de vie ou facilitant la réutilisation des déchets et une optimisation de l'utilisation des ressources et des matériaux sur l'ensemble de la chaine de valeur (fournisseurs, matières premières, jusqu'à la fin de vie)."@fr ;
+    skos:definition "Aire stratégique rassemblant les innovations liées aux modes de production qui optimisent l'utilisation des ressources et leur réintégration dans l'industrie. Cette optimisation s'opère en prévenant leur statut de déchets après un premier cycle de vie ou en facilitant la réutilisation des déchets. Cette aire vise une optimisation de l'utilisation des ressources et des matériaux sur l'ensemble de la chaine de valeur, depuis les fournisseurs et la sélection des matières premières jusqu'à la fin de vie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Modes de production circulaires"@fr .
 
@@ -6267,7 +6321,7 @@ d4w:patient-connecte-et-e-sante-et-big-data a skos:Concept ;
     dcterms:identifier "2QigNQW6uEBSHIsB1mSBTP" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-2 ;
-    skos:definition "Patient connecté, e-santé, « big data »."@fr ;
+    skos:definition "Aire stratégique visant le renforcement de la recherche dans les domaines de la santé numérique (e-health) et de la santé mobile (m-health). Les actions de cette aire contribuent à la mise en application d'un ensemble de technologies numériques dites \"homecare\" qui facilite la prévention, l'accès aux soins et le dépistage. Cette aire stratégique se veut aussi transversale avec les aires \"Biothérapies préventives et curatives\" et \"Hôpital du futur & prévention\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Patient connecté   e santé   big data"@fr .
 
@@ -6339,7 +6393,7 @@ d4w:petites-molecules-therapeutiques a skos:Concept ;
     dcterms:identifier "XRXMTBgV60mlsvIRT8yKh" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-2 ;
-    skos:definition "/"@fr ;
+    skos:definition "Aire stratégique dédiée au renforcement de la recherche concernant les petites molécules thérapeutiques.  Un accent particulier est porté sur les domaines thérapeutiques prioritaires comme l'oncologie, l’Inflammation et les maladies chroniques ou encore le CNS (Central Nervous System). Il s'agit notamment de développer des projets au stade clinique, pour aboutir à un produit fini, afin de diversifier l'offre thérapeutique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Petites molécules thérapeutiques"@fr .
 
@@ -6564,7 +6618,7 @@ d4w:pratiques-agricoles-durables a skos:Concept ;
     dcterms:identifier "3SGgrFhfvYeIEOMtWGcd8e" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-5 ;
-    skos:definition "Pratiques agricoles et production alimentaires durables."@fr ;
+    skos:definition "Aire stratégique consacrée aux pratiques agricoles s'inscrivant dans une viabilité et une pérennité économiques, dans la circularité, afin de réduire les risques pour l’environnement. Les actions reliées à cette aire visent à minimiser la pollution, réduire l’utilisation des ressources et de l’énergie, en tenant compte des besoins des générations futures et des limites de la planète. Les projets connectés à cette aire envisagent à la fois des préoccupations économiques, environnementales et sociétales. Les innovations qu'ils déploient soutiennent la durabilité du système alimentaire, en incluant le sourcing durable des matières premières, l'éco-conception et les analyses de cycle de vie. Ces actions renforcent les connaissances et les compétences pour augmenter l'offre de produits biologiques wallons, accroitre leur demande et en assurer l’écoulement."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Pratiques agricoles durables"@fr .
 
@@ -6627,7 +6681,7 @@ d4w:produits-et-services-environnementaux a skos:Concept ;
     dcterms:identifier "2FD8Msa9DNGvn84Mwa7823" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-5 ;
-    skos:definition "Produits, procédés et services environnementaux innovants à la base d’une nouvelle économie."@fr ;
+    skos:definition "Aire stratégique dédiée aux produits, procédés et services environnementaux innovants à la base d’une nouvelle économie. Les projets connectés à cette aire contribuent à la valorisation des compétences acquises en Wallonie via le développement de nouvelles activités économiques à haute valeur ajoutée.  Ces actions, qui présentent un potentiel d'exportation important via des services et produits environnementaux, contribuent à préserver et renforcer le capital eau et sol de la Wallonie. Elles diminuent également l'impact énergétique et environnemental des productions agro-alimentaires, et contribuent à développer une économie circulaire biobasée de valorisation des coproduits agricoles, industriels et forestiers."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Produits   services environnementaux"@fr .
 
@@ -6951,7 +7005,7 @@ d4w:remanufacturing-et-optimisation-ressources a skos:Concept ;
     dcterms:identifier "5Kh7L7QHSi96AQ0ENmc7T7" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-3 ;
-    skos:definition "Remanufacturing, optimisation des ressources et nouveaux business modèles : Inclusion de la dimension environnementale, circulaire et régénératrice."@fr ;
+    skos:definition "Aire stratégique consacrée au remanufacturing, à l'optimisation des ressources et aux nouveaux business modèles. Elle inclut la dimension environnementale, circulaire et régénératrice en s'appuyant sur une offre technologique et innovante qui optimise un cycle de vie de fabrication et de conception bas-carbone. Les actions connectées à cette aire capitalisent sur des écosystèmes performants pour développer des solutions qui rationnalisent la consommation des ressources, traitent à moindre coût des matériaux plus durables et augmentent la régénération de la valeur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Remanufacturing   optimisation ressources"@fr .
 
@@ -7188,6 +7242,15 @@ d4w:scewc-2023 a skos:Concept ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 07 au 09 novembre 2023 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "SCEWC 2023"@fr .
+
+d4w:scewc-2024 a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "4WKagwbHEp2rnJtA30gzSB" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:missions-internationales ;
+    skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 05 au 07 novembre 2024 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "SCEWC 2024"@fr .
 
 d4w:sciages-feuillus a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7720,6 +7783,15 @@ d4w:slush-2021 a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Slush 2021"@fr .
 
+d4w:slush-2024 a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "6b5rCU9O9CdQGuQ72skwoK" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:missions-internationales ;
+    skos:definition "Entreprises et startups wallonnes présentes à Slush du 20 au 21 novembre 2024 à Helsinki. La convention Slush est un des plus grands événements au monde dédié aux startups et à la tech."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Slush 2024"@fr .
+
 d4w:smart-building a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "5CVx5pFPuFJv1LZiQvxcv0" ;
@@ -7932,7 +8004,7 @@ d4w:solutions-innovantes-nouveaux-materiaux a skos:Concept ;
     dcterms:identifier "3JhlZEZNCDzuhn4b5sEqpb" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-3 ;
-    skos:definition "Technologies et solutions innovantes en matière de nouveaux matériaux, en adéquation avec les besoins du tissu productif."@fr ;
+    skos:definition "Aire stratégique dédiée aux technologies et solutions innovantes en matière de nouveaux matériaux, en particulier dans les niches technologiques clés tels que les matériaux et surfaces fonctionnels intelligents, les matériaux bio-inspirés, les composites ou encore les matériaux ultra-réfractaires. Sont notamment visés des domaines applicatifs répondant aux besoins du tissu productif tels que la conception rapide, la caractérisation, la durabilité, les nouvelles fonctionnalités et le potentiel de réemploi."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Solutions innovantes   nouveaux matériaux"@fr .
 
@@ -7941,7 +8013,7 @@ d4w:solutions-innovantes-production a skos:Concept ;
     dcterms:identifier "5TouAtwwa5pD4lJlh6a51o" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-3 ;
-    skos:definition "Technologies numériques et solutions innovantes en matière de méthodes de production et de conception avancées, en adéquation avec les besoins du tissu productif."@fr ;
+    skos:definition "Aire stratégique consacrée aux technologies numériques et solutions innovantes en matière de méthodes de production et de conception avancées, en adéquation avec les besoins du tissu productif. Sont en particulier ciblés 4 domaines forts : le jumeau et la simulation numérique (y compris High Performance Computing), l’internet des objets (IoT) et les capteurs, l’intelligence artificielle et la cyber-sécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Solutions innovantes   production   conception"@fr .
 
@@ -8017,60 +8089,6 @@ d4w:standardisation-certification a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Standardisation   certification"@fr .
 
-d4w:start-ia-1 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "t5yfPeywWbs3ZPNrPQjeb" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 1er appel Start IA de DigitalWallonia4.ai, et bénéficiant de l'accompagnement d’un expert identifié au sein du Pool d'Experts IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Start IA 1"@fr .
-
-d4w:start-ia-2 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "5VjhUTI4r9clbteBbIJ8GZ" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 2ème appel Start IA de DigitalWallonia4.ai, et bénéficiant de l'accompagnement d’un expert identifié au sein du Pool d'Experts IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Start IA 2"@fr .
-
-d4w:start-ia-3 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "1732sxxkyDuKZHtltl2CS4" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 3ème appel Start IA de DigitalWallonia4.ai, et bénéficiant de l'accompagnement d’un expert du Pool d'Experts IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Start IA 3"@fr .
-
-d4w:start-ia-4-secteur-public a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "1KFehK4E0OjsfeHtQ9nVsq" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entités publiques wallonnes participantes au 1er appel Start IA dédié au secteur public de DigitalWallonia4.ai, et bénéficiant de l'accompagnement d’un expert identifié au sein du Pool d'Experts IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Start IA Secteur public"@fr .
-
-d4w:start-ia-5 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "2b0ewo8uogYLBUsdzu9wMU" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 5e appel Start IA de DigitalWallonia4.ai, et bénéficiant de l'accompagnement d’un expert identifié au sein du Pool d'Experts IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Start IA 5"@fr .
-
-d4w:start-ia-supply-industry-4-0 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "5kDChgdGqSs7K0fSuxbvTm" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes à l'appel \"Start IA supply & industry 4.0\" de DigitalWallonia4.ai, et bénéficiant de l'accompagnement d’un expert identifié au sein du Pool d'Experts IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Start IA Supply   Industry 4.0"@fr .
-
 d4w:start-it-cbc a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "2U3dxHFONJAhkimiMQ8W7s" ;
@@ -8088,6 +8106,15 @@ d4w:startup a skos:Concept ;
     skos:definition "Jeune société développant une solution innovante et ambitionnant une forte croissance. Pour soutenir cette croissance, elle a souvent besoin d’être financée par des capitaux extérieurs."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Startup"@fr .
+
+d4w:startup-meet-in-2024 a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "3e2OnuuD63mCeZJEOcfnQP" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:actions-evenements ;
+    skos:definition "Start-ups wallonnes présentes au START-UP MEET'IN le 19 novembre 2024 au Cercle du Lac. Evénement de rencontre entre experts et start-ups."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Startup Meet In 2024"@fr .
 
 d4w:startup-village-odoo-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8310,7 +8337,7 @@ d4w:technologies-diagnostiques a skos:Concept ;
     dcterms:identifier "31pWDdoyb2msOq4uUesaKX" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-2 ;
-    skos:definition "/"@fr ;
+    skos:definition "Aire stratégique soutenant la recherche dans les technologies diagnostiques pour le dépistage précoce (biomarqueurs) et Companion Diagnostic (Cdx) de pathologies lourdes. Sont visées en particulier les applications en oncologie et les pathologies chroniques ou très invalidantes présentant de grands impacts sur la santé des wallons et/ou nécessitant des traitements médicaux lourds."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Technologies diagnostiques"@fr .
 
@@ -8319,7 +8346,7 @@ d4w:technologies-medicales a skos:Concept ;
     dcterms:identifier "1QXvHshEJ9gjJx1Fl2NgSA" ;
     owl:versionInfo "0.0.1" ;
     skos:broader d4w:dis-2 ;
-    skos:definition "/"@fr ;
+    skos:definition "Aire stratégique dédiée au renforcement de la recherche dans le secteur des dispositifs médicaux. Les produits de technologies médicales (ou Medtech) permettent le transfert des technologies issues des sciences de l'ingénieur vers les sciences de la santé. Sont visés en particulier les domaines de l'ophtalmologie et de la cardiologie, les dispositifs de classe 3 et de microchirurgie ainsi que les prothèses."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Technologies médicales"@fr .
 
@@ -8574,60 +8601,6 @@ d4w:traverses-paysageres a skos:Concept ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Traverses paysagères"@fr .
-
-d4w:tremplin-ia-1 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "6ANoJDbafDMWqiR87yHHCH" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 1er appel Tremplin IA de DigitalWallonia4.ai en vue de la mise en place de Proof of Concepts (PoCs), de démonstrateurs de cas d'usages potentiels de l'IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Tremplin IA 1"@fr .
-
-d4w:tremplin-ia-2 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "2vL14d5VzEVAATCnP8Fd2M" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 2ème appel Tremplin IA de DigitalWallonia4.ai en vue de la mise en place de Proof of Concepts (PoCs), de démonstrateurs de cas d'usages potentiels de l'IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Tremplin IA 2"@fr .
-
-d4w:tremplin-ia-3 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "wjBp1liWP4SLK0gd1ehvz" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 3ème appel Tremplin IA de DigitalWallonia4.ai en vue de la mise en place de Proof of Concepts (PoCs), de démonstrateurs de cas d'usages potentiels de l'IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Tremplin IA 3"@fr .
-
-d4w:tremplin-ia-4 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "2C3NbgPrWwj6nZM5Ty3Mld" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 4ème appel Tremplin IA de DigitalWallonia4.ai en vue de la mise en place de Proof of Concepts (PoCs), de démonstrateurs de cas d'usages potentiels de l'IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Tremplin IA 4"@fr .
-
-d4w:tremplin-ia-5 a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "h2COaz7k3B4Z3nrZ24N70" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entreprises wallonnes participantes au 5ème appel Tremplin IA de DigitalWallonia4.ai en vue de la mise en place de Proof of Concepts (PoCs), de démonstrateurs de cas d'usages potentiels de l'IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Tremplin IA 5"@fr .
-
-d4w:tremplin-ia-secteur-public a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "6g2ygYXNDskBMfMTFXI24T" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:laureats-awards ;
-    skos:definition "Entités publiques wallonnes participantes au Tremplin IA Secteur public de DigitalWallonia4.ai en vue de la mise en place de Proof of Concepts (PoCs), de démonstrateurs de cas d'usages potentiels de l'IA."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Tremplin IA Secteur public"@fr .
 
 d4w:trends-watch a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9132,6 +9105,15 @@ d4w:web-summit-2023 a skos:Concept ;
     skos:definition "Entreprises et startups wallonnes présentes au Web Summit du 13 au 16 novembre 2023 à Lisbonne. Le Web Summit est un des plus grands événements au monde, regroupant une série de conférences sur les technologies."@fr ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Web Summit 2023"@fr .
+
+d4w:web-summit-2024 a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "4oSF4ri7vcUxiGfkFCMOBm" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:missions-internationales ;
+    skos:definition "Entreprises et startups wallonnes présentes au Web Summit du 11 au 14 novembre 2024 à Lisbonne. Le Web Summit est un des plus grands événements au monde, regroupant une série de conférences sur les technologies."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Web Summit 2024"@fr .
 
 d4w:wifi4eu-call-1 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10267,6 +10249,15 @@ d4w:secteurs-activite a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Secteurs d'activité"@fr .
 
+d4w:laureats-awards a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "66aP6YnSaFf9uydLM1EJxU" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:communautes ;
+    skos:definition "Lauréats et distingués par un award des différents programmes Digitial Wallonia."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Lauréats   awards"@fr .
+
 d4w:anciennes-missions-internationales a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "3yH2cONaRtT4nHt88lg74K" ;
@@ -10284,15 +10275,6 @@ d4w:historique-et-technique a skos:ConceptScheme ;
     skos:hasTopConcept d4w:historique,
         d4w:technique ;
     skos:prefLabel "Historique et technique"@fr .
-
-d4w:laureats-awards a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "66aP6YnSaFf9uydLM1EJxU" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:communautes ;
-    skos:definition "Lauréats et distingués par un award des différents programmes Digitial Wallonia."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Lauréats   awards"@fr .
 
 d4w:reseaux a skos:Concept ;
     eurovoc:status status:CURRENT ;
