@@ -63,13 +63,14 @@ def excel_to_rdf(excel_path: str, namespace: str, output_path: str) -> None:
     """
     # Defining static variables
     EXCEL_PATH = excel_path 
+    EXCEL_INFO_PATH = 'excel_info.json'
     
     D4W_NAMESPACE = namespace
     EUROVOC_NS = "http://publications.europa.eu/ontology/euvoc#"
     STATUS_NS = "http://publications.europa.eu/resource/authority/concept-status/"
 
     # Open and read a JSON file containing excel metadata
-    with open('excel_info.json', 'r', encoding="utf-8") as file:
+    with open(EXCEL_INFO_PATH, 'r', encoding="utf-8") as file:
         EXCEL_INFO = json.load(file)
 
     # Read taxonomy from excel
