@@ -4,6 +4,26 @@ from rdflib import Literal as LiteralRDF
 from utils.data_utils import get_uri, cleaning_label
 
 def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int) -> None:
+    """  
+    Adds RDF triples to a graph representing a concept within a taxonomy.  
+  
+    This function creates RDF triples for a specific concept in a taxonomy. It defines a concept's metadata, including its broader category, definition, identifier, and preferred label, and links it to a concept scheme.  
+  
+    Parameters:  
+    -----------  
+    taxonomy : Graph  
+        The RDFLib Graph object to which RDF triples representing the concept will be added.  
+    namespace : str  
+        The base namespace used to construct URIs for the RDF triples.  
+    concept : dict  
+        A dictionary containing details about the concept, extracted from the taxonomy.  
+    level : int  
+        The level of the concept in the taxonomy, used to differentiate hierarchical relationships.  
+  
+    Returns:  
+    --------  
+    None  
+    """
     uri = get_uri(namespace, concept, level)
 
     # Concept
@@ -21,6 +41,26 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int) -> No
     taxonomy.add((URIRef(uri), OWL.versionInfo, LiteralRDF("0.0.1")))
 
 def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int) -> None:
+    """
+    Adds RDF triples to a graph representing a top-level concept within a taxonomy.  
+  
+    This function creates RDF triples for a top-level concept, including its metadata such as definition, identifier, and preferred label. It also establishes the top concept relationship within the taxonomy scheme.  
+  
+    Parameters:  
+    -----------  
+    taxonomy : Graph  
+        The RDFLib Graph object to which RDF triples representing the top-level concept will be added.  
+    namespace : str  
+        The base namespace used to construct URIs for the RDF triples.  
+    concept : dict  
+        A dictionary containing details about the top-level concept, extracted from the taxonomy.  
+    level : int  
+        The level of the concept in the taxonomy, typically the level at which it is considered a top concept.  
+  
+    Returns:  
+    --------  
+    None  
+    """
     uri = get_uri(namespace, concept, level)
     # Concept
     taxonomy.add((URIRef(uri), RDF.type, SKOS.Concept)) 
@@ -39,6 +79,26 @@ def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int) ->
     taxonomy.add((URIRef(get_uri(namespace, concept, 2)), SKOS.hasTopConcept, URIRef(uri)))
 
 def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int) -> None:
+    """
+    Adds RDF triples to a graph representing a concept scheme within a taxonomy.  
+  
+    This function defines RDF triples for a concept scheme, including metadata such as creation date, identifier, and title. It establishes the scheme as a collection or organization of concepts.  
+  
+    Parameters:  
+    -----------  
+    taxonomy : Graph  
+        The RDFLib Graph object to which RDF triples representing the concept scheme will be added.  
+    namespace : str  
+        The base namespace used to construct URIs for the RDF triples.  
+    concept : dict  
+        A dictionary containing details about the concept scheme, extracted from the taxonomy.  
+    level : int  
+        The level of the concept scheme in the taxonomy hierarchy.  
+  
+    Returns:  
+    --------  
+    None  
+    """
     uri = get_uri(namespace, concept, level)
 
     # Concept
