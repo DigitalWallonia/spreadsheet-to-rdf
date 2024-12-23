@@ -153,7 +153,7 @@ def shacl_validation(turtle_data: str, validation_server: str, output_format: st
     # Prepare the API request payload  
     payload = {  
         "contentToValidate": turtle_data,  
-        "contentSyntax": f"text/{output_format}",  
+        "contentSyntax": f"{output_format}",  
         "validationType": "v1.0.0"  
     }  
 

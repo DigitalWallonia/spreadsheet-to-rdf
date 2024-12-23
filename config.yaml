@@ -12,7 +12,7 @@ transformation:
   
 output:  
   default_file: output\output.ttl  
-  default_format: turtle  
+  default_format: text/turtle  
   
 validation:  
   server: http://localhost:8080/shacl/d4wta-ap/api/validate  
