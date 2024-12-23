@@ -1,11 +1,12 @@
 import json
+import logging
 import pandas as pd
 from rdflib import Graph
 from tqdm import tqdm
 from utils.creating_triples import add_concept, add_conceptScheme, add_topConcept
-from utils.data_utils import rename_columns, shacl_validation
+from utils.data_utils import rename_columns, shacl_validation, CHANGED_LABELS
 
-def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, EXCEL_INFO: dict, D4W_NAMESPACE: str, rules: dict) -> None:
+def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, EXCEL_INFO: dict, D4W_NAMESPACE: str, rules: list) -> None:
     """
     Adds RDF triples to a given RDF graph based on taxonomy data from an Excel file.  
   
@@ -23,7 +24,7 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, EXCEL_INFO: di
         A dictionary containing metadata and configuration information about the Excel file, including the highest and lowest taxonomy levels.  
     D4W_NAMESPACE : str  
         The namespace URI used for RDF triples, ensuring they are correctly scoped within the RDF graph.
-    rules: dict
+    rules: list
         Series of changes to make to the labels of the taxonomy elements.
   
     Returns:  
@@ -43,7 +44,7 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, EXCEL_INFO: di
             add_conceptScheme(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules)
 
 
-def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_format: str, validation_server: str, rules: dict) -> None:
+def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_format: str, validation_server: str, rules: list) -> None:
     """
     Converts an Excel file containing taxonomy data to an RDF file and validates the RDF using a SHACL API.  
   
@@ -61,7 +62,7 @@ def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_forma
         The format of the resulting rdf.
     validation_server : str  
         The API endpoint used for validating the resulting RDF file.
-    rules: dict
+    rules: list
         Series of changes to make to the labels of the taxonomy elements.
 
     Returns:  
@@ -76,6 +77,9 @@ def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_forma
     D4W_NAMESPACE = namespace
     EUROVOC_NS = "http://publications.europa.eu/ontology/euvoc#"
     STATUS_NS = "http://publications.europa.eu/resource/authority/concept-status/"
+
+    for rule in rules[0]: 
+        CHANGED_LABELS[rule] = []
 
     # Open and read a JSON file containing excel metadata
     with open(EXCEL_INFO_PATH, 'r', encoding="utf-8") as file:
@@ -98,6 +102,9 @@ def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_forma
         except:
             rename_columns(taxo_excel, EXCEL_INFO, level) # If the excel columns does not respect the naming convention rename those
             adding_triples(taxo_excel, taxo_graph, level, EXCEL_INFO, D4W_NAMESPACE, rules)
+    
+    for rule in rules[0]:
+        logging.info(f"Labels changed based on rule {rule}: {CHANGED_LABELS[rule]}")
 
     # Save rdf file
     taxo_graph.serialize(output_path, format=output_format)

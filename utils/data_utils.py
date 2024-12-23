@@ -5,6 +5,8 @@ import re
 import requests
 from tqdm import tqdm
 
+CHANGED_LABELS = {}
+
 def ensure_first_letter_capitalized(text):
     """  
     Ensures that the first letter of a given string is capitalized.  
@@ -25,7 +27,7 @@ def ensure_first_letter_capitalized(text):
         return text  # Return the original text if it's empty  
     return text[0].upper() + text[1:]  
 
-def cleaning_label(label: str, uri: str, _from: str, _to: str):
+def cleaning_label(label: str, uri: str, rules: list):
     """  
     Cleans a label by replacing specific special characters with spaces and capitalizing the first letter.  
   
@@ -37,30 +39,31 @@ def cleaning_label(label: str, uri: str, _from: str, _to: str):
         The input label string to be cleaned.
     uri : str  
         The uri of input label string to be cleaned. 
-    _from : str  
-        The pattern to remove.  
-    _to: str
-        The changes to make.
-        
+    rules: list
+        Series of changes to make to the labels of the taxonomy elements.
+
     Returns:  
     --------  
     str  
         The cleaned label with special characters replaced and the first letter capitalized.  
     """ 
-     # Escape each character for regex use  
-    escaped_chars = [re.escape(char) for char in _from]  
-      
-    # Join them into a string with no separator  
-    char_class = ''.join(escaped_chars)  
-      
-    # Build the regex pattern with negation  
-    pattern = f'[{char_class}]'
-    regex = re.compile(pattern)
+    for rule in rules[0]:
+        # Escape each character for regex use  
+        _from = rules[0][rule]["from"]
+        escaped_chars = [re.escape(char) for char in _from]  
+        
+        # Join them into a string with no separator  
+        char_class = ''.join(escaped_chars)  
+        
+        # Build the regex pattern with negation  
+        pattern = f'[{char_class}]'
+        regex = re.compile(pattern)
 
-    if regex.findall(label):
-        # Replace them with a space  
-        logging.info(f"{uri}: Changed label from: {label}, to: {re.sub(pattern, _to, label)}")
-        label = re.sub(pattern, _to, label)
+        _to = rules[0][rule]["to"]
+        if regex.findall(label):
+            CHANGED_LABELS[rule].append(label)
+            # Replace them with a space  
+            label = re.sub(pattern, _to, label)
 
     return ensure_first_letter_capitalized(label)
 
