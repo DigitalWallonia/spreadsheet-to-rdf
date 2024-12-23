@@ -25,7 +25,7 @@ def ensure_first_letter_capitalized(text):
         return text  # Return the original text if it's empty  
     return text[0].upper() + text[1:]  
 
-def cleaning_label(label):
+def cleaning_label(label: str, _from: str, _to: str):
     """  
     Cleans a label by replacing specific special characters with spaces and capitalizing the first letter.  
   
@@ -41,9 +41,19 @@ def cleaning_label(label):
     str  
         The cleaned label with special characters replaced and the first letter capitalized.  
     """ 
-    pattern = r"[&\-\(\)\\/]"  
-    # Replace them with a space  
-    label = re.sub(pattern, ' ', label)
+     # Escape each character for regex use  
+    escaped_chars = [re.escape(char) for char in _from]  
+      
+    # Join them into a string with no separator  
+    char_class = ''.join(escaped_chars)  
+      
+    # Build the regex pattern with negation  
+    pattern = f'[{char_class}]'
+    regex = re.compile(pattern)
+
+    if regex.findall(label):
+        # Replace them with a space  
+        label = re.sub(pattern, _to, label)
 
     return ensure_first_letter_capitalized(label)
 
@@ -101,7 +111,7 @@ def rename_columns(excel: pd.DataFrame, excel_info: json, level: int) -> None:
                             excel_info["Information by level"]["Definition"] + str(level): f"Definition Catégorie L{level}",
                             excel_info["Information by level"]["altLabel"] + str(level): f"Autre Titre Catégorie L{level}"}, inplace=True)
         
-def shacl_validation(turtle_data: str):
+def shacl_validation(turtle_data: str, validation_server: str):
     """  
     Validates RDF data in Turtle format using a SHACL API.  
   
@@ -110,7 +120,9 @@ def shacl_validation(turtle_data: str):
     Parameters:  
     -----------  
     turtle_data : str  
-        The RDF data in Turtle format to be validated.  
+        The RDF data in Turtle format to be validated. 
+    validation_server : str  
+        The API endpoint used for validating the resulting RDF file. 
   
     Returns:  
     --------  
@@ -136,7 +148,7 @@ def shacl_validation(turtle_data: str):
 
     # Send the POST request 
     for index in tqdm([1], desc="SHACL validation"): 
-        response = requests.post("http://localhost:8080/shacl/d4wta-ap/api/validate", json=payload)  
+        response = requests.post(validation_server, json=payload)  
 
     # Check the response  
     if response.status_code == 200:  
@@ -144,7 +156,7 @@ def shacl_validation(turtle_data: str):
             print("Validation successful: No errors in the taxonomy")
             #print("No error in the taxonomy")
         else: 
-            print("Validation successful: Errors detected:\n" + response.text) 
+            print("Validation failed: Errors detected:\n" + response.text) 
             #print("Errors detected:\n" + response.text)
     else:  
-        print("Validation failed:" + response.status_code + response.text)
+        print("Error with the API call to ITB validator:" + response.status_code + response.text)

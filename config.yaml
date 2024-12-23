@@ -7,11 +7,11 @@ transformation:
     logfile: changes.log  
     changes:  
       - changelabel:  
-          from: "\-/()"  
+          from: "&-()\/"  
           to: " "  
   
 output:  
-  default_file: output.ttl  
+  default_file: output\output.ttl  
   default_format: turtle  
   
 validation:  
