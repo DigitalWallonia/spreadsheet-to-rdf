@@ -25,7 +25,7 @@ def ensure_first_letter_capitalized(text):
         return text  # Return the original text if it's empty  
     return text[0].upper() + text[1:]  
 
-def cleaning_label(label: str, _from: str, _to: str):
+def cleaning_label(label: str, uri: str, _from: str, _to: str):
     """  
     Cleans a label by replacing specific special characters with spaces and capitalizing the first letter.  
   
@@ -34,8 +34,14 @@ def cleaning_label(label: str, _from: str, _to: str):
     Parameters:  
     -----------  
     label : str  
-        The input label string to be cleaned.  
-  
+        The input label string to be cleaned.
+    uri : str  
+        The uri of input label string to be cleaned. 
+    _from : str  
+        The pattern to remove.  
+    _to: str
+        The changes to make.
+        
     Returns:  
     --------  
     str  
@@ -53,6 +59,7 @@ def cleaning_label(label: str, _from: str, _to: str):
 
     if regex.findall(label):
         # Replace them with a space  
+        logging.info(f"{uri}: Changed label from: {label}, to: {re.sub(pattern, _to, label)}")
         label = re.sub(pattern, _to, label)
 
     return ensure_first_letter_capitalized(label)
