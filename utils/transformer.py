@@ -108,7 +108,7 @@ def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_forma
 
     # Save rdf file
     taxo_graph.serialize(output_path, format=output_format)
-    turtle_data = taxo_graph.serialize(format="turtle")  
+    turtle_data = taxo_graph.serialize(format=output_format)  
     
     # Validate rdf file
-    shacl_validation(turtle_data, validation_server)
+    shacl_validation(turtle_data, validation_server, output_format)

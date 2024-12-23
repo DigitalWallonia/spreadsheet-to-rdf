@@ -121,7 +121,7 @@ def rename_columns(excel: pd.DataFrame, excel_info: json, level: int) -> None:
                             excel_info["Information by level"]["Definition"] + str(level): f"Definition Catégorie L{level}",
                             excel_info["Information by level"]["altLabel"] + str(level): f"Autre Titre Catégorie L{level}"}, inplace=True)
         
-def shacl_validation(turtle_data: str, validation_server: str):
+def shacl_validation(turtle_data: str, validation_server: str, output_format: str):
     """  
     Validates RDF data in Turtle format using a SHACL API.  
   
@@ -133,6 +133,8 @@ def shacl_validation(turtle_data: str, validation_server: str):
         The RDF data in Turtle format to be validated. 
     validation_server : str  
         The API endpoint used for validating the resulting RDF file. 
+    output_format : str  
+        The format of the resulting rdf to be validated.
   
     Returns:  
     --------  
@@ -151,7 +153,7 @@ def shacl_validation(turtle_data: str, validation_server: str):
     # Prepare the API request payload  
     payload = {  
         "contentToValidate": turtle_data,  
-        "contentSyntax": "text/turtle",  
+        "contentSyntax": f"text/{output_format}",  
         "validationType": "v1.0.0"  
     }  
 
