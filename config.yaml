@@ -1,0 +1,18 @@
+input:  
+  default_file: input\2024-12-12_taxonomie-complete.xlsx  
+  
+transformation:  
+  namespace: http://data4wallonia.com/  
+  rules:  
+    logfile: changes.log  
+    changes:  
+      - changelabel:  
+          from: "\-/()"  
+          to: " "  
+  
+output:  
+  default_file: output.ttl  
+  default_format: turtle  
+  
+validation:  
+  server: http://localhost:8080/shacl/d4wta-ap/api/validate  
