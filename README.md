@@ -30,6 +30,29 @@ Make sure you have the following installed:
     ```bash  
     pip install -r requirements.txt  
     ```  
+
+3. Create a yaml config file: 
+    
+    ```bash
+    input:  
+    default_file: file\path\to\taxonomy.xlsx  
+    
+    transformation:  
+    namespace: namespace\of\taxonomy  
+    rules:  
+        logfile: changes.log  
+        changes:  
+        - changelabel:  
+            from: "charactersToExcludeFromPrefLabels"  
+            to: " "  
+    
+    output:  
+    default_file: file\path\to\output.ttl 
+    default_format: turtle  
+    
+    validation:  
+    server: url\to\shacl\validator\api 
+    ``` 
   
 ## Usage  
   
@@ -38,15 +61,13 @@ Make sure you have the following installed:
 This application uses a command-line interface for input and output. Here’s how to use it:  
   
 ```bash  
-python app.py -e path/to/excel.xlsx -n http://example.com/namespace -o path/to/output.ttl  
+python app.py -c path/to/yaml/file  
 ```
-- -e, --excel: Path to the Excel file containing taxonomy data.
-- -n, --namespace: Namespace for the RDF.
-- -o, --output: Output path for the RDF file.
+- -c, --config: Path to the yaml file containing the configuration.
 
 #### Example
 ```bash 
-python app.py -e data/taxonomy.xlsx -n http://example.com/namespace -o output/taxonomy.ttl  
+python app.py -c config.yaml  
 ```
 
 ## Functions
