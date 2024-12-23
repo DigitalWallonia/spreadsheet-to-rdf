@@ -1,6 +1,7 @@
 import argparse  
 import logging
 from tqdm import tqdm
+from utils.enricher import enrich_rdf
 from utils.transformer import excel_to_rdf
 import yaml  
 
@@ -27,5 +28,6 @@ if __name__ == "__main__":
 
     try:  
         excel_to_rdf(config['input']['default_file'], config['transformation']['namespace'], config['output']['default_file'], config['output']['default_format'], config['validation']['server'], config['transformation']['rules']['changes'][0]["changelabel"])  
+        enrich_rdf()
     except Exception as e:  
         print(f"An error occurred: {e}")
