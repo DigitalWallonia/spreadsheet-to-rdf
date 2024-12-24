@@ -10139,7 +10139,7 @@ d4w:ict-software a skos:Concept ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de développement et déploiement de logiciels."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT - software"@fr .
+    skos:prefLabel "ICT   software"@fr .
 
 d4w:collection-grappe-cyber-securite a skos:Concept ;
     eurovoc:status status:CURRENT ;

@@ -10,7 +10,7 @@ transformation:
           from: "&-()\/"  
           to: " "  
           exceptions:
-          - "ICT - software"
+          - ""
 output:  
   default_file: output\output.ttl  
   default_format: text/turtle  
