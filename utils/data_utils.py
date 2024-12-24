@@ -60,10 +60,14 @@ def cleaning_label(label: str, uri: str, rules: list):
         regex = re.compile(pattern)
 
         _to = rules[0][rule]["to"]
+        _exceptions = rules[0][rule]["exceptions"]
         if regex.findall(label):
-            CHANGED_LABELS[rule].append(label)
-            # Replace them with a space  
-            label = re.sub(pattern, _to, label)
+            if(label in _exceptions):
+                print("label" + label)
+            else:
+                CHANGED_LABELS[rule].append(label)
+                # Replace them with a space  
+                label = re.sub(pattern, _to, label)
 
     return ensure_first_letter_capitalized(label)
 
