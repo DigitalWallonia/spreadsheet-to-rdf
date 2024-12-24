@@ -2,7 +2,9 @@ input:
   default_file: input\2024-12-12_taxonomie-complete.xlsx  
   
 transformation:  
-  namespace: http://data4wallonia.com/  
+  namespace: http://data4wallonia.com/
+  default_language: fr
+  default_version: "0.0.1"
   rules:  
     logfile: changes.log  
     changes:  
