@@ -63,7 +63,7 @@ def cleaning_label(label: str, uri: str, rules: list):
         _exceptions = rules[0][rule]["exceptions"]
         if regex.findall(label):
             if(label in _exceptions):
-                print("label" + label)
+                logging.info(f"Label excluded: \"{label}\"")
             else:
                 CHANGED_LABELS[rule].append(label)
                 # Replace them with a space  
