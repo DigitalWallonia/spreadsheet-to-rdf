@@ -44,7 +44,7 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, EXCEL_INFO: di
             add_conceptScheme(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules)
 
 
-def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_format: str, validation_server: str, rules: list) -> None:
+def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_format: str, validation_server: str, validation_version: str, rules: list) -> None:
     """
     Converts an Excel file containing taxonomy data to an RDF file and validates the RDF using a SHACL API.  
   
@@ -111,4 +111,4 @@ def excel_to_rdf(excel_path: str, namespace: str, output_path: str, output_forma
     turtle_data = taxo_graph.serialize(format=output_format)  
     
     # Validate rdf file
-    shacl_validation(turtle_data, validation_server, output_format)
+    shacl_validation(turtle_data, validation_server, output_format, validation_version)
