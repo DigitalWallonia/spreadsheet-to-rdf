@@ -5,6 +5,8 @@ transformation:
   namespace: http://data4wallonia.com/
   default_language: fr
   default_version: "0.0.1"
+  detect_english: True
+  creation_date: "2024-12-25"
   rules:  
     logfile: changes.log  
     changes:  

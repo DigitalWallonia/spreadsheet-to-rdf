@@ -22,7 +22,8 @@ d4w:access-management a skos:Concept ;
     skos:broader d4w:proteger-identity-management-et-access-control ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Access Management"@fr .
+    skos:prefLabel "Access Management"@en,
+        "Access Management"@fr .
 
 d4w:accompagnement-developpement a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -103,7 +104,8 @@ d4w:adtech a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le secteur de la publicité et du marketing (content marketing, marketing viral, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "AdTech"@fr .
+    skos:prefLabel "AdTech"@en,
+        "AdTech"@fr .
 
 d4w:adulte-en-formation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -130,7 +132,8 @@ d4w:agoria a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises du secteur du numérique affiliées et événements Agoria. Agoria est la fédération des entreprises de l'industrie technologique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Agoria"@fr .
+    skos:prefLabel "Agoria"@en,
+        "Agoria"@fr .
 
 d4w:alibaba-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -175,7 +178,8 @@ d4w:anti-spam a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Anti Spam"@fr .
+    skos:prefLabel "Anti Spam"@en,
+        "Anti Spam"@fr .
 
 d4w:anti-virus-worm-malware a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -184,7 +188,8 @@ d4w:anti-virus-worm-malware a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Anti Virus Worm Malware"@fr .
+    skos:prefLabel "Anti Virus Worm Malware"@en,
+        "Anti Virus Worm Malware"@fr .
 
 d4w:application-security a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -193,7 +198,8 @@ d4w:application-security a skos:Concept ;
     skos:broader d4w:proteger-information-protection-processes-and-procedures ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Application Security"@fr .
+    skos:prefLabel "Application Security"@en,
+        "Application Security"@fr .
 
 d4w:applications-mobiles a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -256,7 +262,8 @@ d4w:authentication a skos:Concept ;
     skos:broader d4w:proteger-identity-management-et-access-control ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Authentication"@fr .
+    skos:prefLabel "Authentication"@en,
+        "Authentication"@fr .
 
 d4w:authorisation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -274,7 +281,8 @@ d4w:awareness-trainings a skos:Concept ;
     skos:broader d4w:former-et-coacher-awareness-and-training ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Awareness Trainings"@fr .
+    skos:prefLabel "Awareness Trainings"@en,
+        "Awareness Trainings"@fr .
 
 d4w:awex a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -283,7 +291,8 @@ d4w:awex a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises clientes et événements de l’AWEX. L'Agence wallonne à l'Exportation et aux Investissements étrangers (AWEX) soutient l'exportation et l'investissement de l'étranger en Wallonie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "AWEX"@fr .
+    skos:prefLabel "AWEX"@en,
+        "AWEX"@fr .
 
 d4w:b2a a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -292,7 +301,8 @@ d4w:b2a a skos:Concept ;
     skos:broader d4w:types-de-clients ;
     skos:definition "Business to Administration : architecture technique et logicielle permettant d'offrir des services aux entreprises dans une relation fournisseur-administration."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "B2A"@fr .
+    skos:prefLabel "B2A"@en,
+        "B2A"@fr .
 
 d4w:b2b a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -301,7 +311,8 @@ d4w:b2b a skos:Concept ;
     skos:broader d4w:types-de-clients ;
     skos:definition "Business to Business : architecture technique et logicielle permettant d'offrir des services aux entreprises dans une relation client-fournisseur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "B2B"@fr .
+    skos:prefLabel "B2B"@en,
+        "B2B"@fr .
 
 d4w:b2c a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -310,7 +321,8 @@ d4w:b2c a skos:Concept ;
     skos:broader d4w:types-de-clients ;
     skos:definition "Business to Consumer : architecture technique et logicielle permettant d'offrir des services aux particuliers dans une relation client-fournisseur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "B2C"@fr .
+    skos:prefLabel "B2C"@en,
+        "B2C"@fr .
 
 d4w:bachelor-s-degree a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -319,7 +331,8 @@ d4w:bachelor-s-degree a skos:Concept ;
     skos:broader d4w:former-et-coacher-graduate-education ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Bachelor's degree"@fr .
+    skos:prefLabel "Bachelor's degree"@en,
+        "Bachelor's degree"@fr .
 
 d4w:backup-storage-security a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -328,7 +341,8 @@ d4w:backup-storage-security a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Backup   Storage Security"@fr .
+    skos:prefLabel "Backup   Storage Security"@en,
+        "Backup   Storage Security"@fr .
 
 d4w:bacs-jardinieres-et-compostieres a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -355,7 +369,8 @@ d4w:be-angels a skos:Concept ;
     skos:broader d4w:fonds-investissement ;
     skos:definition "Entreprises soutenues par BeAngels. Réseau de business angels, BeAngels a pour but de mettre en relation des porteurs (hommes ou femmes) de projets innovants avec des investisseurs souhaitant investir et s’investir (temps, expérience managériale) auprès de ces projets."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "BeAngels"@fr .
+    skos:prefLabel "BeAngels"@en,
+        "BeAngels"@fr .
 
 d4w:becommerce a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -364,7 +379,8 @@ d4w:becommerce a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "E-commerçants wallons affiliés et événements liés à BeCommerce.  BeCommerce est l'association belge des entreprises actives dans la vente à distance."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "BeCommerce"@fr .
+    skos:prefLabel "BeCommerce"@en,
+        "BeCommerce"@fr .
 
 d4w:belcoo a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -373,7 +389,8 @@ d4w:belcoo a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Programme fédéral qui encourage l'élaboration de projets conjoints de R&D entre les PME belges de régions différentes. Il consiste en un appel à projets conjoint de la part du SPW recherche, de Innoviris et du VLAIO pour des projets de R&D inter-régionaux émanant des PME. Les institutions de financement organisent une concertation centrale sur les projets à financer, mais gardent une évaluation et un financement décentralisés."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "BELCOO"@fr .
+    skos:prefLabel "BELCOO"@en,
+        "BELCOO"@fr .
 
 d4w:belgian-ai-week-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -382,7 +399,8 @@ d4w:belgian-ai-week-2021 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à la semaine belge de l'intelligence artificielle #BelgianAIWeek organisée du 15 au 19 mars 2021."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Belgian AI Week 2021"@fr .
+    skos:prefLabel "Belgian AI Week 2021"@en,
+        "Belgian AI Week 2021"@fr .
 
 d4w:beware-fellowship a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -391,7 +409,8 @@ d4w:beware-fellowship a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "BElgium WAllonia REsearch Fellowships. Programme offrant la possibilité à des chercheurs, séjournant à l’étranger, d'effectuer un séjour (24-36 mois) en Belgique (Wallonie ou Bruxelles) et de profiter de l'expertise d'une Haute École en collaboration avec une PME. Le projet de recherche, toutes thématiques confondues, doit démontrer un aspect innovant et/ou permettre le transfert de technologie. Il doit être soumis conjointement par le chercheur, un promoteur Haute École et un promoteur Entreprise."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "BeWaRe Fellowship"@fr .
+    skos:prefLabel "BeWaRe Fellowship"@en,
+        "BeWaRe Fellowship"@fr .
 
 d4w:bibliotheque-mediatheque a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -427,7 +446,8 @@ d4w:biotech a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le secteur de la biotechnologie, ou de la technologie de bioconversion."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "BioTech"@fr .
+    skos:prefLabel "BioTech"@en,
+        "BioTech"@fr .
 
 d4w:biotherapies-preventives-et-curatives a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -454,7 +474,8 @@ d4w:blockchain a skos:Concept ;
     skos:broader d4w:ict-advanced ;
     skos:definition "Développement, production et déploiement de produits et services liés à la Blockchain. La blockchain, ou chaîne de blocs, est une technologie qui permet de stocker et d'échanger de l'information sans organe de contrôle centralisé. On peut aussi parler de base de données partagée par un ensemble d'utilisateurs. La base de données est sécurisée par des techniques de cryptographie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Blockchain"@fr .
+    skos:prefLabel "Blockchain"@en,
+        "Blockchain"@fr .
 
 d4w:bois a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -679,7 +700,8 @@ d4w:business-continuity-recovery-planning a skos:Concept ;
     skos:broader d4w:restaurer-recovery-planning ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Business Continuity Recovery Planning"@fr .
+    skos:prefLabel "Business Continuity Recovery Planning"@en,
+        "Business Continuity Recovery Planning"@fr .
 
 d4w:business-development a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -688,7 +710,8 @@ d4w:business-development a skos:Concept ;
     skos:broader d4w:piliers-commerce-exterieur ;
     skos:definition "Ces organismes de soutien au commerce extérieur vous aident à définir votre tarif sur les pays visés, à identifier vos canaux de commercialisation et de distribution et autres partenaires, à mettre en place un service après-vente et à vous équiper en outils de suivi ainsi qu’à vous faire monter en notoriété à l’international."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Business Development"@fr .
+    skos:prefLabel "Business Development"@en,
+        "Business Development"@fr .
 
 d4w:business-impact-analysis a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -697,7 +720,8 @@ d4w:business-impact-analysis a skos:Concept ;
     skos:broader d4w:identifier-business-environment ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Business Impact Analysis"@fr .
+    skos:prefLabel "Business Impact Analysis"@en,
+        "Business Impact Analysis"@fr .
 
 d4w:business-model-circulaires a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -769,7 +793,8 @@ d4w:carports-et-pool-houses a skos:Concept ;
     skos:broader d4w:metiers-et-produits-du-bois ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Carports et pool houses"@fr .
+    skos:prefLabel "Carports et pool houses"@en,
+        "Carports et pool houses"@fr .
 
 d4w:carton-et-papier a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -859,7 +884,8 @@ d4w:cebit-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au salon CeBIT du 14 au 16 mars 2016 à Hanovre. Le CeBIT est le salon de l'industrie du numérique."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "CeBIT 2016"@fr .
+    skos:prefLabel "CeBIT 2016"@en,
+        "CeBIT 2016"@fr .
 
 d4w:cei-louvain a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -868,7 +894,8 @@ d4w:cei-louvain a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Entreprises hébergées par le CEI. Le Centre d'Entreprise et d'Innovation (CEI) est un incubateur de startups et de PME au coeur de l'UCL et de son parc scientifique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "CEI LLN"@fr .
+    skos:prefLabel "CEI LLN"@en,
+        "CEI LLN"@fr .
 
 d4w:cellule-module a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1417,7 +1444,8 @@ d4w:china-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "L’AWEX organise une mission Digital Wallonia en Chine du 10 au 16 novembre 2019 à l’occasion de la China Hi tech Fair. Au programme, des rencontres et des visites guidées auprès des géants chinois de l’Internet, sur mesure pour les écosystèmes start-ups, accélérateurs, intégrateurs et acteurs de la Nouvelle Economie en Wallonie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "China 2019"@fr .
+    skos:prefLabel "China 2019"@en,
+        "China 2019"@fr .
 
 d4w:chist-era a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1462,7 +1490,8 @@ d4w:cloud-access-security-brokers a skos:Concept ;
     skos:broader d4w:proteger-data-security ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cloud Access Security Brokers"@fr .
+    skos:prefLabel "Cloud Access Security Brokers"@en,
+        "Cloud Access Security Brokers"@fr .
 
 d4w:cloud-virtualisation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1471,7 +1500,8 @@ d4w:cloud-virtualisation a skos:Concept ;
     skos:broader d4w:ict-networks ;
     skos:definition "Développement, production et distribution de produits et services liés à l'utilisation de serveurs informatiques distants (cloud computing) ou de systèmes d'exploitation et d'applications sur des serveurs virtuels (virtualisation) : SaaS (Software as a Service), PaaS (Platform as a Service), IaaS (Infrastructure as a Service), etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cloud computing   virtualisation"@fr .
+    skos:prefLabel "Cloud computing   virtualisation"@en,
+        "Cloud computing   virtualisation"@fr .
 
 d4w:cluster a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1480,7 +1510,8 @@ d4w:cluster a skos:Concept ;
     skos:broader d4w:developpement-economique-territorial ;
     skos:definition "Regroupement d'entreprises et d'acteurs (institutions universitaires, etc.) autour d'un domaine économique ou secteur porteur en Wallonie. Leur rôle des Clusters est de soutenir le développement économique des PME, les mettre en réseau et les intégrer dans leurs écosystèmes connus et à venir, avec l'objectif de développer les écosystèmes dans lesquels ces PME évoluent, en favorisant l’innovation et la créativité dans le respect d’une croissance durable répondant notamment aux enjeux environnementaux et sociétaux."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cluster"@fr .
+    skos:prefLabel "Cluster"@en,
+        "Cluster"@fr .
 
 d4w:cluster-cap-construction a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1489,7 +1520,8 @@ d4w:cluster-cap-construction a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises affiliées et événements du Cluster Cap Construction, Cluster composé d'acteurs de la construction, d'entrepreneurs, architectes et producteurs de biens et services, afin de promouvoir la construction durable en Wallonie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cluster Cap Construction"@fr .
+    skos:prefLabel "Cluster Cap Construction"@en,
+        "Cluster Cap Construction"@fr .
 
 d4w:cluster-eco-construction a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1498,7 +1530,8 @@ d4w:cluster-eco-construction a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises affiliées et événements du Cluster Eco-Construction."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cluster Eco Construction"@fr .
+    skos:prefLabel "Cluster Eco Construction"@en,
+        "Cluster Eco Construction"@fr .
 
 d4w:cluster-equisfair a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1516,7 +1549,8 @@ d4w:cluster-h2o a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises affiliées et événements du Cluster H2O, réseau d'entreprises wallonnes du secteur de l'eau."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cluster H2O"@fr .
+    skos:prefLabel "Cluster H2O"@en,
+        "Cluster H2O"@fr .
 
 d4w:cluster-plastiwin a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1525,7 +1559,8 @@ d4w:cluster-plastiwin a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises affiliées et événements du Cluster Plastiwin. Plastiwin est le Réseau d'entreprises couvrant l'entièreté de la chaîne de valeurs de la plasturgie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cluster Plastiwin"@fr .
+    skos:prefLabel "Cluster Plastiwin"@en,
+        "Cluster Plastiwin"@fr .
 
 d4w:cluster-tweed a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1534,7 +1569,8 @@ d4w:cluster-tweed a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises affiliées et événements du Cluster TWEED, réseau d'entreprises wallonnes du secteur du développement durable."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cluster TWEED"@fr .
+    skos:prefLabel "Cluster TWEED"@en,
+        "Cluster TWEED"@fr .
 
 d4w:clustertic a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1543,7 +1579,8 @@ d4w:clustertic a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises du secteur du numérique affiliées et événements de l'Infopôle Cluster TIC. L'INFOPOLE Cluster TIC est le réseau des entreprises wallonnes du secteur des technologies de l’information et de la communication."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "INFOPOLE Cluster TIC"@fr .
+    skos:prefLabel "INFOPOLE Cluster TIC"@en,
+        "INFOPOLE Cluster TIC"@fr .
 
 d4w:cms-developpement-web a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1561,7 +1598,8 @@ d4w:coding a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans la promotion, l'initiation et la formation aux sciences informatiques, à la logique algorithmique et aux langages de programmation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Coding"@fr .
+    skos:prefLabel "Coding"@en,
+        "Coding"@fr .
 
 d4w:collecte-et-tri-innovants a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1642,7 +1680,8 @@ d4w:conext-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au salon Conext 2016 du 12 au 14 octobre 2016 à Lille . Le salon Conext est dédié au commerce connecté."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Conext 2016"@fr .
+    skos:prefLabel "Conext 2016"@en,
+        "Conext 2016"@fr .
 
 d4w:conseil-numerique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1678,7 +1717,8 @@ d4w:content-filtering-monitoring a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Content Filtering   Monitoring"@fr .
+    skos:prefLabel "Content Filtering   Monitoring"@en,
+        "Content Filtering   Monitoring"@fr .
 
 d4w:contenus-numeriques a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1705,7 +1745,8 @@ d4w:coopilot a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Programme régional qui vise à cofinancer des unités pilotes ou des démonstrateurs et à déployer leur technologie à l'échelle de production industrielle, via des projets de développement expérimental menés en collaboration par plusieurs entreprises (dont au moins une PME)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "COOPILOT"@fr .
+    skos:prefLabel "COOPILOT"@en,
+        "COOPILOT"@fr .
 
 d4w:copeaux-et-plaquettes a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1732,7 +1773,8 @@ d4w:cornet a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Le programme européen CORNET est un programme ERA-NET qui a pour objectif de financer des consortiums composés de minimum deux partenaires issus de deux pays ou régions différents participant à l'appel CORNET. Il s'adresse aux centres de recherche agréés."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "CORNET"@fr .
+    skos:prefLabel "CORNET"@en,
+        "CORNET"@fr .
 
 d4w:coworking a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1741,7 +1783,8 @@ d4w:coworking a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Centres de coworking labellisés Coworking Digital Wallonia. Coworking Digital Wallonia est le projet mis en place dans le cadre de la stratégie numérique pour développer l’offre de coworking sur le territoire de la Wallonie et encourager les nouvelles formes de travail (NWOW). Après les principales villes wallonnes, les zones rurales bénéficient elles aussi d’un réseau de centres de coworking labellisés."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Coworking Digital Wallonia"@fr .
+    skos:prefLabel "Coworking Digital Wallonia"@en,
+        "Coworking Digital Wallonia"@fr .
 
 d4w:cpas a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1759,7 +1802,8 @@ d4w:creative-wallonia a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Projets, initiatives et événements soutenus par Creative Wallonia. Creative Wallonia est le programme cadre de soutien de la Wallonie au développement de la créativité et de l’innovation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Creative Wallonia"@fr .
+    skos:prefLabel "Creative Wallonia"@en,
+        "Creative Wallonia"@fr .
 
 d4w:crisis-communication a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1768,7 +1812,8 @@ d4w:crisis-communication a skos:Concept ;
     skos:broader d4w:repondre-communications ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Crisis Communication"@fr .
+    skos:prefLabel "Crisis Communication"@en,
+        "Crisis Communication"@fr .
 
 d4w:crisis-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1777,7 +1822,8 @@ d4w:crisis-management a skos:Concept ;
     skos:broader d4w:repondre-response-planning ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Crisis Management"@fr .
+    skos:prefLabel "Crisis Management"@en,
+        "Crisis Management"@fr .
 
 d4w:cwality-de a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1786,7 +1832,8 @@ d4w:cwality-de a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Programme régional qui consiste en une avance récupérable pour un projet de développement expérimental porté par une entreprise, en collaboration avec un centres de recherche agréé et/ou un centre de recherche adossé à une haute école ou une université."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "CWALity DE"@fr .
+    skos:prefLabel "CWALity DE"@en,
+        "CWALity DE"@fr .
 
 d4w:cyber-ranges a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1795,7 +1842,8 @@ d4w:cyber-ranges a skos:Concept ;
     skos:broader d4w:former-et-coacher-awareness-and-training ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cyber Ranges"@fr .
+    skos:prefLabel "Cyber Ranges"@en,
+        "Cyber Ranges"@fr .
 
 d4w:cyber-security-insurance a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1804,7 +1852,8 @@ d4w:cyber-security-insurance a skos:Concept ;
     skos:broader d4w:repondre-mitigation ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cyber Security Insurance"@fr .
+    skos:prefLabel "Cyber Security Insurance"@en,
+        "Cyber Security Insurance"@fr .
 
 d4w:cyber-threat-intelligence a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1813,7 +1862,8 @@ d4w:cyber-threat-intelligence a skos:Concept ;
     skos:broader d4w:detecter-security-continous-monitoring ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cyber Threat Intelligence"@fr .
+    skos:prefLabel "Cyber Threat Intelligence"@en,
+        "Cyber Threat Intelligence"@fr .
 
 d4w:cyberwall a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1822,7 +1872,8 @@ d4w:cyberwall a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "L'IIS a pour objectif de mettre la Wallonie en pôle position dans le domaine de la cybersécurité. Pour atteindre cet objectif, CyberWal va promouvoir la recherche, l'innovation, et la formation en cybersécurité tout en assurant une coordination forte entre ces matières afin de développer des synergies, le tout en cohérence avec la politique régionale menée dans ce domaine."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "CyberWal"@fr .
+    skos:prefLabel "CyberWal"@en,
+        "CyberWal"@fr .
 
 d4w:data-center a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1831,7 +1882,8 @@ d4w:data-center a skos:Concept ;
     skos:broader d4w:ict-networks ;
     skos:definition "Développement, production et distribution de services liés aux centres de données."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Data center"@fr .
+    skos:prefLabel "Data center"@en,
+        "Data center"@fr .
 
 d4w:data-leakage-prevention a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1840,7 +1892,8 @@ d4w:data-leakage-prevention a skos:Concept ;
     skos:broader d4w:proteger-data-security ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Data Leakage Prevention"@fr .
+    skos:prefLabel "Data Leakage Prevention"@en,
+        "Data Leakage Prevention"@fr .
 
 d4w:data-recovery a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1849,7 +1902,8 @@ d4w:data-recovery a skos:Concept ;
     skos:broader d4w:repondre-mitigation ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Data Recovery"@fr .
+    skos:prefLabel "Data Recovery"@en,
+        "Data Recovery"@fr .
 
 d4w:ddos-protection a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1903,7 +1957,8 @@ d4w:design-station a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Entreprises hébergées par l'incubateur de Job'In Design. Job'In Design est une pépinière d'entreprises du secteur du Design située au coeur de l'espace Design Station à Liège."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Design Station"@fr .
+    skos:prefLabel "Design Station"@en,
+        "Design Station"@fr .
 
 d4w:design-ux-ui a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1948,7 +2003,8 @@ d4w:digibiocontrol a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "En mobilisant de façon unique et innovante les compétences des domaines du biocontrôle et du numérique, cette IIS ambitionne de résoudre les problèmes qui freinent actuellement le déploiement massif des solutions de biocontrôle, permettant la réduction de l'utilisation des pesticides dans l'agriculture."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DigiBioControl"@fr .
+    skos:prefLabel "DigiBioControl"@en,
+        "DigiBioControl"@fr .
 
 d4w:digicoop a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1966,7 +2022,8 @@ d4w:digital-attraxion a skos:Concept ;
     skos:broader d4w:fonds-investissement ;
     skos:definition "Startups wallonnes financées et accompagnées par l'incubateur hennuyer Digital Attraxion. Digital Attraxion est une initiative de Sambrinvest, Wapinvest et IMBC."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Attraxion"@fr .
+    skos:prefLabel "Digital Attraxion"@en,
+        "Digital Attraxion"@fr .
 
 d4w:digital-boostcamp-agriculture a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1975,7 +2032,8 @@ d4w:digital-boostcamp-agriculture a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Programme d'accompagnement destiné aux éleveurs et producteurs agricoles désireux de développer leur exploitation de manière durable, grâce au numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital BoostCamp Agriculture"@fr .
+    skos:prefLabel "Digital BoostCamp Agriculture"@en,
+        "Digital BoostCamp Agriculture"@fr .
 
 d4w:digital-commerce-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1984,7 +2042,8 @@ d4w:digital-commerce-2019 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à Digital Commerce 2019, action se déroulant tout au long de l'année 2019 en vue d'aider les commerces de proximité à réussir leur transition numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Commerce 2019"@fr .
+    skos:prefLabel "Digital Commerce 2019"@en,
+        "Digital Commerce 2019"@fr .
 
 d4w:digital-commerce-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1993,7 +2052,8 @@ d4w:digital-commerce-2021 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à Digital Commerce 2021, action se déroulant tout au long de l'année 2021 en vue d'aider les commerces de proximité à réussir leur transition numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Commerce 2021"@fr .
+    skos:prefLabel "Digital Commerce 2021"@en,
+        "Digital Commerce 2021"@fr .
 
 d4w:digital-commerce-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2002,7 +2062,8 @@ d4w:digital-commerce-2022 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à Digital Commerce 2022, action se déroulant tout au long de l'année 2022 en vue d'aider les commerces de proximité à réussir leur transition numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Commerce 2022"@fr .
+    skos:prefLabel "Digital Commerce 2022"@en,
+        "Digital Commerce 2022"@fr .
 
 d4w:digital-commerce-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2011,7 +2072,8 @@ d4w:digital-commerce-2023 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à Digital Commerce 2023, action se déroulant tout au long de l'année 2023 en vue d'aider les commerces de proximité à réussir leur transition numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Commerce 2023"@fr .
+    skos:prefLabel "Digital Commerce 2023"@en,
+        "Digital Commerce 2023"@fr .
 
 d4w:digital-commerce-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2020,7 +2082,8 @@ d4w:digital-commerce-2024 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à Digital Commerce 2024, action se déroulant tout au long de l'année 2024 en vue d'aider les commerces de proximité à réussir leur transition numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Commerce 2024"@fr .
+    skos:prefLabel "Digital Commerce 2024"@en,
+        "Digital Commerce 2024"@fr .
 
 d4w:digital-commerce-2025 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2029,7 +2092,8 @@ d4w:digital-commerce-2025 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à Digital Commerce 2025, action se déroulant tout au long de l'année 2025 en vue d'aider les commerces de proximité à réussir leur transition numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Commerce 2025"@fr .
+    skos:prefLabel "Digital Commerce 2025"@en,
+        "Digital Commerce 2025"@fr .
 
 d4w:digital-europe-programme a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2038,7 +2102,8 @@ d4w:digital-europe-programme a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Le programme pour une Europe numérique (DIGITAL) est un programme de financement de l'UE axé sur l'intégration de la technologie numérique aux entreprises, aux citoyens et aux administrations publiques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Europe Programme"@fr .
+    skos:prefLabel "Digital Europe Programme"@en,
+        "Digital Europe Programme"@fr .
 
 d4w:digital-first-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2047,7 +2112,8 @@ d4w:digital-first-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups et entreprises wallonnes présentes au salon Digital First 2019, les 16 et 17 octobre à Bruxelles. Cet événement international a pour but de réunir les entreprises du numérique au travers de conférences, rencontres et mises en réseaux."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital First 2019"@fr .
+    skos:prefLabel "Digital First 2019"@en,
+        "Digital First 2019"@fr .
 
 d4w:digital-first-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2056,7 +2122,8 @@ d4w:digital-first-2020 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups wallonnes présentes au salon Digital First 2020. Cet événement international a pour but de réunir les entreprises du numérique au travers de conférences, rencontres et mises en réseaux."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital First 2020"@fr .
+    skos:prefLabel "Digital First 2020"@en,
+        "Digital First 2020"@fr .
 
 d4w:digital-marketing a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2065,7 +2132,8 @@ d4w:digital-marketing a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Conseils et services de marketing menés sur les canaux numériques : content marketing, SEO, SEM, SEA, réseaux sociaux, permission marketing (e-mailing, sms, etc.), marketing viral, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital marketing"@fr .
+    skos:prefLabel "Digital marketing"@en,
+        "Digital marketing"@fr .
 
 d4w:digital-signature a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2074,7 +2142,8 @@ d4w:digital-signature a skos:Concept ;
     skos:broader d4w:proteger-data-security ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Signature"@fr .
+    skos:prefLabel "Digital Signature"@en,
+        "Digital Signature"@fr .
 
 d4w:digital-station a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2083,7 +2152,8 @@ d4w:digital-station a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Entreprises hébergées par Digital Station (ex Co.Station Charleroi). Digital Station est un espace dédié aux startups, qui leur permet de se développer, de rencontrer d’autres entrepreneurs et de partager des expériences dans ce domaine."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Digital Station"@fr .
+    skos:prefLabel "Digital Station"@en,
+        "Digital Station"@fr .
 
 d4w:digitalisation-et-gestion-des-flux a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2200,7 +2270,8 @@ d4w:dw-connect a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Communes wallonnes inscrites sur la plateforme Digital Wallonia Connect. La plateforme DW Connect a été mise en place afin de permettre aux mandataires locaux wallons de signaler des problèmes de connectivité fixe et/ou mobile sur leur territoire. Grâce à Digital Wallonia Connect, la Région wallonne dispose enfin d’un tableau de bord des problèmes de connectivité sur le territoire."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DW Connect"@fr .
+    skos:prefLabel "DW Connect"@en,
+        "DW Connect"@fr .
 
 d4w:dw-startup-award-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2209,7 +2280,8 @@ d4w:dw-startup-award-2018 a skos:Concept ;
     skos:broader d4w:laureats-awards ;
     skos:definition "Startup lauréates des awards Digital Wallonia (International startup, Acceleration, Startup of the year et Award d'honneur), nommées à l'événement Shake 2018."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DW startup award 2018"@fr .
+    skos:prefLabel "DW startup award 2018"@en,
+        "DW startup award 2018"@fr .
 
 d4w:dw-startup-award-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2218,7 +2290,8 @@ d4w:dw-startup-award-2019 a skos:Concept ;
     skos:broader d4w:laureats-awards ;
     skos:definition "Startup lauréates des awards Digital Wallonia (Award d’honneur, International Startup, New Startup, Grand Prix 2019), nommées à l'événement Shake 2019."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DW startup award 2019"@fr .
+    skos:prefLabel "DW startup award 2019"@en,
+        "DW startup award 2019"@fr .
 
 d4w:dw-startup-award-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2227,7 +2300,8 @@ d4w:dw-startup-award-2020 a skos:Concept ;
     skos:broader d4w:laureats-awards ;
     skos:definition "Lauréats des Digital Wallonia startup awards 2020 (Startup of the year award, Acceleration startup award et Digital Wallonia 4 Good startup award)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DW startup award 2020"@fr .
+    skos:prefLabel "DW startup award 2020"@en,
+        "DW startup award 2020"@fr .
 
 d4w:dwi-hub a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2236,7 +2310,8 @@ d4w:dwi-hub a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Points de contact, mis en place en collaboration avec l'AWEX, pour offrir aux startups et entreprises wallonnes du secteur du numérique, un soutien à l'international."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "DW International Hub"@fr .
+    skos:prefLabel "DW International Hub"@en,
+        "DW International Hub"@fr .
 
 d4w:e-health-finlande-suede-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2245,7 +2320,8 @@ d4w:e-health-finlande-suede-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, startups et organismes publics) présents à la mission économique \"E-Health Finlande-Suède\" du 06 au 10 octobre 2019 en Finlande et en Suède."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "E Health Finlande Suède 2019"@fr .
+    skos:prefLabel "E Health Finlande Suède 2019"@en,
+        "E Health Finlande Suède 2019"@fr .
 
 d4w:e-sante a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2515,7 +2591,8 @@ d4w:embuild a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises de la construction affiliées et événements Embuild. Embuild est l'association des entreprises du secteur de la construction."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Embuild"@fr .
+    skos:prefLabel "Embuild"@en,
+        "Embuild"@fr .
 
 d4w:emploi a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2542,7 +2619,8 @@ d4w:encryption a skos:Concept ;
     skos:broader d4w:proteger-data-security ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Encryption"@fr .
+    skos:prefLabel "Encryption"@en,
+        "Encryption"@fr .
 
 d4w:energy-environment a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2551,7 +2629,8 @@ d4w:energy-environment a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions numériques au service de la transition écologique : gestion et utilisation durable et intelligente des déchets, des ressources, de l’eau, de l'air, etc.; amélioration de l'impact du numérique (greenIT); économie circulaire; éco-conception; mobilité durable; ville durable et intelligente; lowTech, etc. au niveau du territoire, des entreprises, des usages citoyens, des écoles et du secteur du numérique lui-même."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Energy   environment"@fr .
+    skos:prefLabel "Energy   environment"@en,
+        "Energy   environment"@fr .
 
 d4w:enseignant a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2722,7 +2801,8 @@ d4w:espace-coworking a skos:Concept ;
     skos:broader d4w:developpement-economique-territorial ;
     skos:definition "Espace de travail partagé mis en place dans le but de favoriser les échanges et les synergies entre les entrepreneurs qui y sont présents."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Espace de coworking"@fr .
+    skos:prefLabel "Espace de coworking"@en,
+        "Espace de coworking"@fr .
 
 d4w:etablissement-scolaire a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2758,7 +2838,8 @@ d4w:eu-ai-week-2022 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à la semaine européenne de l'intelligence artificielle organisée du 14 au 18 mars 2022."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "EU AI Week 2022"@fr .
+    skos:prefLabel "EU AI Week 2022"@en,
+        "EU AI Week 2022"@fr .
 
 d4w:eu-ai-week-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2767,7 +2848,8 @@ d4w:eu-ai-week-2023 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs, événements et publications liés à la semaine européenne de l'intelligence artificielle organisée du 27 au 31 mars 2023."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "EU AI Week 2023"@fr .
+    skos:prefLabel "EU AI Week 2023"@en,
+        "EU AI Week 2023"@fr .
 
 d4w:eu-partnerships a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2776,7 +2858,8 @@ d4w:eu-partnerships a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Le programme EU Partnerships est destiné à soutenir les PME à forte intensité de recherche et d'innovation, orientées \"marché\" et à fort potentiel de croissance, impliquées dans des projets de partenariats européens. Ce programme vise les projets portés par des PME intensives en recherche, c'est-à-dire les PME qui investissent au moins 10% de leur chiffre d'affaires ou emplois dans la R&D."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "EU Partnerships"@fr .
+    skos:prefLabel "EU Partnerships"@en,
+        "EU Partnerships"@fr .
 
 d4w:evaluation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2794,7 +2877,8 @@ d4w:experts-5g a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Groupe d'experts pluridisciplinaire mandatés par la Région Wallonne pour faire une évaluation préalable au déploiement de la future 5G. L’Agence du Numérique en assurera le secrétariat."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Experts 5G"@fr .
+    skos:prefLabel "Experts 5G"@en,
+        "Experts 5G"@fr .
 
 d4w:exposition a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2812,7 +2896,8 @@ d4w:extrakktion-by-bep a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Entreprises accélérées, accompagnées et/ou financées dans le cadre du programme Extrakktion. Ce programme est porté par le BEP, le TRAKK et Namur Invest."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Extrakktion by BEP"@fr .
+    skos:prefLabel "Extrakktion by BEP"@en,
+        "Extrakktion by BEP"@fr .
 
 d4w:fab-lab a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2839,7 +2924,8 @@ d4w:factories-of-the-future-fof a skos:Concept ;
     skos:broader d4w:laureats-awards ;
     skos:definition "Entreprises lauréates du prix Factory of the Future. Pour accéder au titre d'Usine du futur, les entreprises doivent être engagées sur les 7 transformations clés de la méthodologie Made Different."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Factories of the Future  FoF "@fr .
+    skos:prefLabel "Factories of the Future  FoF "@en,
+        "Factories of the Future  FoF "@fr .
 
 d4w:feder a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2848,7 +2934,8 @@ d4w:feder a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Fonds Européen de DEveloppement Régional. Le FEDER vise à renforcer la cohésion économique et sociale au sein de l'Union européenne en corrigeant les déséquilibres régionaux. Il finance des aides directes aux investissements réalisés dans les entreprises (en particulier les PME) afin de créer des emplois durables; des infrastructures liées notamment à la recherche et l'innovation, aux télécommunications, à l'environnement, à l'énergie et au transport; des instruments financiers (fonds de capital-risque, fonds de développement local, etc.) afin de soutenir le développement régional et local et favoriser la coopération entre les villes et les régions; des mesures d'assistance technique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "FEDER"@fr .
+    skos:prefLabel "FEDER"@en,
+        "FEDER"@fr .
 
 d4w:federation-professionnelle a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2884,7 +2971,8 @@ d4w:feweb a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises du secteur du numérique affiliées et événements de la FeWeb. La Feweb est la fédération des métiers du Web."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "FeWeb"@fr .
+    skos:prefLabel "FeWeb"@en,
+        "FeWeb"@fr .
 
 d4w:fidelisation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2992,7 +3080,8 @@ d4w:filiere-smart-grids a skos:Concept ;
     skos:broader d4w:energies-renouvelables ;
     skos:definition "Acteurs actifs dans la filière smart grids. Les smartgrids peuvent être définis comme des réseaux électriques capables d'intégrer efficacement les comportements et actions de tous les utilisateurs qui y sont raccordés (producteurs, consommateurs, et utilisateurs à la fois producteurs et consommateurs) afin de constituer un système rentable et durable, présentant des pertes faibles et un niveau élevé de qualité et de sécurité d'approvisionnement."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart grids"@fr .
+    skos:prefLabel "Smart grids"@en,
+        "Smart grids"@fr .
 
 d4w:filiere-stockage a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3046,7 +3135,8 @@ d4w:fintech a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans la transformation numérique des services financiers."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "FinTech"@fr .
+    skos:prefLabel "FinTech"@en,
+        "FinTech"@fr .
 
 d4w:firewalls-nextgen-firewalls a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3055,7 +3145,8 @@ d4w:firewalls-nextgen-firewalls a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Firewalls   NextGen Firewalls"@fr .
+    skos:prefLabel "Firewalls   NextGen Firewalls"@en,
+        "Firewalls   NextGen Firewalls"@fr .
 
 d4w:first-haute-ecole a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3127,7 +3218,8 @@ d4w:foodbooster a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "Cette initiative aura pour objectif de travailler sur l'ensemble de la chaîne de valeur du secteur des ingrédients et des aliments fonctionnels, depuis la collecte de coproduits issus de l'industrie alimentaire jusqu'à la consommation des aliments fonctionnels par l'utilisateur final. Le focus sera donné sur les prébiotiques, les probiotiques et les peptides bioactifs utilisables en santé humaine et animale."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "FoodBooster"@fr .
+    skos:prefLabel "FoodBooster"@en,
+        "FoodBooster"@fr .
 
 d4w:foodtech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3136,7 +3228,8 @@ d4w:foodtech a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans la transformation numérique de la distribution, de la traçabilité, des modes de préparation et de consommation des produits alimentaires."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "FoodTech"@fr .
+    skos:prefLabel "FoodTech"@en,
+        "FoodTech"@fr .
 
 d4w:forensics a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3145,7 +3238,8 @@ d4w:forensics a skos:Concept ;
     skos:broader d4w:repondre-analysis ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Forensics"@fr .
+    skos:prefLabel "Forensics"@en,
+        "Forensics"@fr .
 
 d4w:formateur a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3217,7 +3311,8 @@ d4w:forum-incyber-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Forum InCyber qui se déroule à Lille du 26 au 28 mars 2024. Cet événement rassemble tout l’écosystème de la cybersécurité et du \"numérique de confiance\""@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Forum InCyber 2024"@fr .
+    skos:prefLabel "Forum InCyber 2024"@en,
+        "Forum InCyber 2024"@fr .
 
 d4w:fraud-investigation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3226,7 +3321,8 @@ d4w:fraud-investigation a skos:Concept ;
     skos:broader d4w:repondre-analysis ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Fraud Investigation"@fr .
+    skos:prefLabel "Fraud Investigation"@en,
+        "Fraud Investigation"@fr .
 
 d4w:fraud-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3244,7 +3340,8 @@ d4w:frhe a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Au travers de l’action FRHE, la Fédération Wallonie-Bruxelles (FW-B) finance la recherche en Hautes Écoles. Dotée de deux millions d’euros (indexés annuellement), cette action annuelle est ouverte à toutes les disciplines qui y sont enseignées. Le FRHE vise à attirer de nouveaux talents vers la recherche et à promouvoir l’émergence ou le développement de thématiques de recherche dans les Hautes Écoles de la FW-B."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "FRHE"@fr .
+    skos:prefLabel "FRHE"@en,
+        "FRHE"@fr .
 
 d4w:fse a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3253,7 +3350,8 @@ d4w:fse a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Le Fonds social européen+ (FSE+) est le principal instrument de l’Union européenne (UE) pour investir dans le capital humain. Doté d’un budget de près de 99,3 milliards d’euros pour la période 2021-2027, le FSE+ continuera d’apporter une contribution importante aux politiques de l’UE en matière sociale, d’emploi, d’éducation et de compétences et aux réformes structurelles dans ces domaines."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "FSE+"@fr .
+    skos:prefLabel "FSE+"@en,
+        "FSE+"@fr .
 
 d4w:fwb a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3271,7 +3369,8 @@ d4w:game-jam-la-kiss a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "La \"Kiss Your teacher Game Jam\" est morte : Vive \"La Kiss\" ! Après 7 éditions de la Kiss Your Teacher (game jam à visée éducative), La Kiss (48h pour expérimenter le développement d’un proto) est née pour mieux répondre aux attentes des participants. La Kiss est une Game Jam qui vise la montée en compétences professionnelles des participants avec, le cas échéant, une visée entrepreneuriale. Du coaching par des professionnels est ainsi proposé durant la game jam et un accompagnement à la création d’entreprise est possible dans la foulée."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Game Jam La Kiss"@fr .
+    skos:prefLabel "Game Jam La Kiss"@en,
+        "Game Jam La Kiss"@fr .
 
 d4w:gamescom-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3343,7 +3442,8 @@ d4w:gaming a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le gaming. La grappe technologique gaming rassemble tant les développeurs de solution (studios) que ceux qui les exploitent dans leur offre de service (opérateurs de formation, opérateurs culturels, agence de communication et marketeurs, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Gaming"@fr .
+    skos:prefLabel "Gaming"@en,
+        "Gaming"@fr .
 
 d4w:gazeification a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3361,7 +3461,8 @@ d4w:gdc-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Game Developers Conference du 14 au 18 mars 2016 à San Francisco. Le salon Game Developers Conference (GDC) est dédié à l'industrie du jeux vidéo."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "GDC 2016"@fr .
+    skos:prefLabel "GDC 2016"@en,
+        "GDC 2016"@fr .
 
 d4w:gdc-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3370,7 +3471,8 @@ d4w:gdc-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Game Developers Conference à San Francisco du 27 février au 3 mars 2017. Le salon Game Developers Conference (GDC) est dédié à l'industrie du jeux vidéo."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "GDC 2017"@fr .
+    skos:prefLabel "GDC 2017"@en,
+        "GDC 2017"@fr .
 
 d4w:gdc-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3379,7 +3481,8 @@ d4w:gdc-2018 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Game Developers Conference à San Francisco du 21 mars au 23 mars 2018. Le salon Game Developers Conference (GDC) est dédié à l'industrie du jeux vidéo."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "GDC 2018"@fr .
+    skos:prefLabel "GDC 2018"@en,
+        "GDC 2018"@fr .
 
 d4w:gdc-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3388,7 +3491,8 @@ d4w:gdc-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Game Developers Conference à San Francisco du 18 mars au 22 mars 2019. Le salon Game Developers Conference (GDC) est dédié à l’industrie du jeux vidéo."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "GDC 2019"@fr .
+    skos:prefLabel "GDC 2019"@en,
+        "GDC 2019"@fr .
 
 d4w:gdc-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3397,7 +3501,8 @@ d4w:gdc-2020 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Game Developers Conference à San Francisco du 16 mars au 20 mars 2020. Le salon Game Developers Conference (GDC) est dédié à l'industrie du jeux vidéo."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "GDC 2020"@fr .
+    skos:prefLabel "GDC 2020"@en,
+        "GDC 2020"@fr .
 
 d4w:gdc-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3406,7 +3511,8 @@ d4w:gdc-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Game Developers Conference à San Francisco du 21 mars au 25 mars 2022. Le salon Game Developers Conference (GDC) est dédié à l'industrie du jeux vidéo."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "GDC 2022"@fr .
+    skos:prefLabel "GDC 2022"@en,
+        "GDC 2022"@fr .
 
 d4w:gdc-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3415,7 +3521,8 @@ d4w:gdc-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Game Developers Conference à San Francisco du 20 mars au 24 mars 2023. Le salon Game Developers Conference (GDC) est dédié à l'industrie du jeux vidéo."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "GDC 2023"@fr .
+    skos:prefLabel "GDC 2023"@en,
+        "GDC 2023"@fr .
 
 d4w:gdc-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3424,7 +3531,8 @@ d4w:gdc-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Game Developers Conference à San Francisco du 18 mars au 22 mars 2024. Le salon Game Developers Conference (GDC) est dédié à l'industrie du jeux vidéo."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "GDC 2024"@fr .
+    skos:prefLabel "GDC 2024"@en,
+        "GDC 2024"@fr .
 
 d4w:germanophone a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3442,7 +3550,8 @@ d4w:germany-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités et organismes publics) présents à la mission économique numérique du 1er au 2 février 2016 en Allemagne, à Berlin et Munich."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Germany 2016"@fr .
+    skos:prefLabel "Germany 2016"@en,
+        "Germany 2016"@fr .
 
 d4w:gestion-bases-donnees a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3550,7 +3659,8 @@ d4w:global-industrie-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises participant au salon Global Industrie 2024 qui se déroule du 25 au 28 mars 2024. Global Industrie est la vitrine des territoires, des savoir-faire et de la présence incontournable de l’industrie dans notre quotidien."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Global Industrie 2024"@fr .
+    skos:prefLabel "Global Industrie 2024"@en,
+        "Global Industrie 2024"@fr .
 
 d4w:gouvernance a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3577,7 +3687,8 @@ d4w:governance-risk-compliance-grc a skos:Concept ;
     skos:broader d4w:identifier-governance-risk-management ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Governance, Risk   Compliance  GRC "@fr .
+    skos:prefLabel "Governance, Risk   Compliance  GRC "@en,
+        "Governance, Risk   Compliance  GRC "@fr .
 
 d4w:greenwin a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3595,7 +3706,8 @@ d4w:h2o a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "Les pistes d'innovation dans les domaines de la préservation de la ressource en eau, de la production des eaux de distribution, de la gestion des eaux usées et des thématiques transversales du secteur de l'eau sont nombreuses et appellent à une réflexion structurée à l'échelle de la Wallonie grâce à cette initiative, cela sera possible."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "H2O"@fr .
+    skos:prefLabel "H2O"@en,
+        "H2O"@fr .
 
 d4w:hainaut a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3613,7 +3725,8 @@ d4w:hannover-messe-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l'Hannover Messe du 25 au 29 avril 2016 à Hanovre. L'Hannover Messe est le salon international des technologies industrielles."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Hannover Messe 2016"@fr .
+    skos:prefLabel "Hannover Messe 2016"@en,
+        "Hannover Messe 2016"@fr .
 
 d4w:hannover-messe-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3622,7 +3735,8 @@ d4w:hannover-messe-2018 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l'Hannover Messe du 24 au 25 avril 2018 à Hanovre. L'Hannover Messe est le salon international des technologies industrielles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hannover Messe 2018"@fr .
+    skos:prefLabel "Hannover Messe 2018"@en,
+        "Hannover Messe 2018"@fr .
 
 d4w:hannover-messe-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3631,7 +3745,8 @@ d4w:hannover-messe-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l'Hannover Messe du 1 au 5 avril 2019 à Hanovre. L'Hannover Messe est le salon international des technologies industrielles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hannover Messe 2019"@fr .
+    skos:prefLabel "Hannover Messe 2019"@en,
+        "Hannover Messe 2019"@fr .
 
 d4w:hannover-messe-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3640,7 +3755,8 @@ d4w:hannover-messe-2020 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l'Hannover Messe du 20 au 24 avril 2020 à Hanovre. L'Hannover Messe est le salon international des technologies industrielles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hannover Messe 2020"@fr .
+    skos:prefLabel "Hannover Messe 2020"@en,
+        "Hannover Messe 2020"@fr .
 
 d4w:hannover-messe-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3649,7 +3765,8 @@ d4w:hannover-messe-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l'Hannover Messe du 30 mai au 2 juin à Hanovre. L'Hannover Messe est le salon international des technologies industrielles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hannover Messe 2022"@fr .
+    skos:prefLabel "Hannover Messe 2022"@en,
+        "Hannover Messe 2022"@fr .
 
 d4w:hannover-messe-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3658,7 +3775,8 @@ d4w:hannover-messe-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l'Hannover Messe du 17 au 21 avril 2023 à Hanovre. L'Hannover Messe est le salon international des technologies industrielles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hannover Messe 2023"@fr .
+    skos:prefLabel "Hannover Messe 2023"@en,
+        "Hannover Messe 2023"@fr .
 
 d4w:hannover-messe-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3667,7 +3785,8 @@ d4w:hannover-messe-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l'Hannover Messe du 22 au 26 avril 2024 à Hanovre. L'Hannover Messe est le salon international des technologies industrielles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hannover Messe 2024"@fr .
+    skos:prefLabel "Hannover Messe 2024"@en,
+        "Hannover Messe 2024"@fr .
 
 d4w:hardware-security-modules-hsm a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3676,7 +3795,8 @@ d4w:hardware-security-modules-hsm a skos:Concept ;
     skos:broader d4w:proteger-data-security ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hardware Security Modules  HSM "@fr .
+    skos:prefLabel "Hardware Security Modules  HSM "@en,
+        "Hardware Security Modules  HSM "@fr .
 
 d4w:herbe-panneau-rouleau-semi-rigide a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3694,7 +3814,8 @@ d4w:high-performance-computing a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "L’entreprise commune européenne pour le calcul à haute performance est une initiative conjointe de l’UE, de pays européens et de partenaires privés visant à développer un écosystème de supercalcul de classe mondiale en Europe."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "High Performance Computing"@fr .
+    skos:prefLabel "High Performance Computing"@en,
+        "High Performance Computing"@fr .
 
 d4w:hitt a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3703,7 +3824,8 @@ d4w:hitt a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "Cette IIS vise à regrouper les acteurs clés de la recherche et de l'innovation centrées sur les expériences immersives et interactives et de générer un effet de levier en systématisant et accélérant le transfert de ces technologies vers les secteurs d'application visés par les Domaines d'Innovation Stratégiques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "HITT"@fr .
+    skos:prefLabel "HITT"@en,
+        "HITT"@fr .
 
 d4w:honeypots-cybertraps a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3712,7 +3834,8 @@ d4w:honeypots-cybertraps a skos:Concept ;
     skos:broader d4w:detecter-detection-processes ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Honeypots   Cybertraps"@fr .
+    skos:prefLabel "Honeypots   Cybertraps"@en,
+        "Honeypots   Cybertraps"@fr .
 
 d4w:hopital-du-futur-et-prevention a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3749,7 +3872,8 @@ d4w:horizon-europe a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Horizon Europe, est le nouveau programme-cadre de la Commission européenne. Il se déroulera de 2021 à 2027, avec un budget total de 95,5 milliards d'euros."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Horizon Europe"@fr .
+    skos:prefLabel "Horizon Europe"@en,
+        "Horizon Europe"@fr .
 
 d4w:hosting-housing a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3758,7 +3882,8 @@ d4w:hosting-housing a skos:Concept ;
     skos:broader d4w:ict-networks ;
     skos:definition "Développement, production et distribution de produits et services d'hébergement de serveurs, services et site web."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hosting   housing"@fr .
+    skos:prefLabel "Hosting   housing"@en,
+        "Hosting   housing"@fr .
 
 d4w:hub-c a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3767,7 +3892,8 @@ d4w:hub-c a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Communauté des acteurs actifs autour du hub-c. Le Hub créatif de Charleroi Métropole couvre la région Charleroi-Sud Hainaut."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hub c"@fr .
+    skos:prefLabel "Hub c"@en,
+        "Hub c"@fr .
 
 d4w:hub-creatif a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3794,7 +3920,8 @@ d4w:ibc-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au IBC (International Broadcasting Convention) du 09 septembre au 12 septembre 2022 à Amsterdam. La convention internationale de radiodiffusion IBC est une foire pour les diffuseurs , les créateurs de contenu / fournisseurs , fabricants d'équipements, des associations professionnelles et techniques, et d' autres participants de l'industrie de la radiodiffusion."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IBC 2022"@fr .
+    skos:prefLabel "IBC 2022"@en,
+        "IBC 2022"@fr .
 
 d4w:ibc-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3803,7 +3930,8 @@ d4w:ibc-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au IBC (International Broadcasting Convention) du 15 septembre au 18 septembre 2023 à Amsterdam. La convention internationale de radiodiffusion IBC est une foire pour les diffuseurs , les créateurs de contenu / fournisseurs , fabricants d'équipements, des associations professionnelles et techniques, et d'autres participants de l'industrie de la radiodiffusion."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IBC 2023"@fr .
+    skos:prefLabel "IBC 2023"@en,
+        "IBC 2023"@fr .
 
 d4w:ibc-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3812,7 +3940,8 @@ d4w:ibc-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au IBC (International Broadcasting Convention) du 13 au 16 septembre 2024 à Amsterdam. La convention internationale de radiodiffusion IBC est une foire pour les diffuseurs , les créateurs de contenu / fournisseurs , fabricants d'équipements, des associations professionnelles et techniques, et d'autres participants de l'industrie de la radiodiffusion."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IBC 2024"@fr .
+    skos:prefLabel "IBC 2024"@en,
+        "IBC 2024"@fr .
 
 d4w:ict-guided-tour-2013 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3821,7 +3950,8 @@ d4w:ict-guided-tour-2013 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Ensemble des participants (entreprises, startups et acteurs publics) à la mission économique \"ICT Guided Tour\" du 02 au 09 juin 2013 aux Etats-Unis."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "ICT Guided Tour 2013"@fr .
+    skos:prefLabel "ICT Guided Tour 2013"@en,
+        "ICT Guided Tour 2013"@fr .
 
 d4w:ict-guided-tour-2014 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3830,7 +3960,8 @@ d4w:ict-guided-tour-2014 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Ensemble des participants (entreprises, startups et acteurs publics) à la mission économique \"ICT Guided Tour\" du 27 au 31 octobre 2014 au Québec et en Ontario."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "ICT Guided Tour 2014"@fr .
+    skos:prefLabel "ICT Guided Tour 2014"@en,
+        "ICT Guided Tour 2014"@fr .
 
 d4w:ict-guided-tour-2015 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3839,7 +3970,8 @@ d4w:ict-guided-tour-2015 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités et organismes publics) présents à la mission économique \"ICT Guided Tour\" du 16 au 21 novembre 2015 en Chine, à Shenzen et Taipei."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "ICT Guided Tour 2015"@fr .
+    skos:prefLabel "ICT Guided Tour 2015"@en,
+        "ICT Guided Tour 2015"@fr .
 
 d4w:ict-guided-tour-2016 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3848,7 +3980,8 @@ d4w:ict-guided-tour-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités et acteurs publics) participant à la mission exploratoire \"ICT Guided Tour\" du 14 au 18 novembre 2016 en Chine, à Shanghai et Shenzhen."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "ICT Guided Tour 2016"@fr .
+    skos:prefLabel "ICT Guided Tour 2016"@en,
+        "ICT Guided Tour 2016"@fr .
 
 d4w:ict-guided-tour-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3857,7 +3990,8 @@ d4w:ict-guided-tour-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités et organismes publics) présents à la mission économique \"ICT Guided Tour\" du 16 au 21 novembre 2017 en Chine et à Taïwan."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "ICT Guided Tour 2017"@fr .
+    skos:prefLabel "ICT Guided Tour 2017"@en,
+        "ICT Guided Tour 2017"@fr .
 
 d4w:ict-spring-2013 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3866,7 +4000,8 @@ d4w:ict-spring-2013 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au salon européen ICT Spring à Luxembourg du 19 au 20 juin 2013. ICT Spring est dédié au dernières tendances ICT."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "ICT Spring 2013"@fr .
+    skos:prefLabel "ICT Spring 2013"@en,
+        "ICT Spring 2013"@fr .
 
 d4w:id2food a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3875,7 +4010,8 @@ d4w:id2food a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Entreprises accompagnées par ID2Food. ID2Food est l'écosystème spécialisé dans le domaine de la Food/Tech mais aussi laboratoire d'idées, infrastructures partagées pour tester ou valider son marché et son projet."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ID2Food"@fr .
+    skos:prefLabel "ID2Food"@en,
+        "ID2Food"@fr .
 
 d4w:id2move a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3884,7 +4020,8 @@ d4w:id2move a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Entreprises hébergées ou accompagnées par ID2Move. ID2Move est un incubateur à destination des startups, PME et universités actives dans le domaine des systèmes autonomes avec un focus particulier sur les drones."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ID2Move"@fr .
+    skos:prefLabel "ID2Move"@en,
+        "ID2Move"@fr .
 
 d4w:identity-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3893,7 +4030,8 @@ d4w:identity-management a skos:Concept ;
     skos:broader d4w:proteger-identity-management-et-access-control ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Identity Management"@fr .
+    skos:prefLabel "Identity Management"@en,
+        "Identity Management"@fr .
 
 d4w:imbc a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3902,7 +4040,8 @@ d4w:imbc a skos:Concept ;
     skos:broader d4w:fonds-investissement ;
     skos:definition "Entreprises soutenues par Invest Mons Borinage Centre. Acteur actif dans le financement de tout projet d'investissements, de besoin en fonds de roulement et de transmission."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IMBC"@fr .
+    skos:prefLabel "IMBC"@en,
+        "IMBC"@fr .
 
 d4w:immersion-metier a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3947,7 +4086,8 @@ d4w:incident-management a skos:Concept ;
     skos:broader d4w:repondre-response-planning ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Incident Management"@fr .
+    skos:prefLabel "Incident Management"@en,
+        "Incident Management"@fr .
 
 d4w:incident-response-services-csrit-aas a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4028,7 +4168,8 @@ d4w:industries-du-futur-be-4-0-2021 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au salon Industries du Futur BE 4.0 du 30 novembre au 01 décembre 2021 à Mulhouse. Le salon-congrès BE 4.0 est dédié à la transformation vers l’industrie 4.0."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Industries du futur BE 4.0 2021"@fr .
+    skos:prefLabel "Industries du futur BE 4.0 2021"@en,
+        "Industries du futur BE 4.0 2021"@fr .
 
 d4w:industries-du-futur-be-4-0-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4037,7 +4178,8 @@ d4w:industries-du-futur-be-4-0-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au salon Industries du Futur BE 4.0 du 29 au 30 novembre 2022 à Mulhouse. Le salon-congrès BE 4.0 est dédié à la transformation vers l’industrie 4.0."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Industries du futur BE 4.0 2022"@fr .
+    skos:prefLabel "Industries du futur BE 4.0 2022"@en,
+        "Industries du futur BE 4.0 2022"@fr .
 
 d4w:infrastructure-de-communication a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4136,7 +4278,8 @@ d4w:interreg a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Programme européen visant à promouvoir la coopération entre les régions européennes et le développement de solutions communes dans les domaines du développement urbain, rural et côtier, du développement économique et de la gestion de l’environnement."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Interreg"@fr .
+    skos:prefLabel "Interreg"@en,
+        "Interreg"@fr .
 
 d4w:intrusion-detection a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4145,7 +4288,8 @@ d4w:intrusion-detection a skos:Concept ;
     skos:broader d4w:detecter-anomalies-and-events ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Intrusion Detection"@fr .
+    skos:prefLabel "Intrusion Detection"@en,
+        "Intrusion Detection"@fr .
 
 d4w:invest-bw a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4154,7 +4298,8 @@ d4w:invest-bw a skos:Concept ;
     skos:broader d4w:fonds-investissement ;
     skos:definition "Entreprises soutenues par Invest.BW. Acteur du plan de reconversion de l'Ouest du Brabant wallon, Invest.BW propose ses moyens financiers et ses compétences en intervenant auprès des PME. (ancien Nivelinvest)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Invest.BW"@fr .
+    skos:prefLabel "Invest.BW"@en,
+        "Invest.BW"@fr .
 
 d4w:invest-public a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4163,7 +4308,8 @@ d4w:invest-public a skos:Concept ;
     skos:broader d4w:developpement-economique-territorial ;
     skos:definition "Présents sur l'ensemble du territoire wallon, les Invests wallons sont des sociétés d'investissement et de financement à capital mixte (public/privé). Ils donnent accès à des solutions de financement diversifiées, flexibles et adaptées aux besoins des entreprises."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Invest public"@fr .
+    skos:prefLabel "Invest public"@en,
+        "Invest public"@fr .
 
 d4w:iot a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4190,7 +4336,8 @@ d4w:iot-security a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IoT Security"@fr .
+    skos:prefLabel "IoT Security"@en,
+        "IoT Security"@fr .
 
 d4w:iot4industry a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4199,7 +4346,8 @@ d4w:iot4industry a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Projet européen, impliquant le pôle Mecatech, qui vise à co-financer et développer des projets collaboratifs intégrant l’IoT dans les outils de production et les machines dans le cadre de l’Industrie du Futur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IoT4Industry"@fr .
+    skos:prefLabel "IoT4Industry"@en,
+        "IoT4Industry"@fr .
 
 d4w:iotswc-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4208,7 +4356,8 @@ d4w:iotswc-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l’IOT Solutions World Congress (IOTSWC) à Barcelone du 10 mai au 12 mai 2022. L’Integrated Systems Europe s'est associé à IOT Solutions World Congress, le plus grand événement international consacré à la transformation de l'industrie grâce aux technologies disruptives. L’évènement IOTSWC réunit des experts et des sociétés de premier plan travaillant sur l'intelligence artificielle, les jumeaux numériques, l'Internet des objets et l'informatique quantique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IOTSWC 2022"@fr .
+    skos:prefLabel "IOTSWC 2022"@en,
+        "IOTSWC 2022"@fr .
 
 d4w:iotswc-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4217,7 +4366,8 @@ d4w:iotswc-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes à l’IOT Solutions World Congress (IOTSWC) à Barcelone du 31 janvier au 2 février 2023. L’Integrated Systems Europe s'est associé à IOT Solutions World Congress, le plus grand événement international consacré à la transformation de l'industrie grâce aux technologies disruptives. L’évènement IOTSWC réunit des experts et des sociétés de premier plan travaillant sur l'intelligence artificielle, les jumeaux numériques, l'Internet des objets et l'informatique quantique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IOTSWC 2023"@fr .
+    skos:prefLabel "IOTSWC 2023"@en,
+        "IOTSWC 2023"@fr .
 
 d4w:ise-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4271,7 +4421,8 @@ d4w:it-service-management a skos:Concept ;
     skos:broader d4w:identifier-asset-management ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "IT Service Management"@fr .
+    skos:prefLabel "IT Service Management"@en,
+        "IT Service Management"@fr .
 
 d4w:jeux-d-exterieur-modules-et-balancoires a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4325,7 +4476,8 @@ d4w:key-digital-technologies-joint-undertaking a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Programme fédéral visant à renforcer la position concurrentielle des PME qui recherchent un accès plus aisé aux facilités offertes par la recherche, en établissant une coopération fructueuse avec les centres de recherche et de technologie, au niveau international. En retour, ces centres auront l'opportunité de bénéficier de l'expertise commerciale de ces PME. IRA-SME (aujourd'hui Key Digital Technologies Joint Undertaking) est une action ERA-NET."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Key Digital Technologies Joint Undertaking"@fr .
+    skos:prefLabel "Key Digital Technologies Joint Undertaking"@en,
+        "Key Digital Technologies Joint Undertaking"@fr .
 
 d4w:kikk-2015 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4406,7 +4558,8 @@ d4w:kis a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises prestataires et bénéficiaires du dispositif de sensibilisation et d'accompagnement en cybersécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Keep It Secure  KIS "@fr .
+    skos:prefLabel "Keep It Secure  KIS "@en,
+        "Keep It Secure  KIS "@fr .
 
 d4w:langages-programmation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4721,7 +4874,8 @@ d4w:leansquare a skos:Concept ;
     skos:broader d4w:fonds-investissement ;
     skos:definition "Startups wallonnes financées et accompagnées par l'incubateur Leansquare. LeanSquare est une initiative de Meusinvest mise en œuvre par Cide-Socran."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "LeanSquare"@fr .
+    skos:prefLabel "LeanSquare"@en,
+        "LeanSquare"@fr .
 
 d4w:leasing-outsourcing a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4730,7 +4884,8 @@ d4w:leasing-outsourcing a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Services de mise à disposition de matériel et de ressources informatiques : gestion administrative et financière de matériel, maintenance, installation de logiciels, sécurité, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Leasing   outsourcing informatique"@fr .
+    skos:prefLabel "Leasing   outsourcing informatique"@en,
+        "Leasing   outsourcing informatique"@fr .
 
 d4w:legaltech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4739,7 +4894,8 @@ d4w:legaltech a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans la transformation numérique des services juridiques : justice prédictive, gestion des cabinets d’avocats, plateformes, registre jurisprudence en ligne, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "LegalTech"@fr .
+    skos:prefLabel "LegalTech"@en,
+        "LegalTech"@fr .
 
 d4w:leweb-2013 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4748,7 +4904,8 @@ d4w:leweb-2013 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au salon LeWeb à Paris, du 10 au 12 décembre 2013. Ce salon est dédié aux startups et aux entrepreneurs du web."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "LeWeb 2013"@fr .
+    skos:prefLabel "LeWeb 2013"@en,
+        "LeWeb 2013"@fr .
 
 d4w:leweb-2014 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4757,7 +4914,8 @@ d4w:leweb-2014 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au salon LeWeb à Paris, du 9 au 11 décembre 2014. Ce salon est dédié aux startups et aux entrepreneurs du web."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "LeWeb 2014"@fr .
+    skos:prefLabel "LeWeb 2014"@en,
+        "LeWeb 2014"@fr .
 
 d4w:libramont-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4856,7 +5014,8 @@ d4w:living-lab a skos:Concept ;
     skos:broader d4w:developpement-economique-territorial ;
     skos:definition "Living Labs wallons. Un Living Lab regroupe des acteurs publics et privés pour tester des services, des outils ou des usages nouveaux dans des conditions réelles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Living Lab"@fr .
+    skos:prefLabel "Living Lab"@en,
+        "Living Lab"@fr .
 
 d4w:livinglabs-wallonia a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4865,7 +5024,8 @@ d4w:livinglabs-wallonia a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Living Labs wallons soutenus par Creative Wallonia. Ces Living Labs partagent une vision et poursuivent des missions de développement économique, social et sociétal en intégrant l'usager au cœur du processus d'innovation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Living Labs in Wallonia"@fr .
+    skos:prefLabel "Living Labs in Wallonia"@en,
+        "Living Labs in Wallonia"@fr .
 
 d4w:logiciels-aide-decision a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4982,7 +5142,8 @@ d4w:london-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Startups wallonnes présentes à la mission exploratoire, les 19 et 20 avril 2017 à Londres."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "London 2017"@fr .
+    skos:prefLabel "London 2017"@en,
+        "London 2017"@fr .
 
 d4w:luxembourg a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5009,7 +5170,8 @@ d4w:machine-learning a skos:Concept ;
     skos:broader d4w:ict-advanced ;
     skos:definition "Développement, production et déploiement de produits et services liés à l'apprentissage automatique ou apprentissage machine (machine learning).  Le machine learning, champ d'étude de l'intelligence artificielle (IA), se fonde sur les mathématiques et les statistiques afin de donner aux ordinateurs la capacité d'”apprendre”, c’est à dire être capable d'exécuter des tâches sans être spécifiquement programmé pour chacune."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Machine learning  IA "@fr .
+    skos:prefLabel "Machine learning  IA "@en,
+        "Machine learning  IA "@fr .
 
 d4w:madeinwallonia a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5018,7 +5180,8 @@ d4w:madeinwallonia a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "Cette IIS a pour vocation de fédérer un maximum d'initiatives d'innovation portant sur toute la chaîne de valeur du \"Manufacturing\" ayant pour but de (re)développer le tissu industriel Wallon."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MadeInWal"@fr .
+    skos:prefLabel "MadeInWal"@en,
+        "MadeInWal"@fr .
 
 d4w:maison-de-l-emploi a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5378,7 +5541,8 @@ d4w:master-s-degree a skos:Concept ;
     skos:broader d4w:former-et-coacher-graduate-education ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Master's degree"@fr .
+    skos:prefLabel "Master's degree"@en,
+        "Master's degree"@fr .
 
 d4w:materiaux-mixtes-et-composites a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5450,7 +5614,8 @@ d4w:medica-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au Medica du 18 novembre au 21 novembre 2019 à Düsseldorf. Medica est un salon international pour l'équipement médical et hospitalier."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Medica 2019"@fr .
+    skos:prefLabel "Medica 2019"@en,
+        "Medica 2019"@fr .
 
 d4w:medresyst a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5459,7 +5624,8 @@ d4w:medresyst a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "Ancien nom : ReMedIA. L’initiative vise à accélérer la recherche, le développement et la valorisation de nouvelles solutions pour le diagnostic, la prévention et le traitement des maladies inflammatoires et infectieuses. Elle ambitionne de faire de la Région wallonne l’un des hubs internationaux d’excellence et d’innovation en immunologie fondamentale et appliquée."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MedResyst"@fr .
+    skos:prefLabel "MedResyst"@en,
+        "MedResyst"@fr .
 
 d4w:medtech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5522,7 +5688,8 @@ d4w:mind-market a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Porteurs de projets et entreprises impliqués dans le programme d'accompagnement Mind & market. Mind & Market est une collaboration entre l'Université Catholique de Louvain (UCL) et l'association d'entreprises AxE 4.25 asbl."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Mind   Market"@fr .
+    skos:prefLabel "Mind   Market"@en,
+        "Mind   Market"@fr .
 
 d4w:mineraux-non-metalliques a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5540,7 +5707,8 @@ d4w:miscanthus-miscanthus-en-vrac a skos:Concept ;
     skos:broader d4w:isolation-thermique ;
     skos:definition "Acteurs actifs dans la fabrication et la mise en oeuvre d'isolation en vrac à base de miscanthus. Activités liées à ce domaine."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Miscanthus   Miscanthus en vrac"@fr .
+    skos:prefLabel "Miscanthus   Miscanthus en vrac"@en,
+        "Miscanthus   Miscanthus en vrac"@fr .
 
 d4w:mission-industrie-4-0-pologne-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5558,7 +5726,8 @@ d4w:mission-start-ups-new-york-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups sélectionnées dans le cadre du programme d'activités \"early stage\" entre avril et octobre 2024 avec un séjour immersif à New York du 15 au 18 octobre 2024."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Mission start ups New York 2024"@fr .
+    skos:prefLabel "Mission start ups New York 2024"@en,
+        "Mission start ups New York 2024"@fr .
 
 d4w:mission-veille-estonie-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5576,7 +5745,8 @@ d4w:missions-awex-2016 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités et acteurs publics) présents aux missions organisées par l'AWEX en faveur du secteur du numérique, thème d'action prioritaire pour 2016."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2016"@fr .
+    skos:prefLabel "Missions AWEX 2016"@en,
+        "Missions AWEX 2016"@fr .
 
 d4w:missions-awex-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5585,7 +5755,8 @@ d4w:missions-awex-2017 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2017, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2017"@fr .
+    skos:prefLabel "Missions AWEX 2017"@en,
+        "Missions AWEX 2017"@fr .
 
 d4w:missions-awex-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5594,7 +5765,8 @@ d4w:missions-awex-2018 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2018, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2018"@fr .
+    skos:prefLabel "Missions AWEX 2018"@en,
+        "Missions AWEX 2018"@fr .
 
 d4w:missions-awex-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5603,7 +5775,8 @@ d4w:missions-awex-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2019, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2019"@fr .
+    skos:prefLabel "Missions AWEX 2019"@en,
+        "Missions AWEX 2019"@fr .
 
 d4w:missions-awex-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5612,7 +5785,8 @@ d4w:missions-awex-2020 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2020, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2020"@fr .
+    skos:prefLabel "Missions AWEX 2020"@en,
+        "Missions AWEX 2020"@fr .
 
 d4w:missions-awex-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5621,7 +5795,8 @@ d4w:missions-awex-2021 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2021, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2021"@fr .
+    skos:prefLabel "Missions AWEX 2021"@en,
+        "Missions AWEX 2021"@fr .
 
 d4w:missions-awex-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5630,7 +5805,8 @@ d4w:missions-awex-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2022, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2022"@fr .
+    skos:prefLabel "Missions AWEX 2022"@en,
+        "Missions AWEX 2022"@fr .
 
 d4w:missions-awex-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5639,7 +5815,8 @@ d4w:missions-awex-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2023, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2023"@fr .
+    skos:prefLabel "Missions AWEX 2023"@en,
+        "Missions AWEX 2023"@fr .
 
 d4w:missions-awex-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5648,7 +5825,8 @@ d4w:missions-awex-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2024, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2024"@fr .
+    skos:prefLabel "Missions AWEX 2024"@en,
+        "Missions AWEX 2024"@fr .
 
 d4w:missions-awex-2025 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5657,7 +5835,8 @@ d4w:missions-awex-2025 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons (entreprises, universités ou acteurs publics) présents aux missions organisées en 2025, par l'AWEX et ses partenaires, en faveur du secteur du numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Missions AWEX 2025"@fr .
+    skos:prefLabel "Missions AWEX 2025"@en,
+        "Missions AWEX 2025"@fr .
 
 d4w:missions-wbi a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5675,7 +5854,8 @@ d4w:mobile-security-device-management a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Mobile Security  Device management"@fr .
+    skos:prefLabel "Mobile Security  Device management"@en,
+        "Mobile Security  Device management"@fr .
 
 d4w:mobilier-exterieur a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5720,7 +5900,8 @@ d4w:monitoring a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Services de surveillance et de mesure de l'activité informatique ou technique : sensor monitoring, disponibilité d'application, performance réseaux, maintenance prédictive, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Monitoring"@fr .
+    skos:prefLabel "Monitoring"@en,
+        "Monitoring"@fr .
 
 d4w:mouton-feutre-acoustique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5756,7 +5937,8 @@ d4w:moveup-2020-media a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Programme d’accélération de 20 semaines, organisé par Digital Attraxion, à destination de startups qui visent le marché européen. Edition 2020 destinées aux startups actives dans la transformation digitale des médias."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MoveUp 2020 Media"@fr .
+    skos:prefLabel "MoveUp 2020 Media"@en,
+        "MoveUp 2020 Media"@fr .
 
 d4w:moveup-2020-sante a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5801,7 +5983,8 @@ d4w:mtl-connecte-2020 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Acteurs wallons présents à l’édition du MTL connecte : la Semaine Numérique qui s’est tenu du 13 octobre au 18 octobre 2020, sous une forme dématérialisée. Cet événement à portée internationale vise à aborder le champ numérique de façon transversale, à travers ses impacts économiques, sociaux, culturels et environnementaux dans divers secteurs d’activités."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MTL connecte 2020"@fr .
+    skos:prefLabel "MTL connecte 2020"@en,
+        "MTL connecte 2020"@fr .
 
 d4w:mtl-connecte-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5810,7 +5993,8 @@ d4w:mtl-connecte-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au MTL connecte 2022 à Montréal. Cet évènement hybride est un des plus grands événements sur la transformation numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MTL connecte 2022"@fr .
+    skos:prefLabel "MTL connecte 2022"@en,
+        "MTL connecte 2022"@fr .
 
 d4w:mtl-connecte-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5819,7 +6003,8 @@ d4w:mtl-connecte-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au MTL connecte du 10 au 13 octobre 2023 à Montréal. Cet évènement hybride est un des plus grands événements sur la transformation numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MTL connecte 2023"@fr .
+    skos:prefLabel "MTL connecte 2023"@en,
+        "MTL connecte 2023"@fr .
 
 d4w:mtl-connecte-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5828,7 +6013,8 @@ d4w:mtl-connecte-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au MTL connecte du 14 au 19 octobre 2024 à Montréal. Cet évènement est un des plus grands événements sur la transformation numérique. Une mission digitale orientée Intelligence Artificielle (IA) et Industries Culturelles et Créatives (ICC) est organisée en parallèle du salon."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MTL connecte 2024"@fr .
+    skos:prefLabel "MTL connecte 2024"@en,
+        "MTL connecte 2024"@fr .
 
 d4w:musictech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5846,7 +6032,8 @@ d4w:mwc-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) 2016 du 22 au 25 février 2016 à Barcelone. Le salon MWC est dédié à l'industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "MWC 2016"@fr .
+    skos:prefLabel "MWC 2016"@en,
+        "MWC 2016"@fr .
 
 d4w:mwc-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5855,7 +6042,8 @@ d4w:mwc-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) du 27 février au 2 mars 2017 à Barcelone. Le salon MWC est dédié à l'industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "MWC 2017"@fr .
+    skos:prefLabel "MWC 2017"@en,
+        "MWC 2017"@fr .
 
 d4w:mwc-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5864,7 +6052,8 @@ d4w:mwc-2018 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) du 26 février au 3 mars 2018 à Barcelone. Le salon MWC est dédié à l'industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MWC 2018"@fr .
+    skos:prefLabel "MWC 2018"@en,
+        "MWC 2018"@fr .
 
 d4w:mwc-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5873,7 +6062,8 @@ d4w:mwc-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) du 25 février au 28 février 2019 à Barcelone. Le salon MWC est dédié à l’industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MWC 2019"@fr .
+    skos:prefLabel "MWC 2019"@en,
+        "MWC 2019"@fr .
 
 d4w:mwc-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5882,7 +6072,8 @@ d4w:mwc-2020 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) du 24 février au 27 février 2020 à Barcelone. Le salon MWC est dédié à l'industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MWC 2020"@fr .
+    skos:prefLabel "MWC 2020"@en,
+        "MWC 2020"@fr .
 
 d4w:mwc-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5891,7 +6082,8 @@ d4w:mwc-2021 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) du 28 juin au 1er juillet 2021 à Barcelone. Le salon MWC est dédié à l'industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MWC 2021"@fr .
+    skos:prefLabel "MWC 2021"@en,
+        "MWC 2021"@fr .
 
 d4w:mwc-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5900,7 +6092,8 @@ d4w:mwc-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) du  28 février au 3 mars 2022 à Barcelone. Le salon MWC est dédié à l’industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MWC 2022"@fr .
+    skos:prefLabel "MWC 2022"@en,
+        "MWC 2022"@fr .
 
 d4w:mwc-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5909,7 +6102,8 @@ d4w:mwc-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) du  27 février au 2 mars 2023 à Barcelone. Le salon MWC est dédié à l’industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MWC 2023"@fr .
+    skos:prefLabel "MWC 2023"@en,
+        "MWC 2023"@fr .
 
 d4w:mwc-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5918,7 +6112,8 @@ d4w:mwc-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Mobile World Congress (MWC) du  26 au 29 février 2024 à Barcelone. Le salon MWC est dédié à l’industrie de la téléphonie mobile."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "MWC 2024"@fr .
+    skos:prefLabel "MWC 2024"@en,
+        "MWC 2024"@fr .
 
 d4w:nab-2014 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5927,7 +6122,8 @@ d4w:nab-2014 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au  National Association of Broadcasters (NAB) à Las Vegas du 5 au 10 avril 2014.  Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des medias."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "NAB 2014"@fr .
+    skos:prefLabel "NAB 2014"@en,
+        "NAB 2014"@fr .
 
 d4w:nab-2016 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5936,7 +6132,8 @@ d4w:nab-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au National Association of Broadcasters (NAB) à Las Vegas du 16 au 21 avril 2016.  Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des medias."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "NAB 2016"@fr .
+    skos:prefLabel "NAB 2016"@en,
+        "NAB 2016"@fr .
 
 d4w:nab-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5945,7 +6142,8 @@ d4w:nab-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au National Association of Broadcasters (NAB) à Las Vegas du 22 au 27 avril 2017.  Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des medias."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "NAB 2017"@fr .
+    skos:prefLabel "NAB 2017"@en,
+        "NAB 2017"@fr .
 
 d4w:nab-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5954,7 +6152,8 @@ d4w:nab-2018 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au National Association of Broadcasters (NAB) à Las Vegas du 07 au 12 avril 2018. Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des medias."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "NAB 2018"@fr .
+    skos:prefLabel "NAB 2018"@en,
+        "NAB 2018"@fr .
 
 d4w:nab-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5963,7 +6162,8 @@ d4w:nab-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au National Association of Broadcasters (NAB) à Las Vegas du 06 au 11 avril 2019. Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des medias."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "NAB 2019"@fr .
+    skos:prefLabel "NAB 2019"@en,
+        "NAB 2019"@fr .
 
 d4w:nab-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5972,7 +6172,8 @@ d4w:nab-2020 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au National Association of Broadcasters (NAB) à Las Vegas du 18 au 22 avril 2020. Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des medias."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "NAB 2020"@fr .
+    skos:prefLabel "NAB 2020"@en,
+        "NAB 2020"@fr .
 
 d4w:nab-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5981,7 +6182,8 @@ d4w:nab-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au National Association of Broadcasters (NAB) à Las Vegas du 23 au 27 avril 2022. Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des medias."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "NAB 2022"@fr .
+    skos:prefLabel "NAB 2022"@en,
+        "NAB 2022"@fr .
 
 d4w:nab-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5990,7 +6192,8 @@ d4w:nab-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au National Association of Broadcasters (NAB) à Las Vegas du 15 au 19 avril 2023. Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des médias."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "NAB 2023"@fr .
+    skos:prefLabel "NAB 2023"@en,
+        "NAB 2023"@fr .
 
 d4w:nab-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5999,7 +6202,8 @@ d4w:nab-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au National Association of Broadcasters (NAB) à Las Vegas du 14 au 17 avril 2024. Le NAB est le rendez-vous international des professionnels du secteur du divertissement et des médias."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "NAB 2024"@fr .
+    skos:prefLabel "NAB 2024"@en,
+        "NAB 2024"@fr .
 
 d4w:nacelle a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6053,7 +6257,8 @@ d4w:nestup a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Entreprises hébergées par NEST'up. NEST'up est un programme d'accélération de startups initié par Creative Wallonia Engine."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "NEST'Up"@fr .
+    skos:prefLabel "NEST'Up"@en,
+        "NEST'Up"@fr .
 
 d4w:noshaq a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6080,7 +6285,8 @@ d4w:open-source a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans l'open source. Le code source ouvert s'applique aux logiciels libre de redistribution, d'accès au code source et de création de travaux dérivés selon les règles définies par l'Open Source Initiative."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Open source"@fr .
+    skos:prefLabel "Open source"@en,
+        "Open source"@fr .
 
 d4w:operateur-culturel a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6179,7 +6385,8 @@ d4w:padel-2022-2024 a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Projet pilote d’accompagnement individualisé pour 15 PME dans leur transformation digitale durant 12 mois mis en place par le laboratoire PaDEL (People and Digital Ecosytems Lab) de l’UCLouvain Fucam Mons."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "PaDEL 2022 2024"@fr .
+    skos:prefLabel "PaDEL 2022 2024"@en,
+        "PaDEL 2022 2024"@fr .
 
 d4w:paiement-electronique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6242,7 +6449,8 @@ d4w:paris-retail-week-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Paris Retail Week du 19 septembre au 21 septembre 2017 à Paris. L'édition de 2017 est placée sous le signe du Live Retail."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Paris Retail Week 2017"@fr .
+    skos:prefLabel "Paris Retail Week 2017"@en,
+        "Paris Retail Week 2017"@fr .
 
 d4w:paris2016 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6314,7 +6522,8 @@ d4w:patch-management a skos:Concept ;
     skos:broader d4w:proteger-maintenance ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Patch Management"@fr .
+    skos:prefLabel "Patch Management"@en,
+        "Patch Management"@fr .
 
 d4w:patient-connecte-et-e-sante-et-big-data a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6332,7 +6541,8 @@ d4w:pc-mobile-end-point-security a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "PC Mobile End Point Security"@fr .
+    skos:prefLabel "PC Mobile End Point Security"@en,
+        "PC Mobile End Point Security"@fr .
 
 d4w:peinture-naturelle-exterieure a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6368,7 +6578,8 @@ d4w:penetration-testing-red-teaming a skos:Concept ;
     skos:broader d4w:proteger-maintenance ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Penetration Testing   Red Teaming"@fr .
+    skos:prefLabel "Penetration Testing   Red Teaming"@en,
+        "Penetration Testing   Red Teaming"@fr .
 
 d4w:personne-marchant-difficilement a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6476,7 +6687,8 @@ d4w:pki-digital-certificates a skos:Concept ;
     skos:broader d4w:proteger-data-security ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "PKI   Digital Certificates"@fr .
+    skos:prefLabel "PKI   Digital Certificates"@en,
+        "PKI   Digital Certificates"@fr .
 
 d4w:places-marches a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6530,7 +6742,8 @@ d4w:plug-r a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Communauté des acteurs actifs autour du Plug-R, le hub créatif liégeois."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Plug R"@fr .
+    skos:prefLabel "Plug R"@en,
+        "Plug R"@fr .
 
 d4w:pmtic a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6557,7 +6770,8 @@ d4w:pool-experts-d4cw a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Membres du Pool d’experts Digital 4 Circular Wallonia. Ce pool est constitué dans le cadre du projet Digital 4 Circular Wallonia, qui vise à capitaliser sur les technologies numériques pour accélérer le déploiement de l’économie circulaire. Les experts initient les entreprises aux opportunités circulaires et numériques, et les accompagnent dans la mise en place de projets en économie circulaire grâce aux technologies numériques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Pool Experts D4CW"@fr .
+    skos:prefLabel "Pool Experts D4CW"@en,
+        "Pool Experts D4CW"@fr .
 
 d4w:pool-experts-ia a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6566,7 +6780,8 @@ d4w:pool-experts-ia a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Membres du Pool d'Experts IA de Digital Wallonia. Ce Pool d'Experts IA est constitué dans le cadre de l'action Start IA du projet DigitalWallonia4.ai, afin d'accompagner les entreprises dans leur appropriation de l'IA."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Pool Experts IA"@fr .
+    skos:prefLabel "Pool Experts IA"@en,
+        "Pool Experts IA"@fr .
 
 d4w:portugal-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6593,7 +6808,8 @@ d4w:post-production a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Services liés aux opérations de finalisation d'une oeuvre audiovisuelle et/ou numérique : mixage, mastering, montage, retouche, effets spéciaux, bruitage, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Post production"@fr .
+    skos:prefLabel "Post production"@en,
+        "Post production"@fr .
 
 d4w:pouvoir-local a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6611,7 +6827,8 @@ d4w:power-to-gas a skos:Concept ;
     skos:broader d4w:hydrogene-cdv-rewan ;
     skos:definition "Transformation d'électricité en gaz hydrogène."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Power to gas"@fr .
+    skos:prefLabel "Power to gas"@en,
+        "Power to gas"@fr .
 
 d4w:pratiques-agricoles-durables a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6701,7 +6918,8 @@ d4w:programme-life a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Actions soutenues par le Programme LIFE. Ce programme est un instrument de financement de l’Union européenne pour l’environnement et l’action climatique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "LIFE"@fr .
+    skos:prefLabel "LIFE"@en,
+        "LIFE"@fr .
 
 d4w:programme-poles-de-competitivite a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6755,7 +6973,8 @@ d4w:protewin a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "L'initiative vise à développer de nouvelles filières de valorisation des protéines végétales et alternatives pour le secteur de l'alimentation humaine et animale. Cette IIS cible non seulement des cultures dédiées mais aussi les matières végétales écartées et les co-produits de l'industrie agroalimentaire, en intégrant un modèle de valorisation en cascade de l'ensemble des sous-produits générés au cours des processus de transformation des protéines pour une approche multisectorielle."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Protewin"@fr .
+    skos:prefLabel "Protewin"@en,
+        "Protewin"@fr .
 
 d4w:province a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6764,7 +6983,8 @@ d4w:province a skos:Concept ;
     skos:broader d4w:secteur-public ;
     skos:definition "Subdivision régionale belge."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Province"@fr .
+    skos:prefLabel "Province"@en,
+        "Province"@fr .
 
 d4w:reaktor-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6773,7 +6993,8 @@ d4w:reaktor-2018 a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Programme intensif, d'une durée de 16 semaines, ayant pour but d'accélérer la croissance des startups et de les préparer à la levée de fonds (deuxième ou troisième tour de table d'investissement). Ce programme est un moyen rapide de transformer une \"entreprise minimale viable en une entreprise prospère."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Reaktor 2018"@fr .
+    skos:prefLabel "Reaktor 2018"@en,
+        "Reaktor 2018"@fr .
 
 d4w:reaktor-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6782,7 +7003,8 @@ d4w:reaktor-2019 a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Programme intensif, d'une durée de 16 semaines, ayant pour but d'accélérer la croissance des startups et de les préparer à la levée de fonds (deuxième ou troisième tour de table d'investissement). Ce programme est un moyen rapide de transformer une \"entreprise minimale viable en une entreprise prospère. Edition 2019."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Reaktor 2019"@fr .
+    skos:prefLabel "Reaktor 2019"@en,
+        "Reaktor 2019"@fr .
 
 d4w:reaktor-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6791,7 +7013,8 @@ d4w:reaktor-2020 a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Programme intensif, d'une durée de 16 semaines, ayant pour but d'accélérer la croissance des startups et de les préparer à la levée de fonds (deuxième ou troisième tour de table d'investissement). Edition 2020."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Reaktor 2020"@fr .
+    skos:prefLabel "Reaktor 2020"@en,
+        "Reaktor 2020"@fr .
 
 d4w:realiser-une-demarche-administrative-en-ligne a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6998,7 +7221,8 @@ d4w:remanufacturing a skos:Concept ;
     skos:broader d4w:pratiques-de-circularite ;
     skos:definition "Intégration des processus industriels consistant à prolonger la vie de composants issus de certains produits usagés (en panne, en fin de vie, obsolète ou à l'état de déchet) en le mettant dans un état, un niveau de performance et des conditions de garanties identiques ou supérieures à son état d'origine afin de les réutiliser dans la fabrication de ces mêmes produits."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Remanufacturing"@fr .
+    skos:prefLabel "Remanufacturing"@en,
+        "Remanufacturing"@fr .
 
 d4w:remanufacturing-et-optimisation-ressources a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7007,7 +7231,8 @@ d4w:remanufacturing-et-optimisation-ressources a skos:Concept ;
     skos:broader d4w:dis-3 ;
     skos:definition "Aire stratégique consacrée au remanufacturing, à l'optimisation des ressources et aux nouveaux business modèles. Elle inclut la dimension environnementale, circulaire et régénératrice en s'appuyant sur une offre technologique et innovante qui optimise un cycle de vie de fabrication et de conception bas-carbone. Les actions connectées à cette aire capitalisent sur des écosystèmes performants pour développer des solutions qui rationnalisent la consommation des ressources, traitent à moindre coût des matériaux plus durables et augmentent la régénération de la valeur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Remanufacturing   optimisation ressources"@fr .
+    skos:prefLabel "Remanufacturing   optimisation ressources"@en,
+        "Remanufacturing   optimisation ressources"@fr .
 
 d4w:remote-access-vpn a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7016,7 +7241,8 @@ d4w:remote-access-vpn a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Remote Access   VPN"@fr .
+    skos:prefLabel "Remote Access   VPN"@en,
+        "Remote Access   VPN"@fr .
 
 d4w:rencontres a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7034,7 +7260,8 @@ d4w:renow a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "Ancien RENOVATION. Cette IIS vise à structurer l'écosystème wallon autour des objectifs régionaux de rénovation du bâti, avec comme ambition de déployer de nouvelles solutions technologiques et non technologiques pour la transition énergétique verte et l'habitat du futur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ReNOW"@fr .
+    skos:prefLabel "ReNOW"@en,
+        "ReNOW"@fr .
 
 d4w:reseau-communaute-francaise a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7115,7 +7342,8 @@ d4w:rewan a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Acteurs du secteur des énergies renouvelables et de l'efficacité énergétique référencés sur le portail ReWallonia (www.rewallonia.be). Initiative du Cluster TWEED, le portail ReWallonia rassemble tous les acteurs technologiques du secteur des énergies renouvelables en Wallonie et à Bruxelles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ReWaN"@fr .
+    skos:prefLabel "ReWaN"@en,
+        "ReWaN"@fr .
 
 d4w:rfcs a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7151,7 +7379,8 @@ d4w:sambrinvest a skos:Concept ;
     skos:broader d4w:fonds-investissement ;
     skos:definition "Entreprises soutenues par Sambrinvest. Sambrinvest est un acteur de capital à risque actif dans la région de Charleroi - Thuin. Il a pour objet l'accompagnement et le développement des PME."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Sambrinvest"@fr .
+    skos:prefLabel "Sambrinvest"@en,
+        "Sambrinvest"@fr .
 
 d4w:sandboxing a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7160,7 +7389,8 @@ d4w:sandboxing a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Sandboxing"@fr .
+    skos:prefLabel "Sandboxing"@en,
+        "Sandboxing"@fr .
 
 d4w:scale-up a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7178,7 +7408,8 @@ d4w:scanner a skos:Concept ;
     skos:broader d4w:equipement-a-dsiposition ;
     skos:definition "Mise à disposition de scanners dans un lieu de services."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Scanner"@fr .
+    skos:prefLabel "Scanner"@en,
+        "Scanner"@fr .
 
 d4w:scewc-2016 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7187,7 +7418,8 @@ d4w:scewc-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 15 au 17 novembre 2016 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "SCEWC 2016"@fr .
+    skos:prefLabel "SCEWC 2016"@en,
+        "SCEWC 2016"@fr .
 
 d4w:scewc-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7196,7 +7428,8 @@ d4w:scewc-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 14 au 16 novembre 2017 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "SCEWC 2017"@fr .
+    skos:prefLabel "SCEWC 2017"@en,
+        "SCEWC 2017"@fr .
 
 d4w:scewc-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7205,7 +7438,8 @@ d4w:scewc-2018 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 13 au 15 novembre 2018 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SCEWC 2018"@fr .
+    skos:prefLabel "SCEWC 2018"@en,
+        "SCEWC 2018"@fr .
 
 d4w:scewc-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7214,7 +7448,8 @@ d4w:scewc-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 19 au 21 novembre 2019 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SCEWC 2019"@fr .
+    skos:prefLabel "SCEWC 2019"@en,
+        "SCEWC 2019"@fr .
 
 d4w:scewc-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7223,7 +7458,8 @@ d4w:scewc-2021 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 16 au 18 novembre 2021 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SCEWC 2021"@fr .
+    skos:prefLabel "SCEWC 2021"@en,
+        "SCEWC 2021"@fr .
 
 d4w:scewc-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7232,7 +7468,8 @@ d4w:scewc-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 15 au 17 novembre 2022 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SCEWC 2022"@fr .
+    skos:prefLabel "SCEWC 2022"@en,
+        "SCEWC 2022"@fr .
 
 d4w:scewc-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7241,7 +7478,8 @@ d4w:scewc-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 07 au 09 novembre 2023 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SCEWC 2023"@fr .
+    skos:prefLabel "SCEWC 2023"@en,
+        "SCEWC 2023"@fr .
 
 d4w:scewc-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7250,7 +7488,8 @@ d4w:scewc-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart City Expo World Congress (SCEWC) du 05 au 07 novembre 2024 à Barcelone. Le salon SCEWC est dédié aux villes intelligentes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SCEWC 2024"@fr .
+    skos:prefLabel "SCEWC 2024"@en,
+        "SCEWC 2024"@fr .
 
 d4w:sciages-feuillus a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7646,7 +7885,8 @@ d4w:security-certification a skos:Concept ;
     skos:broader d4w:identifier-governance-risk-management ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Security Certification"@fr .
+    skos:prefLabel "Security Certification"@en,
+        "Security Certification"@fr .
 
 d4w:security-operations-center-soc a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7655,7 +7895,8 @@ d4w:security-operations-center-soc a skos:Concept ;
     skos:broader d4w:detecter-security-continous-monitoring ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Security Operations Center  SOC "@fr .
+    skos:prefLabel "Security Operations Center  SOC "@en,
+        "Security Operations Center  SOC "@fr .
 
 d4w:seminaire-et-conference a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7673,7 +7914,8 @@ d4w:senior a skos:Concept ;
     skos:broader d4w:publics-cibles ;
     skos:definition "Personne de plus de 60 ans visée par une action, un service, un produit."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Senior"@fr .
+    skos:prefLabel "Senior"@en,
+        "Senior"@fr .
 
 d4w:sensibilisation-a-la-dimension-genre a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7718,7 +7960,8 @@ d4w:service-public a skos:Concept ;
     skos:broader d4w:publics-cibles ;
     skos:definition "Acteur du service public visé par une action, un service, un produit."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Service public"@fr .
+    skos:prefLabel "Service public"@en,
+        "Service public"@fr .
 
 d4w:services-edtech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7763,7 +8006,8 @@ d4w:single-market-programme-smp a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Actions soutenues par le Single Market Program (SMP). Le SMP est un programme de financement de l’Union Européenne destiné à aider le marché unique à atteindre son plein potentiel."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Single Market Programme  SMP "@fr .
+    skos:prefLabel "Single Market Programme  SMP "@en,
+        "Single Market Programme  SMP "@fr .
 
 d4w:skywin a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7781,7 +8025,8 @@ d4w:slush-2021 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes à Slush du 01 décembre au 02 décembre 2021 à Helsinki. La convention Slush est un des plus grands événements au monde dédié aux startups et à la tech."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Slush 2021"@fr .
+    skos:prefLabel "Slush 2021"@en,
+        "Slush 2021"@fr .
 
 d4w:slush-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7790,7 +8035,8 @@ d4w:slush-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes à Slush du 20 au 21 novembre 2024 à Helsinki. La convention Slush est un des plus grands événements au monde dédié aux startups et à la tech."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Slush 2024"@fr .
+    skos:prefLabel "Slush 2024"@en,
+        "Slush 2024"@fr .
 
 d4w:smart-building a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7799,7 +8045,8 @@ d4w:smart-building a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions durables liées aux bâtiments intelligents (résidentiels et non-résidentiels) : optimisation de la consommation d'électricité, optimisation de la sécurité et du confort de l'utilisateur, matériaux de construction, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart building"@fr .
+    skos:prefLabel "Smart building"@en,
+        "Smart building"@fr .
 
 d4w:smart-cities a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7808,7 +8055,8 @@ d4w:smart-cities a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement intelligent des villes par le numérique : mobilité, environnement, vie des citoyens, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart cities"@fr .
+    skos:prefLabel "Smart cities"@en,
+        "Smart cities"@fr .
 
 d4w:smart-city-award2015 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7817,7 +8065,8 @@ d4w:smart-city-award2015 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Villes et communes wallonnes inscrites au Smart City Award 2015. A l'initiative d'Agoria et de Belfius, ce prix récompense la ville ou commune la plus créative en matière de projet durable."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart city Award 2015"@fr .
+    skos:prefLabel "Smart city Award 2015"@en,
+        "Smart city Award 2015"@fr .
 
 d4w:smart-city-institute a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7826,7 +8075,8 @@ d4w:smart-city-institute a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises et projets soutenus par le Smart City Institute. Le Smart City Institute est ancré dans l'Ecole de Gestion de l'Université de Liège. Il est dédié à la stimulation de la recherche, de la formation, de l'innovation et de l'entrepreneuriat dans le domaine de la ville intelligente. A ce titre, il est désigné Référent Smart Région par son contrat d'objectifs."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart City Institute"@fr .
+    skos:prefLabel "Smart City Institute"@en,
+        "Smart City Institute"@fr .
 
 d4w:smart-city-wallonia a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7835,7 +8085,8 @@ d4w:smart-city-wallonia a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Acteurs participant à l'une ou l'autre édition du congrès-salon Smart City Wallonia au WEX. Le congrès aborde la mise en oeuvre de projets \"Smart City\" à l'échelle du territoire wallon tenant compte de ses spécificités, composé à la fois de grandes villes mais aussi de communes de plus petite taille."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart City Wallonia"@fr .
+    skos:prefLabel "Smart City Wallonia"@en,
+        "Smart City Wallonia"@fr .
 
 d4w:smart-economy a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7844,7 +8095,8 @@ d4w:smart-economy a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions de partage de biens et services (sharing economy) : coworking, covoiturage, crowdfunding, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Economie collaborative   smart economy"@fr .
+    skos:prefLabel "Economie collaborative   smart economy"@en,
+        "Economie collaborative   smart economy"@fr .
 
 d4w:smart-governance a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7853,7 +8105,8 @@ d4w:smart-governance a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions de gouvernance publique intelligente: prise de décision participative en ligne, e-guichet, e-services, ouverture des données, outils d'intégration des organisations, systèmes d'urban planning and management, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart governance"@fr .
+    skos:prefLabel "Smart governance"@en,
+        "Smart governance"@fr .
 
 d4w:smart-grid a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7862,7 +8115,8 @@ d4w:smart-grid a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans la transformation numérique de la distribution d'électricité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart grid"@fr .
+    skos:prefLabel "Smart grid"@en,
+        "Smart grid"@fr .
 
 d4w:smart-industries-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7871,7 +8125,8 @@ d4w:smart-industries-2020 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Entreprises wallonnes présentes au Smart Industries 2020 du 31 mars au 03 avril 2020 à Paris. Le salon Smart Industries est le salon international de l'industrie connectée, collaborative et efficiente."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart Industries 2020"@fr .
+    skos:prefLabel "Smart Industries 2020"@en,
+        "Smart Industries 2020"@fr .
 
 d4w:smart-industries-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7880,7 +8135,8 @@ d4w:smart-industries-2021 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au Smart Industries du 6 septembre au 9 septembre 2021 à Lyon. Le salon Smart Industries est le plus grand rassemblement industriel français dédié à l’industrie connectée, collaborative et efficiente."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart Industries 2021"@fr .
+    skos:prefLabel "Smart Industries 2021"@en,
+        "Smart Industries 2021"@fr .
 
 d4w:smart-lighting a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7889,7 +8145,8 @@ d4w:smart-lighting a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions liés à la gestion intelligente de l'éclairage : Lifi, éclairage à la demande, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart lighting"@fr .
+    skos:prefLabel "Smart lighting"@en,
+        "Smart lighting"@fr .
 
 d4w:smart-logistics a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7898,7 +8155,8 @@ d4w:smart-logistics a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de la logistique intelligente: first-last mile, traçage, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart logistics"@fr .
+    skos:prefLabel "Smart logistics"@en,
+        "Smart logistics"@fr .
 
 d4w:smart-mobility a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7907,7 +8165,8 @@ d4w:smart-mobility a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions de mobilité intelligente : accès multimodal, capteurs, systèmes de contrôle des flux de mobilité, panneaux intelligents, parking intelligent, systèmes embarqués véhicules connectés ou autonomes, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart mobility"@fr .
+    skos:prefLabel "Smart mobility"@en,
+        "Smart mobility"@fr .
 
 d4w:smart-networks-and-services a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7916,7 +8175,8 @@ d4w:smart-networks-and-services a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Smart Networks and Services (ancien MANUNET), avec l'appui de la Commission européenne, est un programme ERA-NET permettant de promouvoir et financer des projets de recherche et de développement transnationaux dans le domaine de la manufacture, au moyen d'appels à projets annuels. Il rassemble les organismes régionaux et nationaux qui utilisent leurs propres programmes de financement pour financer des projets de recherche et développement dans l'industrie manufacturière effectués par des entreprises (des PME, de préférence), des centres de recherche et des universités."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart Networks and Services"@fr .
+    skos:prefLabel "Smart Networks and Services"@en,
+        "Smart Networks and Services"@fr .
 
 d4w:smart-waste-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7925,7 +8185,8 @@ d4w:smart-waste-management a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions liés à la gestion intelligente des déchets : solar-powered waste compactors, smart waste bin sensors, plateforme d'optimisation de la consommation, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart waste management"@fr .
+    skos:prefLabel "Smart waste management"@en,
+        "Smart waste management"@fr .
 
 d4w:smart-water-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7934,7 +8195,8 @@ d4w:smart-water-management a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions liées à la gestion intelligente de l'eau : collecte intelligente des eaux usées, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smart water management"@fr .
+    skos:prefLabel "Smart water management"@en,
+        "Smart water management"@fr .
 
 d4w:smartcities-2015 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7943,7 +8205,8 @@ d4w:smartcities-2015 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Ensemble des participants (villes, institutions et porteurs de projets) à la mission exploratoire \"SmartCities 2015\" du 19 octobre au 27 novembre 2015 en France, à Strasbourg, Issy-les-Moulineaux, Bordeaux et Nantes."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Smartcities 2015"@fr .
+    skos:prefLabel "Smartcities 2015"@en,
+        "Smartcities 2015"@fr .
 
 d4w:smartcities-bn-2015 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7952,7 +8215,8 @@ d4w:smartcities-bn-2015 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Ensemble des participants (villes, institutions et porteurs de projets) à la mission exploratoire \"SmartCities 2015\" du 19 octobre au 27 novembre 2015 en France, à Bordeaux et Nantes."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Smartcities BN 2015"@fr .
+    skos:prefLabel "Smartcities BN 2015"@en,
+        "Smartcities BN 2015"@fr .
 
 d4w:smartcities-si-2015 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7961,7 +8225,8 @@ d4w:smartcities-si-2015 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Ensemble des participants (villes, institutions et porteurs de projets) à la mission exploratoire \"SmartCities 2015\" du 19 octobre au 27 novembre 2015 en France, à Strasbourg et Issy-les-Moulineaux."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Smartcities SI 2015"@fr .
+    skos:prefLabel "Smartcities SI 2015"@en,
+        "Smartcities SI 2015"@fr .
 
 d4w:smartphone a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7970,7 +8235,8 @@ d4w:smartphone a skos:Concept ;
     skos:broader d4w:equipement-a-dsiposition ;
     skos:definition "Mise à disposition de smartphones dans un lieu de services."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smartphone"@fr .
+    skos:prefLabel "Smartphone"@en,
+        "Smartphone"@fr .
 
 d4w:smartphones-tablettes a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7988,7 +8254,8 @@ d4w:social-media-and-brand-monitoring a skos:Concept ;
     skos:broader d4w:detecter-detection-processes ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Social Media   Brand Monitoring"@fr .
+    skos:prefLabel "Social Media   Brand Monitoring"@en,
+        "Social Media   Brand Monitoring"@fr .
 
 d4w:software-security-lifecycle-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7997,7 +8264,8 @@ d4w:software-security-lifecycle-management a skos:Concept ;
     skos:broader d4w:identifier-asset-management ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Software   Security Lifecycle Management"@fr .
+    skos:prefLabel "Software   Security Lifecycle Management"@en,
+        "Software   Security Lifecycle Management"@fr .
 
 d4w:solutions-innovantes-nouveaux-materiaux a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8051,7 +8319,8 @@ d4w:spin-off a skos:Concept ;
     skos:broader d4w:secteur-prive ;
     skos:definition "Société créée sur base d'une licence ou de résultats d'une université."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Spin off"@fr .
+    skos:prefLabel "Spin off"@en,
+        "Spin off"@fr .
 
 d4w:sport a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8069,7 +8338,8 @@ d4w:sporttech a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le secteur de la SportTech. La SportTech est la mise à disposition des technologies au service du sport. Souvent portés par des startups, les projets ont pour objectifs de concevoir des équipements novateurs spécifiquement destinés aux amateurs et aux professionnels de toutes les disciplines sportives."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SportTech"@fr .
+    skos:prefLabel "SportTech"@en,
+        "SportTech"@fr .
 
 d4w:spw a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8096,7 +8366,8 @@ d4w:start-it-cbc a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Start it@CBC est le fruit d'une collaboration entre CBC (le pendant francophone de KBC), le Groupe Sowalfin (structure wallonne qui facilite l'accès au financement des entrepreneurs wallons) et le fonds d'investissement liégeois Noshaq."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Start it@CBC"@fr .
+    skos:prefLabel "Start it@CBC"@en,
+        "Start it@CBC"@fr .
 
 d4w:startup a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8105,7 +8376,8 @@ d4w:startup a skos:Concept ;
     skos:broader d4w:secteur-prive ;
     skos:definition "Jeune société développant une solution innovante et ambitionnant une forte croissance. Pour soutenir cette croissance, elle a souvent besoin d’être financée par des capitaux extérieurs."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Startup"@fr .
+    skos:prefLabel "Startup"@en,
+        "Startup"@fr .
 
 d4w:startup-meet-in-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8114,7 +8386,8 @@ d4w:startup-meet-in-2024 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Start-ups wallonnes présentes au START-UP MEET'IN le 19 novembre 2024 au Cercle du Lac. Evénement de rencontre entre experts et start-ups."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Startup Meet In 2024"@fr .
+    skos:prefLabel "Startup Meet In 2024"@en,
+        "Startup Meet In 2024"@fr .
 
 d4w:startup-village-odoo-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8123,7 +8396,8 @@ d4w:startup-village-odoo-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups sélectionnées pour le Startup Village dans le cadre de l'Odoo Expérience 2024 du 02 au 04 octobre à  Bruxelles Expo."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Startup village Odoo 2024"@fr .
+    skos:prefLabel "Startup village Odoo 2024"@en,
+        "Startup village Odoo 2024"@fr .
 
 d4w:static-application-security-testing-sast a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8132,7 +8406,8 @@ d4w:static-application-security-testing-sast a skos:Concept ;
     skos:broader d4w:proteger-information-protection-processes-and-procedures ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Static Application Security Testing  SAST "@fr .
+    skos:prefLabel "Static Application Security Testing  SAST "@en,
+        "Static Application Security Testing  SAST "@fr .
 
 d4w:stockage-domestique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8204,7 +8479,8 @@ d4w:sxsw-2018 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au SXSW 2018 du 9 au 18 mars 2018 à Austin. Le festival South by Southwest est le festival international d'art et d'innovation technologiques le plus important en Amérique du Nord."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SXSW 2018"@fr .
+    skos:prefLabel "SXSW 2018"@en,
+        "SXSW 2018"@fr .
 
 d4w:sxsw-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8213,7 +8489,8 @@ d4w:sxsw-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au SXSW 2019 du 8 au 17 mars 2019 à Austin. Le festival South by Southwest est le festival international d’art et d’innovation technologiques le plus important en Amérique du Nord."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SXSW 2019"@fr .
+    skos:prefLabel "SXSW 2019"@en,
+        "SXSW 2019"@fr .
 
 d4w:sxsw-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8222,7 +8499,8 @@ d4w:sxsw-2020 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au SXSW 2020 du 13 au 22 mars 2020 à Austin. Le festival South by Southwest est le festival international d'art et d'innovation technologiques le plus important en Amérique du Nord."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SXSW 2020"@fr .
+    skos:prefLabel "SXSW 2020"@en,
+        "SXSW 2020"@fr .
 
 d4w:sxsw-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8231,7 +8509,8 @@ d4w:sxsw-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes présentes au SXSW 2022 du 11 au 20 mars 2022 à Austin. Le festival South by Southwest est le festival international d'art et d'innovation technologiques le plus important en Amérique du Nord."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SXSW 2022"@fr .
+    skos:prefLabel "SXSW 2022"@en,
+        "SXSW 2022"@fr .
 
 d4w:sxsw-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8240,7 +8519,8 @@ d4w:sxsw-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entités wallonnes participants à la mission AWEX-WBI, organisé dans le cadre du SXSW 2023. Le festival South by Southwest est le festival international d'art et d'innovation technologiques le plus important en Amérique du Nord."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SXSW 2023"@fr .
+    skos:prefLabel "SXSW 2023"@en,
+        "SXSW 2023"@fr .
 
 d4w:sxsw-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8249,7 +8529,8 @@ d4w:sxsw-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entités wallonnes participants à la mission AWEX-WBI, organisé dans le cadre du SXSW 2024 qui aura lieu du 9 au 16 mars 2024.. Le festival South by Southwest est le festival international d'art et d'innovation technologiques le plus important en Amérique du Nord."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SXSW 2024"@fr .
+    skos:prefLabel "SXSW 2024"@en,
+        "SXSW 2024"@fr .
 
 d4w:symbiose-industrielle a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8267,7 +8548,8 @@ d4w:synhera a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Hautes écoles membres du réseau synHERA (ex-Adisif). Le réseau synHERA est une interface de promotion et de collaboration entre Hautes écoles et leurs partenaires extérieurs centrées sur les nouvelles technologies."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "SynHERA"@fr .
+    skos:prefLabel "SynHERA"@en,
+        "SynHERA"@fr .
 
 d4w:system-recovery a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8276,7 +8558,8 @@ d4w:system-recovery a skos:Concept ;
     skos:broader d4w:restaurer-recovery-planning ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "System Recovery"@fr .
+    skos:prefLabel "System Recovery"@en,
+        "System Recovery"@fr .
 
 d4w:systeme-expert a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8330,7 +8613,8 @@ d4w:takedown-services a skos:Concept ;
     skos:broader d4w:repondre-mitigation ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Takedown Services"@fr .
+    skos:prefLabel "Takedown Services"@en,
+        "Takedown Services"@fr .
 
 d4w:technologies-diagnostiques a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8465,7 +8749,8 @@ d4w:thefaktory a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Entreprises hébergées par The faktory. The Faktory est un accélérateur et un fond de pré-démarrage privé dédié aux technologies disruptives."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "The Faktory"@fr .
+    skos:prefLabel "The Faktory"@en,
+        "The Faktory"@fr .
 
 d4w:thermique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8492,7 +8777,8 @@ d4w:tnw-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Startups wallonnes présentes au salon The Next Web du 24 mai au 28 mai 2016 à Amsterdam. The Next Web (TNW) est dédié aux startups d'Europe les plus innovantes."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "TNW 2016"@fr .
+    skos:prefLabel "TNW 2016"@en,
+        "TNW 2016"@fr .
 
 d4w:tokyo-game-show-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8501,7 +8787,8 @@ d4w:tokyo-game-show-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au Tokyo Game Show du 21 au 24 septembre 2023. Le Tokyo Game Show est le plus grand salon du jeu vidéo dans le monde."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Tokyo Game Show 2023"@fr .
+    skos:prefLabel "Tokyo Game Show 2023"@en,
+        "Tokyo Game Show 2023"@fr .
 
 d4w:tour a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8519,7 +8806,8 @@ d4w:trail a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "L'objectif de TRAIL (TRusted AI Labs) est de mettre à disposition des acteurs du tissu socio-économique l’expertise et les outils développés dans le domaine de l’intelligence artificielle par les 5 universités francophones et 4 centres de recherche agréés actifs en IA. TRAIL s'inscrit directement le programme DigitalWallonia4.ai pour l'intelligence artificielle en Wallonie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "TRAIL  TRusted AI Labs "@fr .
+    skos:prefLabel "TRAIL  TRusted AI Labs "@en,
+        "TRAIL  TRusted AI Labs "@fr .
 
 d4w:trail4wallonia a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8528,7 +8816,8 @@ d4w:trail4wallonia a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "Cette initiative vise l'excellence en Intelligence artificielle en fédérant l'ensemble de l'écosystème wallon (R&D, formation, entreprises) pour saisir les opportunités d’aujourd’hui et de demain."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "TRAIL"@fr .
+    skos:prefLabel "TRAIL"@en,
+        "TRAIL"@fr .
 
 d4w:traitement-de-donnees a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8573,7 +8862,8 @@ d4w:trakk a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Communauté des acteurs actifs autour du TRAKK. Le TRAKK est un hub créatif namurois."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "TRAKK"@fr .
+    skos:prefLabel "TRAKK"@en,
+        "TRAKK"@fr .
 
 d4w:transport-et-stockage-d-eau a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8609,7 +8899,8 @@ d4w:trends-watch a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Entreprises participant au parcours Trends Watch initié par l'Infopôle Cluster TIC et le Pôle MecaTech."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Trends Watch"@fr .
+    skos:prefLabel "Trends Watch"@en,
+        "Trends Watch"@fr .
 
 d4w:trouver-un-emploi a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8627,7 +8918,8 @@ d4w:twist a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises affiliées et événements du Cluster TWIST. Le Cluster TWIST est le réseau des entreprises wallonnes du secteur des médias."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cluster TWIST"@fr .
+    skos:prefLabel "Cluster TWIST"@en,
+        "Cluster TWIST"@fr .
 
 d4w:uap a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8645,7 +8937,8 @@ d4w:underground-darkweb-investigation a skos:Concept ;
     skos:broader d4w:detecter-detection-processes ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Underground   Darkweb investigation"@fr .
+    skos:prefLabel "Underground   Darkweb investigation"@en,
+        "Underground   Darkweb investigation"@fr .
 
 d4w:unified-threat-management-utm a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8654,7 +8947,8 @@ d4w:unified-threat-management-utm a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Unified Threat Management  UTM "@fr .
+    skos:prefLabel "Unified Threat Management  UTM "@en,
+        "Unified Threat Management  UTM "@fr .
 
 d4w:unite-de-recherche-haute-ecole a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8717,7 +9011,8 @@ d4w:valbowal a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "L'ambition de l'IIS est de proposer différentes pistes permettant d'augmenter la valeur ajoutée de la filière bois wallonne, tout en renforçant sa résilience et sa contribution à la lutte contre les changements climatiques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Valbowal"@fr .
+    skos:prefLabel "Valbowal"@en,
+        "Valbowal"@fr .
 
 d4w:valorisation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8771,7 +9066,8 @@ d4w:vfx-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Délégation de studios wallons spécialisés dans les effets spéciaux (VFX), accueillie par Le Hub Digital Wallonia Montréal, du 9 au 14 novembre 2017. L'objectif de la mission était de rencontrer le secteur des effets visuels québécois."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "VFX 2017"@fr .
+    skos:prefLabel "VFX 2017"@en,
+        "VFX 2017"@fr .
 
 d4w:video-animation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8816,7 +9112,8 @@ d4w:vivatech-2016 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Startups wallonnes présentes au salon Viva Technology 2016, du 30 juin au 2 juillet à Paris. Cet événement international a pour but de réunir les startups, les dirigeants, les investisseurs et les leaders d'opinion du monde entier."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "VivaTech 2016"@fr .
+    skos:prefLabel "VivaTech 2016"@en,
+        "VivaTech 2016"@fr .
 
 d4w:vivatech-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8825,7 +9122,8 @@ d4w:vivatech-2017 a skos:Concept ;
     skos:broader d4w:anciennes-missions-internationales ;
     skos:definition "Startups wallonnes présentes au salon Viva Technology 2017, du 15 juin au 17 juin à Paris. Cet événement international a pour but de réunir les startups, les dirigeants, les investisseurs et les leaders d'opinion du monde entier."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Vivatech 2017"@fr .
+    skos:prefLabel "Vivatech 2017"@en,
+        "Vivatech 2017"@fr .
 
 d4w:vivatech-2018 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8834,7 +9132,8 @@ d4w:vivatech-2018 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups et entreprises wallonnes présentes au salon Viva Technology 2018, du 24 au 26 mai à Paris. Cet événement international a pour but de réunir les startups, les dirigeants, les investisseurs et les leaders d'opinion du monde entier."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Vivatech 2018"@fr .
+    skos:prefLabel "Vivatech 2018"@en,
+        "Vivatech 2018"@fr .
 
 d4w:vivatech-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8843,7 +9142,8 @@ d4w:vivatech-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups et entreprises wallonnes présentes au salon Viva Technology 2019, du 16 au 18 mai à Paris. Cet événement international a pour but de réunir les startups, les dirigeants, les investisseurs et les leaders d'opinion du monde entier."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Vivatech 2019"@fr .
+    skos:prefLabel "Vivatech 2019"@en,
+        "Vivatech 2019"@fr .
 
 d4w:vivatech-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8852,7 +9152,8 @@ d4w:vivatech-2021 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups et entreprises wallonnes présentes au salon Viva Technology 2021, du 16 au 19 juin à Paris. Cet événement international a pour but de réunir les startups, les dirigeants, les investisseurs et les leaders d'opinion du monde entier."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Vivatech 2021"@fr .
+    skos:prefLabel "Vivatech 2021"@en,
+        "Vivatech 2021"@fr .
 
 d4w:vivatech-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8861,7 +9162,8 @@ d4w:vivatech-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups et entreprises wallonnes présentes au salon Viva Technology 2022, du 15 au 18 juin à Paris. Cet événement international a pour but de réunir les startups, les dirigeants, les investisseurs et les leaders d'opinion du monde entier."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Vivatech 2022"@fr .
+    skos:prefLabel "Vivatech 2022"@en,
+        "Vivatech 2022"@fr .
 
 d4w:vivatech-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8870,7 +9172,8 @@ d4w:vivatech-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups et entreprises wallonnes présentes au salon Viva Technology 2023, du 14 au 17 juin à Paris. Cet événement international a pour but de réunir les startups, les dirigeants, les investisseurs et les leaders d'opinion du monde entier."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Vivatech 2023"@fr .
+    skos:prefLabel "Vivatech 2023"@en,
+        "Vivatech 2023"@fr .
 
 d4w:vivatech-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8879,7 +9182,8 @@ d4w:vivatech-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Startups et entreprises wallonnes présentes au salon Viva Technology 2023, du 22 au 25 mai 2024 à Paris. Cet événement international a pour but de réunir les startups, les dirigeants, les investisseurs et les leaders d'opinion du monde entier."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Vivatech 2024"@fr .
+    skos:prefLabel "Vivatech 2024"@en,
+        "Vivatech 2024"@fr .
 
 d4w:vulnerability-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8888,7 +9192,8 @@ d4w:vulnerability-management a skos:Concept ;
     skos:broader d4w:proteger-maintenance ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Vulnerability Management"@fr .
+    skos:prefLabel "Vulnerability Management"@en,
+        "Vulnerability Management"@fr .
 
 d4w:wagralim a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8906,7 +9211,8 @@ d4w:waicf-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises wallonnes participant au World AI Cannes Festival 2024 qui aura lieu du 08 au 10 février 2024. LE WAICF est le premier rendez-vous mondial dédié exclusivement à l’IA, aux leaders de la tech qui y innovent et aux enjeux économiques, humains et sociétaux qui impacteront nos vies dans un avenir proche."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WAICF 2024"@fr .
+    skos:prefLabel "WAICF 2024"@en,
+        "WAICF 2024"@fr .
 
 d4w:wake a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8915,7 +9221,8 @@ d4w:wake a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Acteurs et initiatives liés au label Wake! qui représente la communauté créative numérique en Wallonie.  Sa mission consiste à fédérer, valoriser et animer les acteurs wallons de la créativité numérique issus de secteurs variés impliquant créateurs de contenus, fournisseurs de produits et de services."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Wake!"@fr .
+    skos:prefLabel "Wake!"@en,
+        "Wake!"@fr .
 
 d4w:walchain a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8933,7 +9240,8 @@ d4w:waldigifarm a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Membres, formations et activités, publications métiers éditées par WalDigiFarm, asbl dont la mission est de favoriser et valoriser l'usage du numérique au sein du secteur agricole."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WalDigiFarm"@fr .
+    skos:prefLabel "WalDigiFarm"@en,
+        "WalDigiFarm"@fr .
 
 d4w:walga a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8942,7 +9250,8 @@ d4w:walga a skos:Concept ;
     skos:broader d4w:reseaux ;
     skos:definition "Entreprises du secteur numérique membres du réseau WALGA.  Wallonia Game Association (WALGA) regroupe les studios de développement de jeux vidéo en Wallonie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WALGA"@fr .
+    skos:prefLabel "WALGA"@en,
+        "WALGA"@fr .
 
 d4w:walinnov a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8951,7 +9260,8 @@ d4w:walinnov a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Programme régional dont l'objectif est de développer un mécanisme d'amplification de certains financements obtenus par les universités.  Les projets doivent s'inscrire dans les domaines de la chimie et des matériaux, de la santé, de la mécanique et de l'ingénierie et des technologies de l'information et de la communication, ou encore dans les domaines couverts par les six pôles de compétitivité (l'aérospatial, l'agro-industrie, les sciences du vivant, le génie mécanique, la logistique et la chimie verte) ou les axes transversaux du Plan Marshall 4.0 (relatifs au numérique, à l'économie circulaire et à la créativité)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WALInnov"@fr .
+    skos:prefLabel "WALInnov"@en,
+        "WALInnov"@fr .
 
 d4w:wallcode a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9005,7 +9315,8 @@ d4w:wallifornia-musictech-accelerator a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Organisé par LeanSquare, ce programme vise à soutenir les startups internationales de la MusicTech les plus prometteuses pour les aider à mieux comprendre comment fonctionnent l'industrie musicale et le monde du capital à risque."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Wallifornia MusicTech accelerator"@fr .
+    skos:prefLabel "Wallifornia MusicTech accelerator"@en,
+        "Wallifornia MusicTech accelerator"@fr .
 
 d4w:wallifornia-sporttech-accelerator a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9014,7 +9325,8 @@ d4w:wallifornia-sporttech-accelerator a skos:Concept ;
     skos:broader d4w:programmes-acceleration ;
     skos:definition "Organisé par LeanSquare, ce programme de 10 semaines vise à soutenir les startups internationales Sports/Esports/Gaming +TECH les plus prometteuses pour les aider à mieux comprendre comment fonctionnent les industries du sport/esports/gaming et le monde du capital à risque."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Wallifornia SportTech accelerator"@fr .
+    skos:prefLabel "Wallifornia SportTech accelerator"@en,
+        "Wallifornia SportTech accelerator"@fr .
 
 d4w:wallimage a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9050,7 +9362,8 @@ d4w:wapinvest a skos:Concept ;
     skos:broader d4w:fonds-investissement ;
     skos:definition "Entreprises soutenues par Wapinvest. Wapinvest est un fonds d'investissement régional ayant pour mission d'accompagner et de financer les entreprises de Wallonie Picarde."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Wapinvest"@fr .
+    skos:prefLabel "Wapinvest"@en,
+        "Wapinvest"@fr .
 
 d4w:wasabi-2-0 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9059,7 +9372,8 @@ d4w:wasabi-2-0 a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "L'objectif de l'IIS WASABI 2.0 est de développer, dans les milieux ruraux et (péri)- urbains, une nouvelle filière agro-alimentaire horticole innovante, durable, résiliente, diversifiée, et à taille humaine en privilégiant la production et la transformation de sous-secteurs peu développés (fruits, légumes, animaux à faible indice de conversion tels que les poissons, les volailles)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Wasabi 2.0"@fr .
+    skos:prefLabel "Wasabi 2.0"@en,
+        "Wasabi 2.0"@fr .
 
 d4w:waste2bio a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9068,7 +9382,8 @@ d4w:waste2bio a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "L'initiative Waste2Bio vise à créer, à l'horizon 2026, une plateforme opérationnelle déployant des solutions innovantes basées sur le végétal et les produits biosourcés pour redonner de la valeur aux friches wallonnes de manière temporaire ou définitive."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Waste2Bio"@fr .
+    skos:prefLabel "Waste2Bio"@en,
+        "Waste2Bio"@fr .
 
 d4w:web-summit-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9077,7 +9392,8 @@ d4w:web-summit-2019 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au Web Summit du 04 novembre au 07 novembre 2019 à Lisbonne. Le Web Summit est un des plus grands événements au monde, regroupant une série de conférences sur les technologies."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Web Summit 2019"@fr .
+    skos:prefLabel "Web Summit 2019"@en,
+        "Web Summit 2019"@fr .
 
 d4w:web-summit-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9086,7 +9402,8 @@ d4w:web-summit-2021 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au Web Summit du 01 novembre au 04 novembre 2021 à Lisbonne. Le Web Summit est un des plus grands événements au monde, regroupant une série de conférences sur les technologies."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Web Summit 2021"@fr .
+    skos:prefLabel "Web Summit 2021"@en,
+        "Web Summit 2021"@fr .
 
 d4w:web-summit-2022 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9095,7 +9412,8 @@ d4w:web-summit-2022 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au Web Summit du 01 novembre au 04 novembre 2022 à Lisbonne. Le Web Summit est un des plus grands événements au monde, regroupant une série de conférences sur les technologies."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Web Summit 2022"@fr .
+    skos:prefLabel "Web Summit 2022"@en,
+        "Web Summit 2022"@fr .
 
 d4w:web-summit-2023 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9104,7 +9422,8 @@ d4w:web-summit-2023 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au Web Summit du 13 au 16 novembre 2023 à Lisbonne. Le Web Summit est un des plus grands événements au monde, regroupant une série de conférences sur les technologies."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Web Summit 2023"@fr .
+    skos:prefLabel "Web Summit 2023"@en,
+        "Web Summit 2023"@fr .
 
 d4w:web-summit-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9113,7 +9432,8 @@ d4w:web-summit-2024 a skos:Concept ;
     skos:broader d4w:missions-internationales ;
     skos:definition "Entreprises et startups wallonnes présentes au Web Summit du 11 au 14 novembre 2024 à Lisbonne. Le Web Summit est un des plus grands événements au monde, regroupant une série de conférences sur les technologies."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Web Summit 2024"@fr .
+    skos:prefLabel "Web Summit 2024"@en,
+        "Web Summit 2024"@fr .
 
 d4w:wifi4eu-call-1 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9122,7 +9442,8 @@ d4w:wifi4eu-call-1 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Communes wallonnes lauréates du 1er appel à projets européen WIFI4EU 2018."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WIFI4EU Call 1"@fr .
+    skos:prefLabel "WIFI4EU Call 1"@en,
+        "WIFI4EU Call 1"@fr .
 
 d4w:wifi4eu-call-2 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9131,7 +9452,8 @@ d4w:wifi4eu-call-2 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Communes wallonnes lauréates du 2ème appel à projets européen WIFI4EU 2019."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WIFI4EU Call 2"@fr .
+    skos:prefLabel "WIFI4EU Call 2"@en,
+        "WIFI4EU Call 2"@fr .
 
 d4w:wifi4eu-call-3 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9140,7 +9462,8 @@ d4w:wifi4eu-call-3 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Communes wallonnes lauréates du 3ème appel à projets européen WIFI4EU 2019."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WIFI4EU Call 3"@fr .
+    skos:prefLabel "WIFI4EU Call 3"@en,
+        "WIFI4EU Call 3"@fr .
 
 d4w:wifi4eu-call-4 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9149,7 +9472,8 @@ d4w:wifi4eu-call-4 a skos:Concept ;
     skos:broader d4w:actions-evenements ;
     skos:definition "Communes wallonnes lauréates du 4ème appel à projets européen WIFI4EU 2020."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WIFI4EU Call 4"@fr .
+    skos:prefLabel "WIFI4EU Call 4"@en,
+        "WIFI4EU Call 4"@fr .
 
 d4w:win2wal a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9167,7 +9491,8 @@ d4w:win4c a skos:Concept ;
     skos:broader d4w:initiatives-d-innovation-strategiques-iis ;
     skos:definition "Cette IIS a pour but de mettre en réseau tous les acteurs de l'économie circulaire des matériaux technologiques afin qu'en 2030 la Wallonie soit reconnue comme la Recycling Valley au cœur de l'Europe."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WIN4C"@fr .
+    skos:prefLabel "WIN4C"@en,
+        "WIN4C"@fr .
 
 d4w:win4collective a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9176,7 +9501,8 @@ d4w:win4collective a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "L'appel Win4Collective a pour objectif de renforcer l'expertise et le savoir-faire des Centres de recherche agréés (CRA) dans des domaines clés pour l'avenir de la Wallonie. Cette mesure est le volet régional de la recherche collective."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Win4Collective"@fr .
+    skos:prefLabel "Win4Collective"@en,
+        "Win4Collective"@fr .
 
 d4w:win4company a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9185,7 +9511,8 @@ d4w:win4company a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "La mesure Win4Company vise à aider une entreprise à financer un projet de recherche industrielle ou de développement expérimental.  Ce projet vise soit une acquisition de nouvelle(s) connaissance(s) en termes de progrès scientifique et technique, soit l'utilisation de connaissances pour le développement d'un produit, d'un procédé ou d'un service.  Le projet de recherche déposé peut également permettre un renforcement du potentiel scientifique et technologique de la société."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Win4Company"@fr .
+    skos:prefLabel "Win4Company"@en,
+        "Win4Company"@fr .
 
 d4w:win4doc a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9194,7 +9521,8 @@ d4w:win4doc a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Cette mesure vise à soutenir tout projet de recherche industrielle mené dans le but de réaliser une thèse de doctorat au sein d'une entreprise qui possède un siège d'exploitation en Wallonie. La thèse de doctorat sera réalisée au sein d'une unité de recherche universitaire. La réalisation d'une thèse de doctorat en collaboration avec une autre unité de recherche universitaire (thèse en cotutelle) ou avec un centre de recherche agréé est envisageable. Win4Doc permet à une entreprise (quelle que soit sa forme et sa taille pourvu qu'elle possède un siède social en Wallonie) d'engager un chercheur pour mener une recherche doctorale en collaboration avec une unité de recherche universitaire."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Win4Doc"@fr .
+    skos:prefLabel "Win4Doc"@en,
+        "Win4Doc"@fr .
 
 d4w:win4excellence a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9203,7 +9531,8 @@ d4w:win4excellence a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Win4Excellence est, comme son nom l'indique, un programme d'excellence à destination des universités, en collaboration avec les centres de recherche agréés, qui vise à financer des recherches ambitieuses et fortement positionnées en amont, dans des thématiques porteuses pour la Région wallonne, par exemple dans les Domaines d'Innovation Stratégiques de la RIS3, ou dans les domaines spécifiquement mis en avant dans la Déclaration de politique régionale, comme le spatial ou la cybersécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Win4Excellence"@fr .
+    skos:prefLabel "Win4Excellence"@en,
+        "Win4Excellence"@fr .
 
 d4w:win4expertise a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9212,7 +9541,8 @@ d4w:win4expertise a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Aide aux PME permettant de bénéficier de compétences dont elles ne disposent pas en interne, que ce soit pour du support technique, du conseils en marketing stratégique, de l'aide pour le dépôt d'un brevet ou encore afin de bénéficier de chèques Innovation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Win4Expertise"@fr .
+    skos:prefLabel "Win4Expertise"@en,
+        "Win4Expertise"@fr .
 
 d4w:win4spinoff a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9221,7 +9551,8 @@ d4w:win4spinoff a skos:Concept ;
     skos:broader d4w:programmes-de-financement ;
     skos:definition "Win4Spin-Off entend soutenir la création d'entreprises spin-off et la formation à l'esprit d'entreprise des chercheurs via le développement et la validation de produits, procédés ou services nouveaux destinés à être valorisés industriellement à court terme."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Win4SpinOff"@fr .
+    skos:prefLabel "Win4SpinOff"@en,
+        "Win4SpinOff"@fr .
 
 d4w:wingbydw a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9230,7 +9561,8 @@ d4w:wingbydw a skos:Concept ;
     skos:broader d4w:fonds-investissement ;
     skos:definition "Startups financées par le fonds W.IN.G. by Digital Wallonia, événements et publications liés. W.IN.G. est le fonds d'investissement de la Wallonie pour les startups numériques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "W.IN.G by Digital Wallonia"@fr .
+    skos:prefLabel "W.IN.G by Digital Wallonia"@en,
+        "W.IN.G by Digital Wallonia"@fr .
 
 d4w:wireless-security a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9239,7 +9571,8 @@ d4w:wireless-security a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Wireless Security"@fr .
+    skos:prefLabel "Wireless Security"@en,
+        "Wireless Security"@fr .
 
 d4w:wsl a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9248,7 +9581,8 @@ d4w:wsl a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Entreprises, startups et projets accompagnés par WSL, incubateur spécialisé dans le soutien aux techno-entrepreneurs et les sciences de ingénieur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "WSL"@fr .
+    skos:prefLabel "WSL"@en,
+        "WSL"@fr .
 
 d4w:yncubator a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9257,7 +9591,8 @@ d4w:yncubator a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Projets accompagnés par l'Yncubator. L'Yncubator est un accélérateur pour les étudiants et jeunes diplômés du Brabant Wallon qui souhaitent lancer leur startup."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Yncubator"@fr .
+    skos:prefLabel "Yncubator"@en,
+        "Yncubator"@fr .
 
 d4w:chaleur-verte-cdv-rewan a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9284,7 +9619,8 @@ d4w:identifier-business-environment a skos:Concept ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Identification de l'environnement commercial que l'organisation soutient, y compris son rôle dans la chaîne d'approvisionnement et les organisations placées dans le secteur des infrastructures critiques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Identifier   Business Environment"@fr .
+    skos:prefLabel "Identifier   Business Environment"@en,
+        "Identifier   Business Environment"@fr .
 
 d4w:menuiserie a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9311,7 +9647,8 @@ d4w:scripts a skos:Concept ;
     skos:broader d4w:technique ;
     skos:definition "Catégories utilisées dans le cadre d'automatisations et scripts."@fr ;
     skos:inScheme d4w:historique-et-technique ;
-    skos:prefLabel "Scripts"@fr .
+    skos:prefLabel "Scripts"@en,
+        "Scripts"@fr .
 
 d4w:accessibilite a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9401,7 +9738,8 @@ d4w:former-et-coacher-awareness-and-training a skos:Concept ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Conscientisation du personnel au sein de l'organisation grâce à la sensibilisation et à la formation, y compris des formations basées sur les rôles et les utilisateurs privilégiés."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Former et coacher   Awareness and Training"@fr .
+    skos:prefLabel "Former et coacher   Awareness and Training"@en,
+        "Former et coacher   Awareness and Training"@fr .
 
 d4w:former-et-coacher-graduate-education a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9410,7 +9748,8 @@ d4w:former-et-coacher-graduate-education a skos:Concept ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Enseignement supérieur sépcialisé en cybersécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Former et coacher   Graduate education"@fr .
+    skos:prefLabel "Former et coacher   Graduate education"@en,
+        "Former et coacher   Graduate education"@fr .
 
 d4w:historique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9437,7 +9776,8 @@ d4w:identifier-governance-risk-management a skos:Concept ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Identification des politiques de cybersécurité établies au sein de l'organisation pour définir le programme de gouvernance ainsi que l'identification des exigences légales et réglementaires concernant les capacités de cybersécurité de l'organisation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Identifier   Governance   Risk Management"@fr .
+    skos:prefLabel "Identifier   Governance   Risk Management"@en,
+        "Identifier   Governance   Risk Management"@fr .
 
 d4w:proteger-information-protection-processes-and-procedures a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9473,7 +9813,8 @@ d4w:restaurer-recovery-planning a skos:Concept ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Mise en œuvre les processus et procédures de planification de la reprise pour restaurer les systèmes et / ou les actifs affectés par des incidents de cybersécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Restaurer   Recovery Planning"@fr .
+    skos:prefLabel "Restaurer   Recovery Planning"@en,
+        "Restaurer   Recovery Planning"@fr .
 
 d4w:technique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9518,7 +9859,8 @@ d4w:detecter-security-continous-monitoring a skos:Concept ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Implémentation de technologies de protection pour assurer la sécurité et la résilience des systèmes conformes aux politiques, procédures et accords organisationnels."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Détecter   Security Continous Monitoring"@fr .
+    skos:prefLabel "Détecter   Security Continous Monitoring"@en,
+        "Détecter   Security Continous Monitoring"@fr .
 
 d4w:ecosystemes a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9617,7 +9959,8 @@ d4w:biomasse-cdv-rewan a skos:Concept ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Traitement qui permet de remplacer les énergies fossiles polluantes par une source d'énergie propre et renouvelable."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Biomasse CDV ReWaN"@fr .
+    skos:prefLabel "Biomasse CDV ReWaN"@en,
+        "Biomasse CDV ReWaN"@fr .
 
 d4w:dis-1 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9734,7 +10077,8 @@ d4w:education a skos:Concept ;
     skos:broader d4w:communautes ;
     skos:definition "Ecoles des différents réseaux d'enseignements présents en Wallonie et Espaces Publics Numériques labélisés \"EPN de Wallonie\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Education"@fr .
+    skos:prefLabel "Education"@en,
+        "Education"@fr .
 
 d4w:finition-exterieure a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9770,7 +10114,8 @@ d4w:smartgrids-cdv-rewan a skos:Concept ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Chaîne de valeur verticale présentant les spécificités des smartgrids."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smartgrids CDV ReWaN"@fr .
+    skos:prefLabel "Smartgrids CDV ReWaN"@en,
+        "Smartgrids CDV ReWaN"@fr .
 
 d4w:equipement-a-dsiposition a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9797,7 +10142,8 @@ d4w:ict-networks a skos:Concept ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de produits et services liés aux réseaux informatiques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT   networks"@fr .
+    skos:prefLabel "ICT   networks"@en,
+        "ICT   networks"@fr .
 
 d4w:isolation-acoustique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9869,7 +10215,8 @@ d4w:education-formation a skos:Concept ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de produits et services liés à l’éducation et à la formation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Education et formation"@fr .
+    skos:prefLabel "Education et formation"@en,
+        "Education et formation"@fr .
 
 d4w:s3 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9896,7 +10243,8 @@ d4w:ict-hardware a skos:Concept ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de produits et services lié au matériel informatique et électronique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT   hardware"@fr .
+    skos:prefLabel "ICT   hardware"@en,
+        "ICT   hardware"@fr .
 
 d4w:nature a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9995,7 +10343,8 @@ d4w:stockage-cdv-rewan a skos:Concept ;
     skos:broader d4w:filieres-durables ;
     skos:definition "Chaîne de valeur verticale présentant les spécificités du stockage."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Stockage CDV ReWaN"@fr .
+    skos:prefLabel "Stockage CDV ReWaN"@en,
+        "Stockage CDV ReWaN"@fr .
 
 d4w:communautes a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10049,7 +10398,8 @@ d4w:ict-advanced a skos:Concept ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de technologies numériques de pointes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT   advanced"@fr .
+    skos:prefLabel "ICT   advanced"@en,
+        "ICT   advanced"@fr .
 
 d4w:matieres-premieres-secondaires a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10139,7 +10489,8 @@ d4w:ict-software a skos:Concept ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de développement et déploiement de logiciels."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT   software"@fr .
+    skos:prefLabel "ICT   software"@en,
+        "ICT   software"@fr .
 
 d4w:collection-grappe-cyber-securite a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10157,7 +10508,8 @@ d4w:ict-services a skos:Concept ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de services informatiques (monitoring, paiement électronique, etc.) et numériques (digital marketing, consultance, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "ICT   services"@fr .
+    skos:prefLabel "ICT   services"@en,
+        "ICT   services"@fr .
 
 d4w:initiatives-d-innovation-strategiques-iis a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10268,7 +10620,7 @@ d4w:anciennes-missions-internationales a skos:Concept ;
     skos:prefLabel "Anciennes missions internationales"@fr .
 
 d4w:historique-et-technique a skos:ConceptScheme ;
-    dcterms:created "2024-12-18"^^xsd:date ;
+    dcterms:created "2024-12-25"^^xsd:date ;
     dcterms:identifier "01QTyCOEcVicRW93V74pEu" ;
     dcterms:title "Historique et technique"@fr ;
     owl:versionInfo "0.0.1" ;
@@ -10295,7 +10647,7 @@ d4w:missions-internationales a skos:Concept ;
     skos:prefLabel "Missions internationales"@fr .
 
 d4w:digital-wallonia a skos:ConceptScheme ;
-    dcterms:created "2024-12-18"^^xsd:date ;
+    dcterms:created "2024-12-25"^^xsd:date ;
     dcterms:identifier "26RIxUDYmtJFHKzU2eywzv" ;
     dcterms:title "Data 4 Wallonia"@fr ;
     owl:versionInfo "0.0.1" ;

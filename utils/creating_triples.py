@@ -2,7 +2,6 @@ from rdflib import Graph, URIRef, Namespace
 from rdflib.namespace import SKOS, RDF, DCTERMS, OWL, XSD
 from rdflib import Literal as LiteralRDF
 from utils.data_utils import get_uri, cleaning_label
-from langdetect import detect, detect_langs
 import logging
 from lingua import Language, LanguageDetectorBuilder
 
@@ -11,7 +10,7 @@ ENGLISH_LABELS = []
 languages = [Language.ENGLISH, Language.FRENCH]
 detector = LanguageDetectorBuilder.from_languages(*languages).build()
 
-def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str) -> None:
+def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, detect_english: str) -> None:
     """  
     Adds RDF triples to a graph representing a concept within a taxonomy.  
   
@@ -46,7 +45,7 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules
     taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2))))
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
     cleaned_label = cleaning_label(concept[f"Titre Catégorie L{level}"], uri, rules)
-    lang = detect(cleaned_label)
+    #lang = detect(cleaned_label)
     #if(lang == "en"):
     #    ENGLISH_LABELS.append(cleaned_label) 
     #langs = detect_langs(cleaned_label)[0]
@@ -58,6 +57,8 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules
     language = detector.detect_language_of(cleaned_label) 
     if(language.iso_code_639_1.name == 'EN'):
         ENGLISH_LABELS.append(cleaned_label)
+        if(detect_english == True):
+            taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
     taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
     #taxonomy.add((URIRef(uri), DCTERMS.replaces, URIRef(get_uri(namespace, concept, level-1))))
     taxonomy.add((URIRef(uri), URIRef("http://publications.europa.eu/ontology/euvoc#status"), URIRef("http://publications.europa.eu/resource/authority/concept-status/CURRENT")))
@@ -103,7 +104,7 @@ def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, ru
 
     taxonomy.add((URIRef(get_uri(namespace, concept, 2)), SKOS.hasTopConcept, URIRef(uri)))
 
-def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str) -> None:
+def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, creation_date: str) -> None:
     """
     Adds RDF triples to a graph representing a concept scheme within a taxonomy.  
   
@@ -131,7 +132,7 @@ def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int,
     # Concept
     taxonomy.add((URIRef(uri), RDF.type, SKOS.ConceptScheme))
     
-    taxonomy.add((URIRef(uri), DCTERMS.created, LiteralRDF("2024-12-18", datatype=XSD.date)))
+    taxonomy.add((URIRef(uri), DCTERMS.created, LiteralRDF(f"{creation_date}", datatype=XSD.date)))
     #taxonomy.add((URIRef(uri), DCTERMS.issued, LiteralRDF("")))
     #taxonomy.add((URIRef(uri), DCTERMS.modified, LiteralRDF("")))
     taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"ID catégorie L{level}"])))
