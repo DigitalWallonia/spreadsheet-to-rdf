@@ -106,7 +106,7 @@ def excel_to_rdf(excel_path: str, namespace: str, detect_english: str, creation_
         logging.info(f"Labels changed based on rule {rule}: {CHANGED_LABELS[rule]}")
 
     logging.info(f"English labels {ENGLISH_LABELS}")
-    print(len(ENGLISH_LABELS))
+    # print(len(ENGLISH_LABELS))
     # Save rdf file
     taxo_graph.serialize(output_path, format=output_format)
     turtle_data = taxo_graph.serialize(format=output_format)  
