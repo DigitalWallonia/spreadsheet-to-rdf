@@ -5,6 +5,7 @@ transformation:
   namespace: http://data4wallonia.com/
   default_language: fr
   default_version: "0.0.1"
+  default_status: http://publications.europa.eu/resource/authority/concept-status/CURRENT
   detect_english: True
   creation_date: "2024-12-25"
   rules:  

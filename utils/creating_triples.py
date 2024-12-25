@@ -10,7 +10,7 @@ ENGLISH_LABELS = []
 languages = [Language.ENGLISH, Language.FRENCH]
 detector = LanguageDetectorBuilder.from_languages(*languages).build()
 
-def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, detect_english: str) -> None:
+def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, detect_english: str, default_status: str) -> None:
     """  
     Adds RDF triples to a graph representing a concept within a taxonomy.  
   
@@ -61,10 +61,10 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules
             taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
     taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
     #taxonomy.add((URIRef(uri), DCTERMS.replaces, URIRef(get_uri(namespace, concept, level-1))))
-    taxonomy.add((URIRef(uri), URIRef("http://publications.europa.eu/ontology/euvoc#status"), URIRef("http://publications.europa.eu/resource/authority/concept-status/CURRENT")))
+    taxonomy.add((URIRef(uri), URIRef("http://publications.europa.eu/ontology/euvoc#status"), URIRef(f"{default_status}")))
     taxonomy.add((URIRef(uri), OWL.versionInfo, LiteralRDF(f"{default_version}")))
 
-def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str) -> None:
+def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, default_status: str) -> None:
     """
     Adds RDF triples to a graph representing a top-level concept within a taxonomy.  
   
@@ -98,7 +98,7 @@ def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, ru
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
     taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaning_label(concept[f"Titre Catégorie L{level}"], uri, rules), lang=f"{default_language}")))
     #taxonomy.add((URIRef(uri), DCTERMS.replaces, URIRef(get_uri(namespace, concept, level-1))))
-    taxonomy.add((URIRef(uri), URIRef("http://publications.europa.eu/ontology/euvoc#status"), URIRef("http://publications.europa.eu/resource/authority/concept-status/CURRENT")))
+    taxonomy.add((URIRef(uri), URIRef("http://publications.europa.eu/ontology/euvoc#status"), URIRef(f"{default_status}")))
     taxonomy.add((URIRef(uri), SKOS.topConceptOf, URIRef(get_uri(namespace, concept, 2))))
     taxonomy.add((URIRef(uri), OWL.versionInfo, LiteralRDF(f"{default_version}")))
 
