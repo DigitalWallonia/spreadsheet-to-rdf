@@ -25,6 +25,6 @@ if __name__ == "__main__":
 
     setup_logging(config['transformation']['rules']['logfile'])
     try:  
-        excel_to_rdf(config['input']['default_file'], config['transformation']['namespace'], config['transformation']['detect_english'], config['transformation']['creation_date'], config['output']['default_file'], config['output']['default_format'], config['validation']['server'], config['validation']['version'], config['transformation']['rules']['changes'], config['transformation']['default_language'], config['transformation']['default_version'], config['transformation']['default_status'])  
+        excel_to_rdf(config['input']['default_file'], config['transformation']['namespace'], config['transformation']['create_english_labels'], config['transformation']['creation_date'], config['output']['default_file'], config['output']['default_format'], config['validation']['server'], config['validation']['version'], config['transformation']['rules']['changes'], config['transformation']['default_language'], config['transformation']['default_version'], config['transformation']['default_status'])  
     except Exception as e:  
         print(f"An error occurred: {e}")

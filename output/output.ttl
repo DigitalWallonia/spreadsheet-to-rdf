@@ -9913,7 +9913,8 @@ d4w:promotion-steam a skos:Concept ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Promotion des métiers porteurs et sensibilisation aux STEAM et au numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Promotion STEAM"@fr ;
+    skos:prefLabel "Promotion STEAM"@en,
+        "Promotion STEAM"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:proteger-maintenance a skos:Concept ;
@@ -10040,7 +10041,8 @@ d4w:services a skos:Concept ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Ensemble des prestations et autres caractéristiques des lieux de services et soutien au citoyen et entreprises."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Services"@fr ;
+    skos:prefLabel "Services"@en,
+        "Services"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:dis-3 a skos:Concept ;
@@ -10333,7 +10335,8 @@ d4w:position-business a skos:Concept ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Contexte d'activité des acteurs. Répond aux questions \"Quel est mon rôle ou mon domaine de compétence ?\" et \"Quel est mon positionnement sur le marché?\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Position business"@fr ;
+    skos:prefLabel "Position business"@en,
+        "Position business"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:stockage-cdv-rewan a skos:Concept ;

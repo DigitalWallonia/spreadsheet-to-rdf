@@ -1,12 +1,19 @@
 input:  
-  default_file: input\2024-12-12_taxonomie-complete.xlsx  
+  default_file: input\2024-12-12_taxonomie-complete.xlsx 
+  highest_level: "2"
+  lowest_level: "5"
+  information_by_level:
+    Concept: "Slug Catégorie L"
+    prefLabel: "Titre Catégorie L"
+    Definition: "Description Catégorie L" 
+    altLabel: ""
   
 transformation:  
   namespace: http://data4wallonia.com/
   default_language: fr
   default_version: "0.0.1"
   default_status: http://publications.europa.eu/resource/authority/concept-status/CURRENT
-  detect_english: True
+  create_english_labels: True
   creation_date: "2024-12-25"
   rules:  
     logfile: changes.log  
