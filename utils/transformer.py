@@ -6,7 +6,7 @@ from tqdm import tqdm
 from utils.creating_triples import add_concept, add_conceptScheme, add_topConcept, ENGLISH_LABELS
 from utils.data_utils import rename_columns, shacl_validation, CHANGED_LABELS
 
-def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, EXCEL_INFO: dict, D4W_NAMESPACE: str, rules: list, default_language: str, default_version: str, create_english_labels: str, creation_date: str, default_status: str) -> None:
+def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level: str, D4W_NAMESPACE: str, rules: list, default_language: str, default_version: str, create_english_labels: str, creation_date: str, default_status: str) -> None:
     """
     Adds RDF triples to a given RDF graph based on taxonomy data from an Excel file.  
   
@@ -35,15 +35,15 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, EXCEL_INFO: di
     unique_concepts = taxo_excel.drop_duplicates(subset=f"Titre Catégorie L{level}")
     # Loop over concepts by level
     for index in tqdm(unique_concepts.index, desc=f"Processing Level {level}", colour="green"):
-        if level > int(EXCEL_INFO["highest level"]) + 1: 
+        if level > int(highest_level) + 1: 
             add_concept(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules, default_language, default_version, create_english_labels, default_status)
-        elif level == int(EXCEL_INFO["highest level"]) + 1: 
+        elif level == int(highest_level) + 1: 
             add_topConcept(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules, default_language, default_version, create_english_labels, default_status)
         else: 
             add_conceptScheme(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules, default_language, default_version, create_english_labels, creation_date)
 
 
-def excel_to_rdf(excel_path: str, namespace: str, create_english_labels: str, creation_date: str, output_path: str, output_format: str, validation_server: str, validation_version: str, rules: list, default_language: str, default_version: str, default_status: str) -> None:
+def excel_to_rdf(excel_path: str, highest_level:str, lowest_level: str, namespace: str, create_english_labels: str, creation_date: str, output_path: str, output_format: str, validation_server: str, validation_version: str, rules: list, default_language: str, default_version: str, default_status: str) -> None:
     """
     Converts an Excel file containing taxonomy data to an RDF file and validates the RDF using a SHACL API.  
   
@@ -94,13 +94,13 @@ def excel_to_rdf(excel_path: str, namespace: str, create_english_labels: str, cr
     taxo_graph.bind("eurovoc", EUROVOC_NS)
 
     # Add triples to the rdf by level of the taxonomy
-    for level in range(int(EXCEL_INFO["highest level"]), int(EXCEL_INFO["lowest level"]) + 1):
+    for level in range(int(highest_level), int(lowest_level) + 1):
 
         try:     
-            adding_triples(taxo_excel, taxo_graph, level, EXCEL_INFO, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status) 
+            adding_triples(taxo_excel, taxo_graph, level, highest_level, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status) 
         except:
             rename_columns(taxo_excel, EXCEL_INFO, level) # If the excel columns does not respect the naming convention rename those
-            adding_triples(taxo_excel, taxo_graph, level, EXCEL_INFO, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status)
+            adding_triples(taxo_excel, taxo_graph, level, highest_level, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status)
     
     for rule in rules[0]:
         logging.info(f"Labels changed based on rule {rule}: {CHANGED_LABELS[rule]}")
