@@ -96,7 +96,7 @@ def get_uri(namespace: str, concept:dict, level: int) -> str:
 
     return uri
 
-def rename_columns(excel: pd.DataFrame, excel_info: json, level: int) -> None:
+def rename_columns(excel: pd.DataFrame, prefLabel: str, concept: str, definition: str, altLabel: str, level: int) -> None:
     """  
     Renames columns in a DataFrame based on taxonomy information for a specific level.  
   
@@ -115,15 +115,15 @@ def rename_columns(excel: pd.DataFrame, excel_info: json, level: int) -> None:
     --------  
     None  
     """
-    if excel_info["Information by level"]["altLabel"] == "":
-        excel.rename(columns={excel_info["Information by level"]["Concept"] + str(level): f"Slug Catégorie L{level}", 
-                            excel_info["Information by level"]["prefLabel"] + str(level): f"Titre Catégorie L{level}", 
-                            excel_info["Information by level"]["Definition"] + str(level): f"Definition Catégorie L{level}"}, inplace=True)
+    if altLabel == "":
+        excel.rename(columns={concept + str(level): f"Slug Catégorie L{level}", 
+                            prefLabel + str(level): f"Titre Catégorie L{level}", 
+                            definition + str(level): f"Definition Catégorie L{level}"}, inplace=True)
     else:
-        excel.rename(columns={excel_info["Information by level"]["Concept"] + str(level): f"Slug Catégorie L{level}", 
-                            excel_info["Information by level"]["prefLabel"] + str(level): f"Titre Catégorie L{level}", 
-                            excel_info["Information by level"]["Definition"] + str(level): f"Definition Catégorie L{level}",
-                            excel_info["Information by level"]["altLabel"] + str(level): f"Autre Titre Catégorie L{level}"}, inplace=True)
+        excel.rename(columns={concept + str(level): f"Slug Catégorie L{level}", 
+                            prefLabel + str(level): f"Titre Catégorie L{level}", 
+                            definition + str(level): f"Definition Catégorie L{level}",
+                            altLabel + str(level): f"Autre Titre Catégorie L{level}"}, inplace=True)
         
 def shacl_validation(turtle_data: str, validation_server: str, output_format: str, validation_version: str):
     """  
