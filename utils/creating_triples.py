@@ -4,13 +4,26 @@ from rdflib import Literal as LiteralRDF
 from utils.data_utils import get_uri, cleaning_label
 import logging
 from lingua import Language, LanguageDetectorBuilder
+import phunspell
+import re
 
-
+pspell_fr = phunspell.Phunspell('fr_FR')
+pspell_en = phunspell.Phunspell('en_GB')
 ENGLISH_LABELS = []
 languages = [Language.ENGLISH, Language.FRENCH]
 detector = LanguageDetectorBuilder.from_languages(*languages).build()
 
-def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, default_status: str) -> None:
+def check_mispell(definition):
+    res = re.findall( r'\w+|[^\s\w]+', definition)
+    #res = re.findall( r'\b\S+\b', definition)
+    b = ["," , ";" , "." , '"' , "(" , ")." , ")" , ":" , "?)," , ".)" , ")," , "/" , ");" , ".)." , "\"." , ".)," , "?." , "?" , "\"," , "%" , "#" , "!" , "&" , ".;", ",…." , "…." , "»" , "«" , "…)," , "…)" , "...)." , "@" , ".:" , "…)." , "…" , "'" , "€," , "”," , "'”" , ")-"]
+    result = list(set(res) - set(b))
+    mispelled_fr = pspell_fr.lookup_list(result)
+    mispelled_en = pspell_en.lookup_list(mispelled_fr)
+    if(len(mispelled_en) > 0):
+        logging.info(f" mispelled: {mispelled_en} in {definition}")
+
+def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, default_status: str, checkmispell: str) -> None:
     """  
     Adds RDF triples to a graph representing a concept within a taxonomy.  
   
@@ -40,7 +53,10 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules
 
     #taxonomy.add((URIRef(uri), SKOS.altLabel, LiteralRDF("altLabel", lang="fr")))
     taxonomy.add((URIRef(uri), SKOS.broader, URIRef(get_uri(namespace, concept, level-1))))
-    taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(concept[f"Description Catégorie L{level}"], lang=f"{default_language}")))
+    definition = concept[f"Description Catégorie L{level}"]
+    if(checkmispell == True):
+        check_mispell(definition)
+    taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(definition, lang=f"{default_language}")))
     taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"ID catégorie L{level}"])))
     taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2))))
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
@@ -91,7 +107,7 @@ def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, ru
     # Concept
     taxonomy.add((URIRef(uri), RDF.type, SKOS.Concept)) 
 
-    #taxonomy.add((URIRef(uri), SKOS.altLabel, LiteralRDF("", lang="fr")))
+    #taxonomy.add((URIRef(uri), SKOS.altLabel, LiteralRDF("", lang="fr")))^
     taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(concept[f"Description Catégorie L{level}"], lang=f"{default_language}")))
     taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"ID catégorie L{level}"])))
     taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2))))
