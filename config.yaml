@@ -11,18 +11,18 @@ input:
 transformation:
   #namespace is the base to create URI for the concepts  
   namespace: http://data4wallonia.com/
-  #default_language is the language suffix for labels and definitions
+  #default_language is the default language suffix for labels and definitions
   default_language: fr
   #default_version indicates the version number for the concepts, in the semantic versioning format
   default_version: "0.0.1"
   #default_status is the URI of the default status of a concept
   default_status: http://publications.europa.eu/resource/authority/concept-status/CURRENT
+  #creation_date is the initial date used for the concept scheme
+  creation_date: "2024-12-25"
   #check_mispell, if enabled, verifies typos in the concept definitions checking against French and English vocabularies and report in the log file
   check_mispell: True
   #create_english_labels, if enabled, creates english labels for the concepts if they look like containing English words 
   create_english_labels: True
-  #creation_date is the initial date used for the concept scheme
-  creation_date: "2024-12-25"
   rules:  
     logfile: changes.log
     changes:  
