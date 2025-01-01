@@ -13,7 +13,7 @@ transformation:
   default_language: fr
   default_version: "0.0.1"
   default_status: http://publications.europa.eu/resource/authority/concept-status/CURRENT
-  check_mispell: False
+  check_mispell: True
   create_english_labels: True
   creation_date: "2024-12-25"
   rules:  
