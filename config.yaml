@@ -24,7 +24,6 @@ transformation:
   #create_english_labels, if enabled, creates english labels for the concepts if they look like containing English words 
   create_english_labels: True
   rules:  
-    logfile: changes.log
     changes:  
       - changelabel:  
           from: "-()\/"  
@@ -43,3 +42,5 @@ output:
 validation:  
   server: http://localhost:8080/shacl/d4wta-ap/api/validate  
   version: "v1.0.0"
+
+logfile: changes.log

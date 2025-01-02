@@ -170,10 +170,8 @@ def shacl_validation(turtle_data: str, validation_server: str, output_format: st
     # Check the response  
     if response.status_code == 200:  
         if response.json().get("sh:conforms"):
-            print("Validation successful: No errors in the taxonomy")
-            #print("No error in the taxonomy")
+            logging.info("Validation successful: No errors in the taxonomy")
         else: 
-            print("Validation failed: Errors detected:\n" + response.text) 
-            #print("Errors detected:\n" + response.text)
+            logging.info("Validation failed: Errors detected:\n" + response.text) 
     else:  
-        print("Error with the API call to ITB validator:" + response.status_code + response.text)
+        logging.info("Error with the API call to ITB validator:" + response.status_code + response.text)

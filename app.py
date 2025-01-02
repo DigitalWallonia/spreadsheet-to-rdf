@@ -24,7 +24,7 @@ if __name__ == "__main__":
     args = parser.parse_args() 
     config = load_config(args.config) 
 
-    setup_logging(config['transformation']['rules']['logfile'])
+    setup_logging(config['logfile'])
     try:  
         excel_to_rdf(config)  
     except Exception as e:  
