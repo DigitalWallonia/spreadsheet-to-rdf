@@ -43,7 +43,7 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level:
             add_conceptScheme(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules, default_language, default_version, create_english_labels, creation_date)
 
 
-def excel_to_rdf(excel_path: str, highest_level:str, lowest_level: str, prefLabel: str, concept: str, definition: str, altLabel: str, namespace: str, create_english_labels: str, creation_date: str, output_path: str, output_format: str, validation_server: str, validation_version: str, rules: list, default_language: str, default_version: str, default_status: str, checkmispell: str) -> None:
+def excel_to_rdf(config: dict) -> None:
     """
     Converts an Excel file containing taxonomy data to an RDF file and validates the RDF using a SHACL API.  
   
@@ -69,6 +69,25 @@ def excel_to_rdf(excel_path: str, highest_level:str, lowest_level: str, prefLabe
     None  
 
     """
+    excel_path = config['input']['default_file'] 
+    highest_level = config['input']['highest_level']
+    lowest_level = config['input']['lowest_level']
+    prefLabel = config['input']['information_by_level']['prefLabel']
+    concept = config['input']['information_by_level']['Concept']
+    definition = config['input']['information_by_level']['Definition'] 
+    altLabel = config['input']['information_by_level']['altLabel']
+    namespace = config['transformation']['namespace']
+    create_english_labels = config['transformation']['create_english_labels']
+    creation_date = config['transformation']['creation_date']
+    output_path = config['output']['default_file']
+    output_format = config['output']['default_format']
+    validation_server = config['validation']['server']
+    validation_version = config['validation']['version']
+    rules = config['transformation']['rules']['changes']
+    default_language = config['transformation']['default_language']
+    default_version = config['transformation']['default_version']
+    default_status = config['transformation']['default_status']
+    checkmispell = config['transformation']['check_mispell']
     # Defining static variables
     EXCEL_PATH = excel_path 
     
