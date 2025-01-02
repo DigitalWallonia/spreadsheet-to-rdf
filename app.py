@@ -28,4 +28,4 @@ if __name__ == "__main__":
     try:  
         excel_to_rdf(config)  
     except Exception as e:  
-        print(f"An error occurred: {e}")
+        logging.info(f"An error occurred: {e}")
