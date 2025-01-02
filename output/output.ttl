@@ -32,7 +32,7 @@ d4w:accompagnement-developpement a skos:Concept ;
     skos:broader d4w:chaine-de-services ;
     skos:definition "Initiatives et acteurs impliqués dans la création, l'incubation, l'accélération et l'accompagnement (coaching, rédaction de business plans, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Accompagnement   développement"@fr .
+    skos:prefLabel "Accompagnement et développement"@fr .
 
 d4w:accompagnement-made-different a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -151,7 +151,7 @@ d4w:alimentation a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne de boissons (vins, bières, café, etc.), de nourriture (produits locaux, repas préparés, chocolats, etc.), d'accessoires et d'ustensiles de cuisine (couteaux, plats, pâtisserie, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Alimentation   cuisine"@fr .
+    skos:prefLabel "Alimentation et cuisine"@fr .
 
 d4w:amenagement a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -160,7 +160,7 @@ d4w:amenagement a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne de biens d'équipement et d'aménagement pour la maison (mobilier, décoration, arts de la table, rangement, luminaires, etc.) et le jardin (outils de jardinages, abri, terrasse, semences, plantes, fleurs, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Aménagement   décoration"@fr .
+    skos:prefLabel "Aménagement et décoration"@fr .
 
 d4w:animaux a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -208,7 +208,7 @@ d4w:applications-mobiles a skos:Concept ;
     skos:broader d4w:ict-software ;
     skos:definition "Développement de sites et applications mobiles."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Sites   applications mobiles"@fr .
+    skos:prefLabel "Sites et applications mobiles"@fr .
 
 d4w:apprendre-a-utiliser-du-materiel-numerique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -673,7 +673,7 @@ d4w:bricolage a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés aux outils et au matériel de bricolage (quincaillerie, construction, rénovation, peinture, protection, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Bricolage   construction"@fr .
+    skos:prefLabel "Bricolage et construction"@fr .
 
 d4w:bruxelles a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -691,7 +691,7 @@ d4w:business-angels a skos:Concept ;
     skos:broader d4w:developpement-economique-territorial ;
     skos:definition "Fonds et investisseurs actifs dans le financement et l'accompagnement d'entreprises, dans leur phase de création ou de démarrage."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Fonds d'investissement   business angels"@fr .
+    skos:prefLabel "Fonds d'investissement et business angels"@fr .
 
 d4w:business-continuity-recovery-planning a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -904,7 +904,7 @@ d4w:cellule-module a skos:Concept ;
     skos:broader d4w:photovoltaique-cdv-rewan ;
     skos:definition "Activités liées au développement de cellules ou de modules photovoltaïques."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cellule   module"@fr .
+    skos:prefLabel "Cellule et module"@fr .
 
 d4w:centre-competences a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1500,8 +1500,8 @@ d4w:cloud-virtualisation a skos:Concept ;
     skos:broader d4w:ict-networks ;
     skos:definition "Développement, production et distribution de produits et services liés à l'utilisation de serveurs informatiques distants (cloud computing) ou de systèmes d'exploitation et d'applications sur des serveurs virtuels (virtualisation) : SaaS (Software as a Service), PaaS (Platform as a Service), IaaS (Infrastructure as a Service), etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Cloud computing   virtualisation"@en,
-        "Cloud computing   virtualisation"@fr .
+    skos:prefLabel "Cloud computing et virtualisation"@en,
+        "Cloud computing et virtualisation"@fr .
 
 d4w:cluster a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1589,7 +1589,7 @@ d4w:cms-developpement-web a skos:Concept ;
     skos:broader d4w:ict-software ;
     skos:definition "Services et développement de sites Web ou de logiciels de développement de sites web et systèmes de gestion de contenu."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "CMS   développement Web"@fr .
+    skos:prefLabel "CMS et développement Web"@fr .
 
 d4w:coding a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1608,7 +1608,7 @@ d4w:collecte-et-tri-innovants a skos:Concept ;
     skos:broader d4w:pratiques-de-circularite ;
     skos:definition "Intégration du déploiement de solutions techniques innovantes en matière de collecte et de tri."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Collecte   tri innovants"@fr .
+    skos:prefLabel "Collecte et tri innovants"@fr .
 
 d4w:combustion-directe a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1626,7 +1626,7 @@ d4w:commercialisation-fourniture a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises centrés sur la commercialisation, la distribution et la fourniture de produits et d'équipements, pour les organisations dont le cœur de métier n'est ni la production, ni l'installation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Commercialisation   Fourniture"@fr .
+    skos:prefLabel "Commercialisation et Fourniture"@fr .
 
 d4w:commune a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1653,7 +1653,7 @@ d4w:composants-electroniques a skos:Concept ;
     skos:broader d4w:ict-hardware ;
     skos:definition "Développement, production et distribution de produits et services liés aux composants et systèmes électroniques et informatiques : cartes électroniques, circuits intégrés, composants passifs, semi-conducteurs, cartes mère, disques durs, processeurs, RFID, NFC, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Composants électroniques   informatiques"@fr .
+    skos:prefLabel "Composants électroniques et informatiques"@fr .
 
 d4w:conception-et-construction-des-batiments a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1662,7 +1662,7 @@ d4w:conception-et-construction-des-batiments a skos:Concept ;
     skos:broader d4w:dis-4 ;
     skos:definition "Aire stratégique considérant les outils de conception, les méthodes et les éléments constructifs au service d’une meilleure performance énergétique et environnementale de la construction et des bâtiments. Les projets reliés à cette aire contribuent à l'accélération des rénovations performantes, en ce compris la rénovation du patrimoine bâti. Les actions se consacrent notamment au développement d'enveloppes intelligentes ainsi qu’au déploiement de matériaux, composants et structures à faible impact environnemental."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Conception   construction des bâtiments"@fr .
+    skos:prefLabel "Conception et construction des bâtiments"@fr .
 
 d4w:concours a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1708,7 +1708,7 @@ d4w:consultance-audit a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Conseils, services et gestion de projets informatiques. Identification et évaluation des solutions ou risques liés à l'informatique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Consultance   audit informatique"@fr .
+    skos:prefLabel "Consultance et audit informatique"@fr .
 
 d4w:content-filtering-monitoring a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1717,8 +1717,8 @@ d4w:content-filtering-monitoring a skos:Concept ;
     skos:broader d4w:proteger-protective-technology ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Content Filtering   Monitoring"@en,
-        "Content Filtering   Monitoring"@fr .
+    skos:prefLabel "Content Filtering et Monitoring"@en,
+        "Content Filtering et Monitoring"@fr .
 
 d4w:contenus-numeriques a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -1930,7 +1930,7 @@ d4w:demantelement-recyclage a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liées au démantèlement et au recyclage."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Démantèlement   Recyclage"@fr .
+    skos:prefLabel "Démantèlement et Recyclage"@fr .
 
 d4w:des-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2216,7 +2216,7 @@ d4w:distribution-et-consommation-et-logistique a skos:Concept ;
     skos:broader d4w:dis-1 ;
     skos:definition "Aire stratégique dédiée à la recherche, au développement et aux innovations dans le domaine des opérations liées conditionnement du produit final, à sa distribution aux utilisateurs et à une meilleure connaissance des flux tout au long de la vie du produit ou du service. Les activités reliées à cette aire comprennent également le traçage des produits et de leurs composants, l'optimisation de la supply chain, le développement de la logistique inverse et sa synchronisation avec la logistique directe, ainsi que les opérations liées à la récupération des produits. L'aspect \"demande\" y est également abordé sous l'angle de développement des marchés, afin de mieux connaître les besoins et de stimuler les demandes pour des matériaux circulaires."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Distribution   consommation   logistique"@fr .
+    skos:prefLabel "Distribution et consommation et logistique"@fr .
 
 d4w:distribution-installation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2225,7 +2225,7 @@ d4w:distribution-installation a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liés à l'installation de produits et d'équipements ou à la réalisation de travaux de construction sur des projets d'infrastructure (EPC : Engineering, Procurement and Construction)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Distribution   Installation"@fr .
+    skos:prefLabel "Distribution et Installation"@fr .
 
 d4w:documentation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2375,7 +2375,7 @@ d4w:eau-forage-captage a skos:Concept ;
     skos:broader d4w:eau-durable-metiers ;
     skos:definition "Concerne tous les types de prises d’eau dans le milieu naturel, eaux souterraines ou de surface, y compris pour la géothermie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Forages   captages"@fr .
+    skos:prefLabel "Forages et captages"@fr .
 
 d4w:eau-optimisation-a-l-usage-d-eau a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2474,7 +2474,7 @@ d4w:ecosysteme-humain-technologies a skos:Concept ;
     skos:broader d4w:ecosystemes ;
     skos:definition "L’écosystème \"Humain et technologie\" vise à répondre aux enjeux humains et sociétaux dans le contexte numérique et des technologies. Cet écosystème recouvre : la responsabilité sociétale des organisations liée au numérique, les dimensions humaines de l'organisation impactées par le numérique (compétences, métiers gouvernance, management, culture d’entreprise, valeurs, inclusion, etc.), la conduite du changement et des politiques RH (Ressources Humaines), l'environnement Digital Workplace (technologies de collaborations, communication, gestion managériale, intelligence collective, gouvernance), les technologies utiles à la gestion et au développement des compétences (recrutement, screening, évaluation, développement et formation, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Ecosystème humain   technologies"@fr .
+    skos:prefLabel "Ecosystème humain et technologies"@fr .
 
 d4w:ecosysteme-societe-numerique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2501,7 +2501,7 @@ d4w:education-promotion-sensibilisation a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liées à l'éducation, la promotion ou la sensibilisation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Education   promotion   sensibilisation"@fr .
+    skos:prefLabel "Education et promotion et sensibilisation"@fr .
 
 d4w:electrochimique-batteries-a-circulation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2528,7 +2528,7 @@ d4w:electronique a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés au matériel high-tech, informatique et électroménager : smartphones, montres connectées, caméras, scanners, ordinateurs, imprimantes, ebooks, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Electronique   informatique   électroménager"@fr .
+    skos:prefLabel "Electronique et informatique et électroménager"@fr .
 
 d4w:electrostatique-magnetique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2601,7 +2601,7 @@ d4w:emploi a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Services en ligne liés à la gestion de carrière et le recrutement : intérim, vacatures, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Emploi   recrutement"@fr .
+    skos:prefLabel "Emploi et recrutement"@fr .
 
 d4w:emtech-2017 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2629,8 +2629,8 @@ d4w:energy-environment a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions numériques au service de la transition écologique : gestion et utilisation durable et intelligente des déchets, des ressources, de l’eau, de l'air, etc.; amélioration de l'impact du numérique (greenIT); économie circulaire; éco-conception; mobilité durable; ville durable et intelligente; lowTech, etc. au niveau du territoire, des entreprises, des usages citoyens, des écoles et du secteur du numérique lui-même."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Energy   environment"@en,
-        "Energy   environment"@fr .
+    skos:prefLabel "Energy et environment"@en,
+        "Energy et environment"@fr .
 
 d4w:enseignant a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2738,7 +2738,7 @@ d4w:entretien-et-reparation-et-reconditionnement a skos:Concept ;
     skos:broader d4w:pratiques-de-circularite ;
     skos:definition "Application de l'entretien, de la réparation ou encore du reconditionnement/remise à neuf d'un bien permettent de prolonger la durée de vie des biens."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Entretien   réparation   reconditionnement"@fr .
+    skos:prefLabel "Entretien et réparation et reconditionnement"@fr .
 
 d4w:epn a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2783,7 +2783,7 @@ d4w:equipements-services-reseaux a skos:Concept ;
     skos:broader d4w:ict-networks ;
     skos:definition "Développement, production et distribution de produits et services liés à l'équipement permettant l'interconnexion de machines au sein d'un réseau ou de réseaux informatiques entre eux : switch, VPN (Virtual Private Network), routeur, gateway, bridges, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Equipements   services réseaux"@fr .
+    skos:prefLabel "Equipements et services réseaux"@fr .
 
 d4w:erasmus a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2820,7 +2820,7 @@ d4w:etudes-conception a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liés aux missions de conseils, à la réalisation d'audit, à la réalisation d'études, à la conception de produits ou d'infrastructures, ou encore au montage de projets."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Etudes   conception"@fr .
+    skos:prefLabel "Etudes et conception"@fr .
 
 d4w:etudiant-de-l-enseignement-superieur a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2868,7 +2868,7 @@ d4w:evaluation a skos:Concept ;
     skos:broader d4w:education-formation ;
     skos:definition "Initatives d'évaluation et de certification des compétences."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Evaluation   validation"@fr .
+    skos:prefLabel "Evaluation et validation"@fr .
 
 d4w:experts-5g a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2887,7 +2887,7 @@ d4w:exposition a skos:Concept ;
     skos:broader d4w:outils-de-promotion ;
     skos:definition "Salon ou expositions visant la  promotion d'une thématique ou à la sensibilisation à ce sujet."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Salon   Exposition"@fr .
+    skos:prefLabel "Salon et Exposition"@fr .
 
 d4w:extrakktion-by-bep a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2915,7 +2915,7 @@ d4w:fabrication-production a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liés à la fabrication et production de produits et d'équipements, à la performance opérationnelle des processus de fabrication."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Fabrication   Production"@fr .
+    skos:prefLabel "Fabrication et Production"@fr .
 
 d4w:factories-of-the-future-fof a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -2953,7 +2953,7 @@ d4w:femmes-numerique a skos:Concept ;
     skos:broader d4w:ecosystemes ;
     skos:definition "Initiatives et acteurs impliqués dans l'amélioration de l'accès des femmes aux filières, carrières et usages du numérique en Wallonie."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Femmes   numérique"@fr .
+    skos:prefLabel "Femmes et numérique"@fr .
 
 d4w:fens-2016 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3126,7 +3126,7 @@ d4w:financement-participation a skos:Concept ;
     skos:broader d4w:chaine-de-services ;
     skos:definition "Initiatives et acteurs de soutien, d'accompagnement, de promotion, de la recherche, etc. ayant un rôle de financement."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Financement   participation"@fr .
+    skos:prefLabel "Financement et participation"@fr .
 
 d4w:fintech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3257,7 +3257,7 @@ d4w:formation-certification a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liés à la proposition de formations et à la délivrance de certificats de réussite à l'issue de la formation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Formation   Certification"@fr .
+    skos:prefLabel "Formation et Certification"@fr .
 
 d4w:formation-education-aux-medias a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3284,7 +3284,7 @@ d4w:formation-medias a skos:Concept ;
     skos:broader d4w:education-formation ;
     skos:definition "Formation à la création de contenus numériques et aux outils utilisés pour la création de ces contenus."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Formation aux métiers des Arts   des Médias numériques"@fr .
+    skos:prefLabel "Formation aux métiers des Arts et des Médias numériques"@fr .
 
 d4w:formation-tic a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3587,7 +3587,7 @@ d4w:gestion-financiere-et-administrative a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liées à la gestion financière et administrative d'une entreprise : respect des formalités et obligations légales, stratégie financière, budgétisation et gestion de la santé économique de l'entreprise."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Gestion financière   administrative"@fr .
+    skos:prefLabel "Gestion financière et administrative"@fr .
 
 d4w:gestion-securite a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3605,7 +3605,7 @@ d4w:gestion-securite-et-assurance-qualite-et-durabilite a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liées à l'amélioration continue de la sécurité, de la qualité et de l'impact sociétal et environnemental d'une organisation. Gestionnaire en lien direct avec la direction générale."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Gestion sécurité   assurance qualité   durabilité"@fr .
+    skos:prefLabel "Gestion sécurité et assurance qualité et durabilité"@fr .
 
 d4w:gitex-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3687,8 +3687,8 @@ d4w:governance-risk-compliance-grc a skos:Concept ;
     skos:broader d4w:identifier-governance-risk-management ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Governance, Risk   Compliance  GRC "@en,
-        "Governance, Risk   Compliance  GRC "@fr .
+    skos:prefLabel "Governance, Risk et Compliance  GRC "@en,
+        "Governance, Risk et Compliance  GRC "@fr .
 
 d4w:greenwin a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3844,7 +3844,7 @@ d4w:hopital-du-futur-et-prevention a skos:Concept ;
     skos:broader d4w:dis-2 ;
     skos:definition "Aire stratégique dédiée au renforcement de la recherche dans la prévention, l'innovation sociale et les nouvelles organisations. Les projets associés à cette aire contribuent à l'émergence d'un \"hôpital du futur\" favorisant la qualité des soins prodigués, leur accessibilité, ainsi que le bien être des patients, des visiteurs et du personnel."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hôpital du futur   prévention"@fr .
+    skos:prefLabel "Hôpital du futur et prévention"@fr .
 
 d4w:horeca-tourisme a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3853,7 +3853,7 @@ d4w:horeca-tourisme a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés au domaines de l’horeca et du tourisme : hôtels, restaurants, voyages, excursions, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Horeca   tourisme"@fr .
+    skos:prefLabel "Horeca et tourisme"@fr .
 
 d4w:horizon-2020 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -3882,8 +3882,8 @@ d4w:hosting-housing a skos:Concept ;
     skos:broader d4w:ict-networks ;
     skos:definition "Développement, production et distribution de produits et services d'hébergement de serveurs, services et site web."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Hosting   housing"@en,
-        "Hosting   housing"@fr .
+    skos:prefLabel "Hosting et housing"@en,
+        "Hosting et housing"@fr .
 
 d4w:hub-c a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4114,7 +4114,7 @@ d4w:incubateur a skos:Concept ;
     skos:broader d4w:developpement-economique-territorial ;
     skos:definition "Organismes d'accompagnement (coworking, formation, coaching, etc.) pour les startups lors de leur phase de conception (incubation) ou de croissance (accélération)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Incubateur   accélérateur"@fr .
+    skos:prefLabel "Incubateur et accélérateur"@fr .
 
 d4w:independant a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4251,7 +4251,7 @@ d4w:interfacage-interoperabilite-avances a skos:Concept ;
     skos:broader d4w:ict-software ;
     skos:definition "Développement, production et déploiement de produits et services liés à l'intefaçage du monde réel aux machines, de machine au monde réel, de machine à machine, de machine à humain, de système informatique à machine, etc. Interopérabilité implique une interconnexion préalable.  On ne peut parler d'interopérabilité que s'il y a des interfaces complètement définies, connues et librement utilisables, sans restriction d'accès."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Interfaçage   interopérabilité avancés"@fr .
+    skos:prefLabel "Interfaçage et interopérabilité avancés"@fr .
 
 d4w:interface-recherche-entreprise a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4269,7 +4269,7 @@ d4w:international-exportation a skos:Concept ;
     skos:broader d4w:chaine-de-services ;
     skos:definition "Initiatives et acteurs de soutien, d'accompagnement, de promotion, de la recherche, etc. impliqués dans le développement international d'un secteur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "International   exportation"@fr .
+    skos:prefLabel "International et exportation"@fr .
 
 d4w:interreg a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4318,7 +4318,7 @@ d4w:iot a skos:Concept ;
     skos:broader d4w:ict-advanced ;
     skos:definition "Développement, production et déploiement de produits et services liés aux objets physiques connectés à Internet (capteurs, senseurs, domotique, quantified self, wearables, etc.), notamment grâce à l'utilisation de QR code, RFID, Laser, bluetooth, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Internet des objets  IoT    capteurs"@fr .
+    skos:prefLabel "Internet des objets  IoT  et capteurs"@fr .
 
 d4w:iot-convention-europe-2016 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4467,7 +4467,7 @@ d4w:jumeau-simulation-numerique a skos:Concept ;
     skos:broader d4w:ict-advanced ;
     skos:definition "Services liés à la simulation de phénomènes physiques réels (simulation numérique) : conception virtuelle de produits et modélisation de lignes de production, tests d'implantation de bâtiments, résistance de matériaux, crash tests,  prévisions météorologiques, etc. ou réplique numérique d'un objet, d'un processus ou d'un système (jumeau numérique - digital twin)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Jumeau   simulation numériques"@fr .
+    skos:prefLabel "Jumeau et simulation numériques"@fr .
 
 d4w:key-digital-technologies-joint-undertaking a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4568,7 +4568,7 @@ d4w:langages-programmation a skos:Concept ;
     skos:broader d4w:ict-software ;
     skos:definition "Services et langages de programmation informatique. Outils et environnements de développement et d'aide à la programmation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Plateformes   langages de programmation"@fr .
+    skos:prefLabel "Plateformes et langages de programmation"@fr .
 
 d4w:laureats-aap-chantiers-et-services-circulaires-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4676,7 +4676,7 @@ d4w:laureats-aap-poc-idf-circularite a skos:Concept ;
     skos:broader d4w:laureats-awards ;
     skos:definition "Bénéficiaires lauréats des appels à projets POC IDF & Circularité 2022 et 2024. Lancés par le pôle MecaTech et ses partenaires, les PoC's ont pour but de financer des mises en situation réelle et permettront de tester des solutions technologiques dans des entreprises manufacturières wallonnes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Lauréats AAP POC IDF   Circularité"@fr .
+    skos:prefLabel "Lauréats AAP POC IDF et Circularité"@fr .
 
 d4w:laureats-aap-poc-proof-of-circularity-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -4884,8 +4884,8 @@ d4w:leasing-outsourcing a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Services de mise à disposition de matériel et de ressources informatiques : gestion administrative et financière de matériel, maintenance, installation de logiciels, sécurité, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Leasing   outsourcing informatique"@en,
-        "Leasing   outsourcing informatique"@fr .
+    skos:prefLabel "Leasing et outsourcing informatique"@en,
+        "Leasing et outsourcing informatique"@fr .
 
 d4w:legaltech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5043,7 +5043,7 @@ d4w:logiciels-bureautique a skos:Concept ;
     skos:broader d4w:ict-software ;
     skos:definition "Services et développement de logiciels de bureautique et de maximisation de la productivité  : messageries, tableurs, publication assistée par ordinateur (PAO), mindmapping, Gantt, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Logiciels de bureautique   de productivité"@fr .
+    skos:prefLabel "Logiciels de bureautique et de productivité"@fr .
 
 d4w:logiciels-ecommerce a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5052,7 +5052,7 @@ d4w:logiciels-ecommerce a skos:Concept ;
     skos:broader d4w:ict-software ;
     skos:definition "Services et développement de logiciels liés à l'e-commerce et à la vente en ligne : CMS, plateformes, boutique en ligne, place de marchés, solutions de paiement, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Logiciels   sites e commerce"@fr .
+    skos:prefLabel "Logiciels et sites e commerce"@fr .
 
 d4w:logiciels-educatifs a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5079,7 +5079,7 @@ d4w:logiciels-metiers a skos:Concept ;
     skos:broader d4w:ict-software ;
     skos:definition "Services et développement de logiciels spécifiques à certains secteurs : agriculture, industries, santé et médecine, construction, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Logiciels métiers   sectoriels"@fr .
+    skos:prefLabel "Logiciels métiers et sectoriels"@fr .
 
 d4w:logiciels-systemes a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5115,7 +5115,7 @@ d4w:logistique-et-supply-chain a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liées à la logistique et la supply chain au sein d'une entreprise : approvisionnement, stockage, transport, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Logistique   supply chain"@fr .
+    skos:prefLabel "Logistique et supply chain"@fr .
 
 d4w:logistique-inverse a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5217,7 +5217,7 @@ d4w:marche-aeronautique-aerospatial a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur de l'aéronautique et aérospatial. Ce secteur concerne les industries des secteurs de l'aéronautique et de l'espace, mais également l'industrie de l'armement (avions, drones, missiles)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché aéronautique   aérospatial"@fr .
+    skos:prefLabel "Marché aéronautique et aérospatial"@fr .
 
 d4w:marche-agriculture a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5262,7 +5262,7 @@ d4w:marche-bois-ameublement a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement à l'industrie bois et ameublement (panneau à base de bois, élément de construction, emballage bois, fabrication de meubles, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché bois   ameublement"@fr .
+    skos:prefLabel "Marché bois et ameublement"@fr .
 
 d4w:marche-communication-et-marketing a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5271,7 +5271,7 @@ d4w:marche-communication-et-marketing a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur de la communication et du marketing. Le secteur communication et marketing combine des canaux et des outils qu'une entreprise utilise pour communiquer vers un groupe cible : relations publiques, événements, publicité, marketing direct, vente personnelle, médias sociaux, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché communication   marketing"@fr .
+    skos:prefLabel "Marché communication et marketing"@fr .
 
 d4w:marche-construction a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5298,7 +5298,7 @@ d4w:marche-distribution a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur du commerce de détail et de la distribution."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché distribution   commerce de détail"@fr .
+    skos:prefLabel "Marché distribution et commerce de détail"@fr .
 
 d4w:marche-divertissement a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5316,7 +5316,7 @@ d4w:marche-eau-dechets a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur de la production et distribution d'eau, ainsi que de l'assainissement, de la gestion des déchets et de la dépollution."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché eau   déchets"@fr .
+    skos:prefLabel "Marché eau et déchets"@fr .
 
 d4w:marche-electronique-electromecanique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5325,7 +5325,7 @@ d4w:marche-electronique-electromecanique a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement aux secteurs de l'électronique et de l’électromécanique (techniques de l’électricité et de la mécanique industrielle)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché électronique   électromécanique"@fr .
+    skos:prefLabel "Marché électronique et électromécanique"@fr .
 
 d4w:marche-energie a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5343,7 +5343,7 @@ d4w:marche-enseignement-et-formation a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur de l'enseignement, de la formation ou de l'emploi. Enseignement, éducation, formation, conseil en orientation professionnelle, informations sur les métiers, aide à la recherche d'emploi, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché enseignement   formation   emploi"@fr .
+    skos:prefLabel "Marché enseignement et formation et emploi"@fr .
 
 d4w:marche-environnement a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5370,7 +5370,7 @@ d4w:marche-finance a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur des banques, de la finance et de l'assurance."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché banques   finance   assurances"@fr .
+    skos:prefLabel "Marché banques et finance et assurances"@fr .
 
 d4w:marche-horeca a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5424,7 +5424,7 @@ d4w:marche-justice-et-social a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur de la justice et de l'aide sociale."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché justice   social"@fr .
+    skos:prefLabel "Marché justice et social"@fr .
 
 d4w:marche-metallurgie a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5487,7 +5487,7 @@ d4w:marche-surveillance-gardiennage a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur de la surveillance. Le secteur de la surveillance et du gardiennage concerne la surveillance, la protection des lieux et des biens et la prévention des actes de malveillance, des troubles à la tranquillité de lieux et de personnes selon les réglementations de la sécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché surveillance   gardiennage"@fr .
+    skos:prefLabel "Marché surveillance et gardiennage"@fr .
 
 d4w:marche-technologies-et-machines-et-equipement a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5496,7 +5496,7 @@ d4w:marche-technologies-et-machines-et-equipement a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur des technologies, machines, équipement. Ce secteur regroupe des fabricants développant et fournissant des équipements pour le compte d'entreprises industrielles. Il s'agit d'un secteur très concurrentiel où le numérique s'est progressivement imposé comme un élément de différenciation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché technologies   machines   équipement"@fr .
+    skos:prefLabel "Marché technologies et machines et équipement"@fr .
 
 d4w:marche-textile a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5523,7 +5523,7 @@ d4w:marche-transport-logistique a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement aux secteurs du transport et de la logistique (manutentions, géolocalisation, conditionnement, approvisionnement, traçabilité, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché transport   logistique"@fr .
+    skos:prefLabel "Marché transport et logistique"@fr .
 
 d4w:marche-verre-ceramique-ciment a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5532,7 +5532,7 @@ d4w:marche-verre-ceramique-ciment a skos:Concept ;
     skos:broader d4w:secteurs-cibles ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) d'un secteur (numérique, industrie, communication, etc.) s'adressant particulièrement au secteur de la fabrication de produits minéraux et non métalliques tels que le verre, la céramique et le ciment."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Marché verre   céramique   ciment"@fr .
+    skos:prefLabel "Marché verre et céramique et ciment"@fr .
 
 d4w:master-s-degree a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5551,7 +5551,7 @@ d4w:materiaux-mixtes-et-composites a skos:Concept ;
     skos:broader d4w:matieres-premieres-secondaires ;
     skos:definition "Toute initiative intégrant des produits, composants, matériaux mixtes et composites dans des processus de production, logistique, traitement en fin de vie, etc. dans une logique d'économie circulaire et/ou tout acteur ayant une expertise sur le traitement/traitant les produits, composants, matériaux mixtes et composites dans une logique d'économie circulaire."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Matériaux mixtes   composites"@fr .
+    skos:prefLabel "Matériaux mixtes et composites"@fr .
 
 d4w:matieres-energetiques a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5569,7 +5569,7 @@ d4w:matieres-organiques-et-biobasees a skos:Concept ;
     skos:broader d4w:matieres-premieres-secondaires ;
     skos:definition "Toute initiative intégrant des matières organiques, biosourcées dans des processus de production, logistique, traitement en fin de vie, etc. dans une logique d'économie circulaire et/ou tout acteur ayant une expertise sur le traitement/traitant les matières organiques, biosourcées dans une logique d'économie circulaire."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Matières organiques   biobasées"@fr .
+    skos:prefLabel "Matières organiques et biobasées"@fr .
 
 d4w:matieres-premieres a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5661,7 +5661,7 @@ d4w:mesures-et-analyses-pour-l-eau a skos:Concept ;
     skos:broader d4w:eau-durable-metiers ;
     skos:definition "Concerne les observations, les mesures et les analyses sur le terrain ou en laboratoire, permettant de suivre les paramètres quantitatifs et qualitatifs de la ressource en eau et de monitorer l’état et le bon fonctionnement des infrastructures."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Mesures   analyses pour l'eau"@fr .
+    skos:prefLabel "Mesures et analyses pour l'eau"@fr .
 
 d4w:mesures-test a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5670,7 +5670,7 @@ d4w:mesures-test a skos:Concept ;
     skos:broader d4w:ict-hardware ;
     skos:definition "Développement, production et distribution de produits et services liés à l'équipement de test et de mesure numérique pour la collecte et la transmission automatisées de données (physique, chimie ou biologie, son, imagerie, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Equipements de mesures   test"@fr .
+    skos:prefLabel "Equipements de mesures et test"@fr .
 
 d4w:metaux a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -5688,8 +5688,8 @@ d4w:mind-market a skos:Concept ;
     skos:broader d4w:incubateurs ;
     skos:definition "Porteurs de projets et entreprises impliqués dans le programme d'accompagnement Mind & market. Mind & Market est une collaboration entre l'Université Catholique de Louvain (UCL) et l'association d'entreprises AxE 4.25 asbl."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Mind   Market"@en,
-        "Mind   Market"@fr .
+    skos:prefLabel "Mind et Market"@en,
+        "Mind et Market"@fr .
 
 d4w:mineraux-non-metalliques a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6248,7 +6248,7 @@ d4w:navigation a skos:Concept ;
     skos:broader d4w:ict-hardware ;
     skos:definition "Développement, production et distribution de produits et services liés à la géolocalisation et à la navigation par satellite : GPS, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Géolocalisation   navigation"@fr .
+    skos:prefLabel "Géolocalisation et navigation"@fr .
 
 d4w:nestup a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6304,7 +6304,7 @@ d4w:operations-maintenance a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liés à la conduite d'installation, aux opérations d'entretien-maintenance préventives et curatives."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Opérations   Maintenance"@fr .
+    skos:prefLabel "Opérations et Maintenance"@fr .
 
 d4w:optimisation-des-operations a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6349,7 +6349,7 @@ d4w:ordinateurs a skos:Concept ;
     skos:broader d4w:ict-hardware ;
     skos:definition "Développement, production et distribution de produits et services liés aux ordinateurs, à leurs périphériques et aux serveurs : ordinateurs portables, écrans, claviers, disques durs, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Ordinateurs   périphériques   serveurs"@fr .
+    skos:prefLabel "Ordinateurs et périphériques et serveurs"@fr .
 
 d4w:outil-numerique a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6422,7 +6422,7 @@ d4w:papeterie a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés à l’art et à l’artisanat : encadrement, fourniture de bureau, loisirs décoratifs, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Art   artisanat   papeterie"@fr .
+    skos:prefLabel "Art et artisanat et papeterie"@fr .
 
 d4w:parcours-global-industrie-2024 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6532,7 +6532,7 @@ d4w:patient-connecte-et-e-sante-et-big-data a skos:Concept ;
     skos:broader d4w:dis-2 ;
     skos:definition "Aire stratégique visant le renforcement de la recherche dans les domaines de la santé numérique (e-health) et de la santé mobile (m-health). Les actions de cette aire contribuent à la mise en application d'un ensemble de technologies numériques dites \"homecare\" qui facilite la prévention, l'accès aux soins et le dépistage. Cette aire stratégique se veut aussi transversale avec les aires \"Biothérapies préventives et curatives\" et \"Hôpital du futur & prévention\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Patient connecté   e santé   big data"@fr .
+    skos:prefLabel "Patient connecté et e santé et big data"@fr .
 
 d4w:pc-mobile-end-point-security a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6615,7 +6615,7 @@ d4w:pharma a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés aux médicaments, produits de beauté, parfums, cosmétiques, soins, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Pharmacies   soins de la personne"@fr .
+    skos:prefLabel "Pharmacies et soins de la personne"@fr .
 
 d4w:photovoltaique-a-concentration a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6724,7 +6724,7 @@ d4w:plastiques-et-caoutchoucs-et-autres-polymeres a skos:Concept ;
     skos:broader d4w:matieres-premieres-secondaires ;
     skos:definition "Toute initiative intégrant des ressources en plastiques, caoutchoucs et autres polymères dans des processus de production, logistique, traitement en fin de vie, etc. dans une logique d'économie circulaire et/ou tout acteur ayant une expertise sur le traitement/traitant les ressources  en plastiques, caoutchoucs et autres polymères dans une logique d'économie circulaire."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Plastiques   caoutchoucs   autres polymères"@fr .
+    skos:prefLabel "Plastiques et caoutchoucs et autres polymères"@fr .
 
 d4w:plateformes-collaboratives a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6855,7 +6855,7 @@ d4w:presse a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés à l’édition et aux médias : rédaction, presse, journaux, magazines, impression, publicité, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Presse   médias"@fr .
+    skos:prefLabel "Presse et médias"@fr .
 
 d4w:presse-audiovisuelle a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6882,7 +6882,7 @@ d4w:production-diffusion-contenu a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Création, financement, diffusion ou vente de contenus numériques (cinéma, TV, etc.) par les artistes (scénaristes, designers, auteurs, etc.), les éditeurs et distributeurs."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Production   diffusion de contenus numériques"@fr .
+    skos:prefLabel "Production et diffusion de contenus numériques"@fr .
 
 d4w:produits-chimiques a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6900,7 +6900,7 @@ d4w:produits-et-services-environnementaux a skos:Concept ;
     skos:broader d4w:dis-5 ;
     skos:definition "Aire stratégique dédiée aux produits, procédés et services environnementaux innovants à la base d’une nouvelle économie. Les projets connectés à cette aire contribuent à la valorisation des compétences acquises en Wallonie via le développement de nouvelles activités économiques à haute valeur ajoutée.  Ces actions, qui présentent un potentiel d'exportation important via des services et produits environnementaux, contribuent à préserver et renforcer le capital eau et sol de la Wallonie. Elles diminuent également l'impact énergétique et environnemental des productions agro-alimentaires, et contribuent à développer une économie circulaire biobasée de valorisation des coproduits agricoles, industriels et forestiers."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Produits   services environnementaux"@fr .
+    skos:prefLabel "Produits et services environnementaux"@fr .
 
 d4w:profil-principal-cheques a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -6955,7 +6955,7 @@ d4w:promotion-diffusion a skos:Concept ;
     skos:broader d4w:chaine-de-services ;
     skos:definition "Initiatives et acteurs impliqués dans des actions de promotion, de diffusion et de réseautage. Apprentissage et coaching de groupe."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Promotion   diffusion   réseautage"@fr .
+    skos:prefLabel "Promotion et diffusion et réseautage"@fr .
 
 d4w:propriete-intellectuelle a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7032,7 +7032,7 @@ d4w:realite-augmentee-virtuelle a skos:Concept ;
     skos:broader d4w:ict-advanced ;
     skos:definition "Développement, production et déploiement de produits et services liés à la Réalité Augmentée (AR), à la Réalité Virtuelle (VR), à la Réalité assistée (aR), à la réalité mixte (MR) et à la réalité étendue (XR) :  technologies immersives et interactives, motion capture, informations texte intégrées, altération de la réalité, images et vidéos 3D, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Réalités augmentée   virtuelle   étendue  AR VR XR "@fr .
+    skos:prefLabel "Réalités augmentée et virtuelle et étendue  AR VR XR "@fr .
 
 d4w:realite-virtuelle a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7050,7 +7050,7 @@ d4w:recherche-developpement-innovation a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liées à la recherche et aux innovations qui concernent la conception et le développement de nouveaux services ou produits."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "R D   innovation"@fr .
+    skos:prefLabel "RetD et innovation"@fr .
 
 d4w:recherche-technologies a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7059,7 +7059,7 @@ d4w:recherche-technologies a skos:Concept ;
     skos:broader d4w:chaine-de-services ;
     skos:definition "Initiatives et acteurs de soutien, d'accompagnement, de promotion, de la recherche, etc. impliqués dans la recherche liée aux technologies."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Recherche   technologies"@fr .
+    skos:prefLabel "Recherche et technologies"@fr .
 
 d4w:recyclage a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7167,7 +7167,7 @@ d4w:reemploi-et-reutilisation a skos:Concept ;
     skos:broader d4w:pratiques-de-circularite ;
     skos:definition "Intégration des opérations par lesquelles des substances, matières ou produits sont utilisés de nouveau, éventuellement suite à contrôle, nettoyage ou réparation, pour un usage identique à celui pour lequel ils avaient été conçus."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Réemploi   réutilisation"@fr .
+    skos:prefLabel "Réemploi et réutilisation"@fr .
 
 d4w:referent-digital-wallonia a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7231,8 +7231,8 @@ d4w:remanufacturing-et-optimisation-ressources a skos:Concept ;
     skos:broader d4w:dis-3 ;
     skos:definition "Aire stratégique consacrée au remanufacturing, à l'optimisation des ressources et aux nouveaux business modèles. Elle inclut la dimension environnementale, circulaire et régénératrice en s'appuyant sur une offre technologique et innovante qui optimise un cycle de vie de fabrication et de conception bas-carbone. Les actions connectées à cette aire capitalisent sur des écosystèmes performants pour développer des solutions qui rationnalisent la consommation des ressources, traitent à moindre coût des matériaux plus durables et augmentent la régénération de la valeur."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Remanufacturing   optimisation ressources"@en,
-        "Remanufacturing   optimisation ressources"@fr .
+    skos:prefLabel "Remanufacturing et optimisation ressources"@en,
+        "Remanufacturing et optimisation ressources"@fr .
 
 d4w:remote-access-vpn a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7251,7 +7251,7 @@ d4w:rencontres a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés à la multiplication de contacts ou à la collaboration dans un domaine précis : sites de rencontres, carsharing, plateformes collaboratives, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Rencontres   réseautage"@fr .
+    skos:prefLabel "Rencontres et réseautage"@fr .
 
 d4w:renow a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7361,7 +7361,7 @@ d4w:robotique a skos:Concept ;
     skos:broader d4w:ict-advanced ;
     skos:definition "Développement, production et déploiement de produits et services liés aux machines automatiques ou aux robots. Mécanisation de procédés industriels au moyen d’outils numériques et d’automates programmables."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Robotique   automation"@fr .
+    skos:prefLabel "Robotique et automation"@fr .
 
 d4w:rotor-pales a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7370,7 +7370,7 @@ d4w:rotor-pales a skos:Concept ;
     skos:broader d4w:eolien-cdv-rewan ;
     skos:definition "Activités liées au rotor et aux pâles, et à ses composants (gouvernail, moyeu, nez, pale, palier, ...)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Rotor   Pales"@fr .
+    skos:prefLabel "Rotor et Pales"@fr .
 
 d4w:sambrinvest a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7552,7 +7552,7 @@ d4w:secteur-aeronautique-et-aerospatial a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de l'aéronautique et de l'aérospatial.  Ce secteur concerne les industries des secteurs de l'aéronautique et de l'espace, mais également l'industrie de l'armement (avions, drones, missiles)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur aéronautique   aérospatial"@fr .
+    skos:prefLabel "Secteur aéronautique et aérospatial"@fr .
 
 d4w:secteur-agriculture a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7588,7 +7588,7 @@ d4w:secteur-banques-et-assurances a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur des finances. Le secteur financier est un secteur économique qui regroupe toutes les activités qui se rapportent à la finance. Il comprend en particulier le secteur bancaire et celui de l'assurance."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur banques   finance   assurances"@fr .
+    skos:prefLabel "Secteur banques et finance et assurances"@fr .
 
 d4w:secteur-biotech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7606,7 +7606,7 @@ d4w:secteur-bois-et-ameublement a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans l'industrie bois et ameublement (panneau à base de bois, élément de construction, emballage bois, fabrication de meubles, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur bois   ameublement"@fr .
+    skos:prefLabel "Secteur bois et ameublement"@fr .
 
 d4w:secteur-communication-et-marketing a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7615,7 +7615,7 @@ d4w:secteur-communication-et-marketing a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de la communication et du marketing. Ce secteur combine des canaux et des outils qu'une entreprise utilise pour communiquer vers un groupe cible : relations publiques, événements, publicité, marketing direct, vente personnelle, médias sociaux, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur communication   marketing"@fr .
+    skos:prefLabel "Secteur communication et marketing"@fr .
 
 d4w:secteur-construction a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7642,7 +7642,7 @@ d4w:secteur-distribution-et-commerce-de-detail a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de la distribution et du commerce de détail. Le commerce de détail est le maillon final de la chaîne de distribution. Il se distingue ainsi du commerce en gros."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur distribution   commerce de détail"@fr .
+    skos:prefLabel "Secteur distribution et commerce de détail"@fr .
 
 d4w:secteur-divertissement a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7669,7 +7669,7 @@ d4w:secteur-eau-et-dechets a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de la production et distribution d'eau, ainsi que de l'assainissement, de la gestion des déchets et de la dépollution."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur eau   déchets"@fr .
+    skos:prefLabel "Secteur eau et déchets"@fr .
 
 d4w:secteur-ecommerce a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7696,7 +7696,7 @@ d4w:secteur-electronique-et-electromecanique a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de l'électronique et de l’électromécanique (techniques de l’électricité et de la mécanique industrielle)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur électronique   électromécanique"@fr .
+    skos:prefLabel "Secteur électronique et électromécanique"@fr .
 
 d4w:secteur-energie a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7714,7 +7714,7 @@ d4w:secteur-enseignement-et-formation a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de l'enseignement et de la formation ou de l'emploi. Enseignement, éducation, formation, conseil en orientation professionnelle, informations sur les métiers, aide à la recherche d'emploi, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur enseignement   formation   emploi"@fr .
+    skos:prefLabel "Secteur enseignement et formation et emploi"@fr .
 
 d4w:secteur-evenementiel a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7777,7 +7777,7 @@ d4w:secteur-justice-et-social a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de la justice et de l'aide sociale."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur justice   social"@fr .
+    skos:prefLabel "Secteur justice et social"@fr .
 
 d4w:secteur-metallurgie a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7831,7 +7831,7 @@ d4w:secteur-surveillance-et-gardiennage a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de la surveillance et du gardiennage. Le secteur de la surveillance et du gardiennage concerne la surveillance, la protection des lieux et des biens et la prévention des actes de malveillance, des troubles à la tranquillité de lieux et de personnes selon les réglementations de la sécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur surveillance   gardiennage"@fr .
+    skos:prefLabel "Secteur surveillance et gardiennage"@fr .
 
 d4w:secteur-technologies-et-machines-et-equipement a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7840,7 +7840,7 @@ d4w:secteur-technologies-et-machines-et-equipement a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur des technologies, machines, équipement. Ce secteur regroupe des fabricants développant et fournissant des équipements pour le compte d'entreprises industrielles. Il s'agit d'un secteur très concurrentiel où le numérique s'est progressivement imposé comme un élément de différenciation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur technologies   machines   équipement"@fr .
+    skos:prefLabel "Secteur technologies et machines et équipement"@fr .
 
 d4w:secteur-textile a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7867,7 +7867,7 @@ d4w:secteur-transport-et-logistique a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur du transport et de la logistique. Le secteur du transport et de la logistique concerne les activités liées au transport, régulier ou non, de passagers et de marchandises, par rail, par route, par eau ou par air et les activités connexes, telles que l'exploitation des infrastructures de transport, la manutention du fret, l'entreposage, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur transport   logistique"@fr .
+    skos:prefLabel "Secteur transport et logistique"@fr .
 
 d4w:secteur-verre-et-ceramique-et-ciment a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7876,7 +7876,7 @@ d4w:secteur-verre-et-ceramique-et-ciment a skos:Concept ;
     skos:broader d4w:secteurs-activite ;
     skos:definition "Acteurs (entreprises, universités et acteurs publics) actifs dans le secteur de la fabrication de produits minéraux et non métalliques tels que le verre, la céramique et le ciment."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Secteur verre   céramique   ciment"@fr .
+    skos:prefLabel "Secteur verre et céramique et ciment"@fr .
 
 d4w:security-certification a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7905,7 +7905,7 @@ d4w:seminaire-et-conference a skos:Concept ;
     skos:broader d4w:outils-de-promotion ;
     skos:definition "Groupe de travail ou réunion organisés dans le but de la promotion d'une thématique ou à la sensibilisation à ce sujet."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Séminaire   Conférence"@fr .
+    skos:prefLabel "Séminaire et Conférence"@fr .
 
 d4w:senior a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7942,7 +7942,7 @@ d4w:sensibilisation-formation a skos:Concept ;
     skos:broader d4w:chaine-de-services ;
     skos:definition "Initiatives et acteurs de soutien, d'accompagnement, de promotion, de la recherche, etc. impliqués dans l'information, la sensibilisation et la formation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Sensibilisation   formation"@fr .
+    skos:prefLabel "Sensibilisation et formation"@fr .
 
 d4w:seriousgame a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -7970,7 +7970,7 @@ d4w:services-edtech a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Développement, production et distribution de produits et services numériques pour l'éducation (TICE, e-learning, etc.)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Produits   services edtech"@fr .
+    skos:prefLabel "Produits et services edtech"@fr .
 
 d4w:services-financiers a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8095,8 +8095,8 @@ d4w:smart-economy a skos:Concept ;
     skos:broader d4w:grappes-technologiques ;
     skos:definition "Initiatives et acteurs impliqués dans le développement de solutions de partage de biens et services (sharing economy) : coworking, covoiturage, crowdfunding, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Economie collaborative   smart economy"@en,
-        "Economie collaborative   smart economy"@fr .
+    skos:prefLabel "Economie collaborative et smart economy"@en,
+        "Economie collaborative et smart economy"@fr .
 
 d4w:smart-governance a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8245,7 +8245,7 @@ d4w:smartphones-tablettes a skos:Concept ;
     skos:broader d4w:ict-hardware ;
     skos:definition "Développement, production et distribution de produits et services liés aux terminaux mobiles : smartphones, tablettes, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Smartphones   tablettes"@fr .
+    skos:prefLabel "Smartphones et tablettes"@fr .
 
 d4w:social-media-and-brand-monitoring a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8254,8 +8254,8 @@ d4w:social-media-and-brand-monitoring a skos:Concept ;
     skos:broader d4w:detecter-detection-processes ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Social Media   Brand Monitoring"@en,
-        "Social Media   Brand Monitoring"@fr .
+    skos:prefLabel "Social Media et Brand Monitoring"@en,
+        "Social Media et Brand Monitoring"@fr .
 
 d4w:software-security-lifecycle-management a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8264,8 +8264,8 @@ d4w:software-security-lifecycle-management a skos:Concept ;
     skos:broader d4w:identifier-asset-management ;
     skos:definition "/"@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Software   Security Lifecycle Management"@en,
-        "Software   Security Lifecycle Management"@fr .
+    skos:prefLabel "Software et Security Lifecycle Management"@en,
+        "Software et Security Lifecycle Management"@fr .
 
 d4w:solutions-innovantes-nouveaux-materiaux a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8283,7 +8283,7 @@ d4w:solutions-innovantes-production a skos:Concept ;
     skos:broader d4w:dis-3 ;
     skos:definition "Aire stratégique consacrée aux technologies numériques et solutions innovantes en matière de méthodes de production et de conception avancées, en adéquation avec les besoins du tissu productif. Sont en particulier ciblés 4 domaines forts : le jumeau et la simulation numérique (y compris High Performance Computing), l’internet des objets (IoT) et les capteurs, l’intelligence artificielle et la cyber-sécurité."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Solutions innovantes   production   conception"@fr .
+    skos:prefLabel "Solutions innovantes   production et conception"@fr .
 
 d4w:soumissionnaires-territoire-intelligent-2019 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8329,7 +8329,7 @@ d4w:sport a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés à l'univers sport et loisirs : livres, jeux, jouets, matériel de sport, données météo, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Sport   loisirs"@fr .
+    skos:prefLabel "Sport et loisirs"@fr .
 
 d4w:sporttech a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8357,7 +8357,7 @@ d4w:standardisation-certification a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Services liés à la standardisation et à la certification de la maîtrise de processus IT et techniques : certification ITIL, normes ISO, contrôle qualité en continu de la production, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Standardisation   certification"@fr .
+    skos:prefLabel "Standardisation et certification"@fr .
 
 d4w:start-it-cbc a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8452,7 +8452,7 @@ d4w:strategie-et-gouvernance a skos:Concept ;
     skos:broader d4w:metiers-expertises ;
     skos:definition "Activités, métiers et expertises liées à la stratégie et la gouvernance au sein d'une entreprise : contrôle, processus de décision, définition d'objectifs, gestion de l'image, communication, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Stratégie   gouvernance"@fr .
+    skos:prefLabel "Stratégie et gouvernance"@fr .
 
 d4w:strategie-europeenne a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8577,7 +8577,7 @@ d4w:systemes-de-controle-detection a skos:Concept ;
     skos:broader d4w:smartgrids-cdv-rewan ;
     skos:definition "Activités liées aux systèmes de contrôle et de détection : SCADA (Supervisory Control And Data Acquisition-, WASA/WAMS/WAAPCA (Wide-Area Situational Awareness / Wide Area Measurement System / Wide-area adaptive protection, control and automation), MDMS (Meter Data Management System)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Systèmes de contrôle   de détection"@fr .
+    skos:prefLabel "Systèmes de contrôle et de détection"@fr .
 
 d4w:systemes-de-pilotage a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8826,7 +8826,7 @@ d4w:traitement-de-donnees a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Développement, production et déploiement de produits et services liés au traitement et à la gestion des données : acquisition, stockage, analyse, statistiques, visualisation, migration de données. L'analyse de donnée (data analytics) peut être utilisée sur un grand volume de données brutes (big data analytics, smart data). La visualisation permet de rendre intelligible le résultat d'une analyse en vue de prise de décision. La business intelligence (BI) propose des solutions d'analyse métiers."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Traitement de données   data analytics"@fr .
+    skos:prefLabel "Traitement de données et data analytics"@fr .
 
 d4w:traitement-du-langage a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -8872,7 +8872,7 @@ d4w:transport-et-stockage-d-eau a skos:Concept ;
     skos:broader d4w:eau-durable-metiers ;
     skos:definition "Transport et stockage de l’eau et des boues (exemples : piping, pompage, citernes, château d’eau, bassin d’orage, barrage, …)."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Transport   stockage d'eau"@fr .
+    skos:prefLabel "Transport et stockage d'eau"@fr .
 
 d4w:travailleur a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9039,7 +9039,7 @@ d4w:vehicule a skos:Concept ;
     skos:broader d4w:commerce-en-ligne ;
     skos:definition "Vente et services en ligne liés aux véhicules et au transport : garages, transport routier, pièces détachées moto, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Garages   véhicules   transport"@fr .
+    skos:prefLabel "Garages et véhicules et transport"@fr .
 
 d4w:venturelab a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9076,7 +9076,7 @@ d4w:video-animation a skos:Concept ;
     skos:broader d4w:ict-services ;
     skos:definition "Développement, production et distribution de produits et services liés à la réalisation de vidéos ou films d'animation (2D et 3D CGI) : images de synthèse 3D, etc."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Vidéo   animation 2D 3D"@fr .
+    skos:prefLabel "Vidéo et animation 2D 3D"@fr .
 
 d4w:village-francophone-2021 a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -9776,8 +9776,8 @@ d4w:identifier-governance-risk-management a skos:Concept ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Identification des politiques de cybersécurité établies au sein de l'organisation pour définir le programme de gouvernance ainsi que l'identification des exigences légales et réglementaires concernant les capacités de cybersécurité de l'organisation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Identifier   Governance   Risk Management"@en,
-        "Identifier   Governance   Risk Management"@fr .
+    skos:prefLabel "Identifier   Governance et Risk Management"@en,
+        "Identifier   Governance et Risk Management"@fr .
 
 d4w:proteger-information-protection-processes-and-procedures a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10024,7 +10024,7 @@ d4w:proteger-identity-management-et-access-control a skos:Concept ;
     skos:broader d4w:collection-grappe-cyber-securite ;
     skos:definition "Protection et gestion des accès, des authentification, des autorisations et des identités."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Protéger   Identity Management   Access Control"@fr .
+    skos:prefLabel "Protéger   Identity Management et Access Control"@fr .
 
 d4w:recherche-et-innovation a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10033,7 +10033,7 @@ d4w:recherche-et-innovation a skos:Concept ;
     skos:broader d4w:nature ;
     skos:definition "Organismes actifs dans la recherche et l'innovation."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Recherche   innovation"@fr .
+    skos:prefLabel "Recherche et innovation"@fr .
 
 d4w:services a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10263,7 +10263,7 @@ d4w:produits-services a skos:Concept ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Offre de produits et services. Répond à la question \"Quelle est mon offre ?\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Produits   services"@fr ;
+    skos:prefLabel "Produits et services"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:eau-durable-metiers a skos:Concept ;
@@ -10355,7 +10355,7 @@ d4w:communautes a skos:Concept ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Communautés liées au développement économique de la Wallonie. Répond à la question \"Quelle est ma communauté d'appartenance ?\"."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Communautés   réseaux"@fr ;
+    skos:prefLabel "Communautés et réseaux"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:filieres-durables a skos:Concept ;
@@ -10465,7 +10465,7 @@ d4w:developpement-economique-territorial a skos:Concept ;
     skos:broader d4w:nature ;
     skos:definition "Acteurs du développement économique par le numérique."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Développement économique   territorial"@fr .
+    skos:prefLabel "Développement économique et territorial"@fr .
 
 d4w:metiers-expertises a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10474,7 +10474,7 @@ d4w:metiers-expertises a skos:Concept ;
     skos:broader d4w:position-business ;
     skos:definition "Compétences et expertises particulières des acteurs et des personnes."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Métiers   expertises"@fr .
+    skos:prefLabel "Métiers et expertises"@fr .
 
 d4w:incubateurs a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10501,7 +10501,7 @@ d4w:collection-grappe-cyber-securite a skos:Concept ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Produits et services du marché cybersécurité établi par l’Europe. ECSO market taxonomy."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Grappe Cyber   sécurité"@fr ;
+    skos:prefLabel "Grappe Cyber et sécurité"@fr ;
     skos:topConceptOf d4w:digital-wallonia .
 
 d4w:ict-services a skos:Concept ;
@@ -10530,7 +10530,7 @@ d4w:commerce-en-ligne a skos:Concept ;
     skos:broader d4w:produits-services ;
     skos:definition "Offre de produits et services en ligne."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Commerce   services en ligne"@fr .
+    skos:prefLabel "Commerce et services en ligne"@fr .
 
 d4w:publics-cibles a skos:Concept ;
     eurovoc:status status:CURRENT ;
@@ -10611,7 +10611,7 @@ d4w:laureats-awards a skos:Concept ;
     skos:broader d4w:communautes ;
     skos:definition "Lauréats et distingués par un award des différents programmes Digitial Wallonia."@fr ;
     skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Lauréats   awards"@fr .
+    skos:prefLabel "Lauréats et awards"@fr .
 
 d4w:anciennes-missions-internationales a skos:Concept ;
     eurovoc:status status:CURRENT ;

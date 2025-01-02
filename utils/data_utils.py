@@ -47,27 +47,28 @@ def cleaning_label(label: str, uri: str, rules: list):
     str  
         The cleaned label with special characters replaced and the first letter capitalized.  
     """ 
-    for rule in rules[0]:
-        # Escape each character for regex use  
-        _from = rules[0][rule]["from"]
-        escaped_chars = [re.escape(char) for char in _from]  
-        
-        # Join them into a string with no separator  
-        char_class = ''.join(escaped_chars)  
-        
-        # Build the regex pattern with negation  
-        pattern = f'[{char_class}]'
-        regex = re.compile(pattern)
+    for rule in rules:    
+        for rule_label in rule:
+            # Escape each character for regex use  
+            _from = rule[rule_label]["from"]
+            escaped_chars = [re.escape(char) for char in _from]  
+            
+            # Join them into a string with no separator  
+            char_class = ''.join(escaped_chars)  
+            
+            # Build the regex pattern with negation  
+            pattern = f'[{char_class}]'
+            regex = re.compile(pattern)
 
-        _to = rules[0][rule]["to"]
-        _exceptions = rules[0][rule]["exceptions"]
-        if regex.findall(label):
-            if(label in _exceptions):
-                logging.info(f"Label excluded: \"{label}\"")
-            else:
-                CHANGED_LABELS[rule].append(label)
-                # Replace them with a space  
-                label = re.sub(pattern, _to, label)
+            _to = rule[rule_label]["to"]
+            _exceptions = rule[rule_label]["exceptions"]
+            if regex.findall(label):
+                if(label in _exceptions):
+                    logging.info(f"Label excluded: \"{label}\"")
+                else:
+                    CHANGED_LABELS[rule_label].append(label)
+                    # Replace them with a space  
+                    label = re.sub(pattern, _to, label)
 
     return ensure_first_letter_capitalized(label)
 

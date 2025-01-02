@@ -14,9 +14,15 @@ languages = [Language.ENGLISH, Language.FRENCH]
 detector = LanguageDetectorBuilder.from_languages(*languages).build()
 
 def check_mispell(definition):
-    res = re.findall( r'\w+|[^\s\w]+', definition)
+    b = ["," , ";" , "." , '"' , "(" , ")." , ")" , ":" , "?)," , ".)" , ")," , "/" , ");" , ".)." , "\"." , ".)," , "?." , "?" , "\"," , "%" , "#" , "!" , "&" , ".;", ",…." , "…." , "»" , "«" , "…)," , "…)" , "...)." , "@" , ".:" , "…)." , "…" , "'" , "€," , "”," , "'”" , ")-", '?".' , '?",' , '?"']  
+    escaped_separators = list(map(re.escape, b))  
+    
+    # Construct the regex pattern  
+    # The pattern will match any of the separators or whitespace  
+    pattern = r'(' + '|'.join(escaped_separators) + r'|\s+)'
+
+    res = list(filter(None, re.split(pattern, definition))) #re.findall( r'\w+|[^\s\w]+', definition)
     #res = re.findall( r'\b\S+\b', definition)
-    b = ["," , ";" , "." , '"' , "(" , ")." , ")" , ":" , "?)," , ".)" , ")," , "/" , ");" , ".)." , "\"." , ".)," , "?." , "?" , "\"," , "%" , "#" , "!" , "&" , ".;", ",…." , "…." , "»" , "«" , "…)," , "…)" , "...)." , "@" , ".:" , "…)." , "…" , "'" , "€," , "”," , "'”" , ")-", '?".' , '?",' , '?"']
     result = list(set(res) - set(b))
     mispelled_fr = pspell_fr.lookup_list(result)
     mispelled_en = pspell_en.lookup_list(mispelled_fr)

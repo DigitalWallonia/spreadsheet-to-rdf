@@ -27,8 +27,13 @@ transformation:
     logfile: changes.log
     changes:  
       - changelabel:  
-          from: "&-()\/"  
+          from: "-()\/"  
           to: " "  
+          exceptions:
+          - ""
+      - change&:
+          from: "&"  
+          to: "et"  
           exceptions:
           - ""
 output:  

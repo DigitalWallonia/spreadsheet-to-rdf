@@ -95,8 +95,9 @@ def excel_to_rdf(config: dict) -> None:
     EUROVOC_NS = "http://publications.europa.eu/ontology/euvoc#"
     STATUS_NS = "http://publications.europa.eu/resource/authority/concept-status/"
 
-    for rule in rules[0]: 
-        CHANGED_LABELS[rule] = []
+    for rule in rules:
+        for rule_label in rule: 
+            CHANGED_LABELS[rule_label] = []
 
     # Read taxonomy from excel
     taxo_excel = pd.read_excel(EXCEL_PATH)
@@ -116,8 +117,9 @@ def excel_to_rdf(config: dict) -> None:
             rename_columns(taxo_excel, prefLabel, concept, definition, altLabel, level) # If the excel columns does not respect the naming convention rename those
             adding_triples(taxo_excel, taxo_graph, level, highest_level, prefLabel, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status, checkmispell)
     
-    for rule in rules[0]:
-        logging.info(f"Labels changed based on rule {rule}: {CHANGED_LABELS[rule]}")
+    for rule in rules:
+        for rule_label in rule: 
+            logging.info(f"Labels changed based on rule {rule_label}: {CHANGED_LABELS[rule_label]}")
 
     logging.info(f"English labels {ENGLISH_LABELS}")
     #print(len(ENGLISH_LABELS))
