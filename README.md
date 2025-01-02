@@ -1,13 +1,12 @@
 # Excel Taxonomy to RDF Converter  
   
-This application converts taxonomy data from an Excel file into RDF format and validates the RDF using a SHACL API. It processes the taxonomy data, generates RDF triples, and checks for conformance with SHACL shapes.  
+This application converts taxonomy data from an Excel file into RDF format and validates the RDF using against SHACL shapes. 
   
 ## Features  
   
-- Converts taxonomy data from Excel files into RDF format.  
-- Supports RDF serialization in Turtle format.  
-- Validates RDF content using a SHACL API.  
-- Provides detailed logging of validation results.  
+- Converts taxonomy data from Excel files into RDF format.
+- Evaluates the languages of labels to add the English labels and potential typos in definitions. 
+- Validates RDF content against SHACL shape.  
   
 ## Prerequisites  
   
