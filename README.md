@@ -6,7 +6,9 @@ This application converts taxonomy data from an Excel file into RDF format and v
   
 - Converts taxonomy data from Excel files into RDF format.
 - Evaluates the languages of labels to add the English labels and potential typos in definitions. 
-- Validates RDF content against SHACL shape.  
+- Validates RDF content against SHACL shape.
+
+![Structure](/doc/structure.jpg)
   
 ## Prerequisites  
   
