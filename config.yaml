@@ -5,7 +5,8 @@ input:
   information_by_level:
     Concept: "Slug Catégorie L"
     prefLabel: "Titre Catégorie L"
-    Definition: "Description Catégorie L" 
+    Definition: "Description Catégorie L"
+    ID: "ID catégorie L"  
     altLabel: ""
   
 transformation:

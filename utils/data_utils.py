@@ -4,10 +4,12 @@ import pandas as pd
 import re 
 import requests
 from tqdm import tqdm
+from lingua import Language, LanguageDetectorBuilder
+import phunspell
 
 CHANGED_LABELS = {}
 
-def ensure_first_letter_capitalized(text):
+def ensure_first_letter_capitalized(text: str) -> str:
     """  
     Ensures that the first letter of a given string is capitalized.  
   
@@ -27,7 +29,7 @@ def ensure_first_letter_capitalized(text):
         return text  # Return the original text if it's empty  
     return text[0].upper() + text[1:]  
 
-def cleaning_label(label: str, uri: str, rules: list):
+def cleaning_label(label: str, uri: str, rules: list) -> str:
     """  
     Cleans a label by replacing specific special characters with spaces and capitalizing the first letter.  
   
@@ -72,6 +74,43 @@ def cleaning_label(label: str, uri: str, rules: list):
 
     return ensure_first_letter_capitalized(label)
 
+pspell_fr = phunspell.Phunspell('fr_FR')
+pspell_en = phunspell.Phunspell('en_GB')
+
+def check_mispell(definition: str) -> None:
+    """    
+    Checks a definition for any misspelled words using French and English dictionaries.    
+    
+    This function uses a regular expression to split the definition into words, filtering out punctuation and whitespace. It checks for spelling errors first against a French dictionary, then against an English dictionary.    
+    
+    Parameters:    
+    -----------    
+    definition : str    
+        The text definition to be checked for spelling errors.    
+    
+    Returns:    
+    --------    
+    None    
+    
+    Side Effects:    
+    -------------    
+    - Logs any misspelled words found in the definition to the console.    
+    """ 
+    b = ["," , ";" , "." , '"' , "(" , ")." , ")" , ":" , "?)," , ".)" , ")," , "/" , ");" , ".)." , "\"." , ".)," , "?." , "?" , "\"," , "%" , "#" , "!" , "&" , ".;", ",…." , "…." , "»" , "«" , "…)," , "…)" , "...)." , "@" , ".:" , "…)." , "…" , "'" , "€," , "”," , "'”" , ")-", '?".' , '?",' , '?"']  
+    escaped_separators = list(map(re.escape, b))  
+    
+    # Construct the regex pattern  
+    # The pattern will match any of the separators or whitespace  
+    pattern = r'(' + '|'.join(escaped_separators) + r'|\s+)'
+
+    res = list(filter(None, re.split(pattern, definition)))
+    result = list(set(res) - set(b))
+    mispelled_fr = pspell_fr.lookup_list(result)
+    mispelled_en = pspell_en.lookup_list(mispelled_fr)
+    if(len(mispelled_en) > 0):
+        logging.info(f" mispelled: {mispelled_en} in {definition}")
+
+
 def get_uri(namespace: str, concept:dict, level: int) -> str:
     """  
     Constructs a URI for a concept within a specified namespace and level.  
@@ -96,37 +135,8 @@ def get_uri(namespace: str, concept:dict, level: int) -> str:
     uri = namespace + slug
 
     return uri
-
-def rename_columns(excel: pd.DataFrame, prefLabel: str, concept: str, definition: str, altLabel: str, level: int) -> None:
-    """  
-    Renames columns in a DataFrame based on taxonomy information for a specific level.  
-  
-    This function updates the column names of a DataFrame to standardized names using configuration details from a JSON structure. It ensures that the taxonomy data is accessible with consistent column names.  
-  
-    Parameters:  
-    -----------  
-    excel : pd.DataFrame  
-        The DataFrame containing taxonomy data from an Excel file.  
-    excel_info : json  
-        A JSON object containing metadata and configuration details for renaming columns.  
-    level : int  
-        The level of taxonomy data to process, influencing which columns are renamed.  
-  
-    Returns:  
-    --------  
-    None  
-    """
-    if altLabel == "":
-        excel.rename(columns={concept + str(level): f"Slug Catégorie L{level}", 
-                            prefLabel + str(level): f"Titre Catégorie L{level}", 
-                            definition + str(level): f"Definition Catégorie L{level}"}, inplace=True)
-    else:
-        excel.rename(columns={concept + str(level): f"Slug Catégorie L{level}", 
-                            prefLabel + str(level): f"Titre Catégorie L{level}", 
-                            definition + str(level): f"Definition Catégorie L{level}",
-                            altLabel + str(level): f"Autre Titre Catégorie L{level}"}, inplace=True)
         
-def shacl_validation(turtle_data: str, validation_server: str, output_format: str, validation_version: str):
+def shacl_validation(turtle_data: str, validation_server: str, output_format: str, validation_version: str) -> None:
     """  
     Validates RDF data in Turtle format using a SHACL API.  
   

@@ -1,35 +1,14 @@
 from rdflib import Graph, URIRef, Namespace
 from rdflib.namespace import SKOS, RDF, DCTERMS, OWL, XSD
 from rdflib import Literal as LiteralRDF
-from utils.data_utils import get_uri, cleaning_label
-import logging
+from utils.data_utils import get_uri, cleaning_label, check_mispell
 from lingua import Language, LanguageDetectorBuilder
-import phunspell
-import re
 
-pspell_fr = phunspell.Phunspell('fr_FR')
-pspell_en = phunspell.Phunspell('en_GB')
 ENGLISH_LABELS = []
 languages = [Language.ENGLISH, Language.FRENCH]
 detector = LanguageDetectorBuilder.from_languages(*languages).build()
 
-def check_mispell(definition):
-    b = ["," , ";" , "." , '"' , "(" , ")." , ")" , ":" , "?)," , ".)" , ")," , "/" , ");" , ".)." , "\"." , ".)," , "?." , "?" , "\"," , "%" , "#" , "!" , "&" , ".;", ",…." , "…." , "»" , "«" , "…)," , "…)" , "...)." , "@" , ".:" , "…)." , "…" , "'" , "€," , "”," , "'”" , ")-", '?".' , '?",' , '?"']  
-    escaped_separators = list(map(re.escape, b))  
-    
-    # Construct the regex pattern  
-    # The pattern will match any of the separators or whitespace  
-    pattern = r'(' + '|'.join(escaped_separators) + r'|\s+)'
-
-    res = list(filter(None, re.split(pattern, definition))) #re.findall( r'\w+|[^\s\w]+', definition)
-    #res = re.findall( r'\b\S+\b', definition)
-    result = list(set(res) - set(b))
-    mispelled_fr = pspell_fr.lookup_list(result)
-    mispelled_en = pspell_en.lookup_list(mispelled_fr)
-    if(len(mispelled_en) > 0):
-        logging.info(f" mispelled: {mispelled_en} in {definition}")
-
-def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, default_status: str, checkmispell: str) -> None:
+def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, default_status: str, checkmispell: str, column_names: dict) -> None:
     """  
     Adds RDF triples to a graph representing a concept within a taxonomy.  
   
@@ -47,6 +26,19 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules
         The level of the concept in the taxonomy, used to differentiate hierarchical relationships.  
     rules: dict
         Series of changes to make to the labels of the taxonomy elements.
+    default_language : str    
+        The default language code for labeling the concepts.  
+    default_version : str    
+        The version of the concept being added.  
+    create_english_labels : str    
+        Flag indicating whether to create English labels for the concepts.  
+    default_status : str    
+        The default status URI for the concept.  
+    checkmispell : str    
+        Flag indicating whether to check for misspellings in the concept's definition.  
+    column_names: dict    
+        The column names prefix used in the Excel file.
+
   
     Returns:  
     --------  
@@ -59,23 +51,15 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules
 
     #taxonomy.add((URIRef(uri), SKOS.altLabel, LiteralRDF("altLabel", lang="fr")))
     taxonomy.add((URIRef(uri), SKOS.broader, URIRef(get_uri(namespace, concept, level-1))))
-    definition = concept[f"Description Catégorie L{level}"]
+    definition = concept[f"{column_names['Definition']}{level}"]
     if(checkmispell == True):
         check_mispell(definition)
     taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(definition, lang=f"{default_language}")))
-    taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"ID catégorie L{level}"])))
+    taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"{column_names['ID']}{level}"])))
     taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2))))
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
-    cleaned_label = cleaning_label(concept[f"Titre Catégorie L{level}"], uri, rules)
-    #lang = detect(cleaned_label)
-    #if(lang == "en"):
-    #    ENGLISH_LABELS.append(cleaned_label) 
-    #langs = detect_langs(cleaned_label)[0]
-    #if(langs.lang == "en" and langs.prob >= 0.86):
-    #    ENGLISH_LABELS.append(cleaned_label)  
-    #else:
-    #    if(langs.lang == "en"):
-    #        logging.info(f"label excluded {cleaned_label} - {langs.prob}")
+    cleaned_label = cleaning_label(concept[f"{column_names['prefLabel']}{level}"], uri, rules)
+    
     language = detector.detect_language_of(cleaned_label) 
     if(language.iso_code_639_1.name == 'EN'):
         ENGLISH_LABELS.append(cleaned_label)
@@ -86,7 +70,7 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules
     taxonomy.add((URIRef(uri), URIRef("http://publications.europa.eu/ontology/euvoc#status"), URIRef(f"{default_status}")))
     taxonomy.add((URIRef(uri), OWL.versionInfo, LiteralRDF(f"{default_version}")))
 
-def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, default_status: str, checkmispell: str) -> None:
+def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, default_status: str, checkmispell: str, column_names: dict) -> None:
     """
     Adds RDF triples to a graph representing a top-level concept within a taxonomy.  
   
@@ -103,7 +87,20 @@ def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, ru
     level : int  
         The level of the concept in the taxonomy, typically the level at which it is considered a top concept.
     rules: dict
-        Series of changes to make to the labels of the taxonomy elements.  
+        Series of changes to make to the labels of the taxonomy elements.
+    default_language : str    
+        The default language code for labeling the concepts.  
+    default_version : str    
+        The version of the concept being added.  
+    create_english_labels : str    
+        Flag indicating whether to create English labels for the concepts.  
+    default_status : str    
+        The default status URI for the concept.  
+    checkmispell : str    
+        Flag indicating whether to check for misspellings in the concept's definition.
+    column_names: dict    
+        The column names prefix used in the Excel file.  
+  
   
     Returns:  
     --------  
@@ -114,14 +111,14 @@ def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, ru
     taxonomy.add((URIRef(uri), RDF.type, SKOS.Concept)) 
 
     #taxonomy.add((URIRef(uri), SKOS.altLabel, LiteralRDF("", lang="fr")))^
-    definition = concept[f"Description Catégorie L{level}"]
+    definition = concept[f"{column_names['Definition']}{level}"]
     if(checkmispell == True):
         check_mispell(definition)
     taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(definition, lang=f"{default_language}")))
-    taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"ID catégorie L{level}"])))
+    taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"{column_names['ID']}{level}"])))
     taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2))))
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
-    cleaned_label = cleaning_label(concept[f"Titre Catégorie L{level}"], uri, rules)
+    cleaned_label = cleaning_label(concept[f"{column_names['prefLabel']}{level}"], uri, rules)
     language = detector.detect_language_of(cleaned_label) 
     if(language.iso_code_639_1.name == 'EN'):
         ENGLISH_LABELS.append(cleaned_label)
@@ -135,7 +132,7 @@ def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, ru
 
     taxonomy.add((URIRef(get_uri(namespace, concept, 2)), SKOS.hasTopConcept, URIRef(uri)))
 
-def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, creation_date: str) -> None:
+def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, creation_date: str, column_names: dict) -> None:
     """
     Adds RDF triples to a graph representing a concept scheme within a taxonomy.  
   
@@ -153,6 +150,16 @@ def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int,
         The level of the concept scheme in the taxonomy hierarchy.  
     rules: dict
         Series of changes to make to the labels of the taxonomy elements.
+    default_language : str    
+        The default language code for labeling the concept scheme.  
+    default_version : str    
+        The version of the concept scheme being added.  
+    create_english_labels : str    
+        Flag indicating whether to create English labels for the concept scheme.  
+    creation_date : str    
+        The creation date of the concept scheme.
+    column_names: dict    
+        The column names prefix used in the Excel file.
         
     Returns:  
     --------  
@@ -166,9 +173,9 @@ def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int,
     taxonomy.add((URIRef(uri), DCTERMS.created, LiteralRDF(f"{creation_date}", datatype=XSD.date)))
     #taxonomy.add((URIRef(uri), DCTERMS.issued, LiteralRDF("")))
     #taxonomy.add((URIRef(uri), DCTERMS.modified, LiteralRDF("")))
-    taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"ID catégorie L{level}"])))
+    taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"{column_names['ID']}{level}"])))
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
-    cleaned_label = cleaning_label(concept[f"Titre Catégorie L{level}"], uri, rules)
+    cleaned_label = cleaning_label(concept[f"{column_names['prefLabel']}{level}"], uri, rules)
     language = detector.detect_language_of(cleaned_label) 
     if(language.iso_code_639_1.name == 'EN'):
         ENGLISH_LABELS.append(cleaned_label)
@@ -176,5 +183,5 @@ def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int,
             taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
     taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
     #taxonomy.add((URIRef(uri), DCTERMS.replaces, URIRef(get_uri(namespace, concept, level-1))))
-    taxonomy.add((URIRef(uri), DCTERMS.title, LiteralRDF(concept[f"Titre Catégorie L{level}"], lang=f"{default_language}")))
+    taxonomy.add((URIRef(uri), DCTERMS.title, LiteralRDF(concept[f"{column_names['prefLabel']}{level}"], lang=f"{default_language}")))
     taxonomy.add((URIRef(uri), OWL.versionInfo, LiteralRDF(f"{default_version}")))
