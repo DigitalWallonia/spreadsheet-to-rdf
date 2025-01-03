@@ -4,7 +4,7 @@ import pandas as pd
 from rdflib import Graph
 from tqdm import tqdm
 from utils.creating_triples import add_concept, add_conceptScheme, add_topConcept, ENGLISH_LABELS
-from utils.data_utils import rename_columns, shacl_validation, CHANGED_LABELS
+from utils.data_utils import shacl_validation, CHANGED_LABELS
 
 def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level: str, column_names: dict, D4W_NAMESPACE: str, rules: list, default_language: str, default_version: str, create_english_labels: str, creation_date: str, default_status: str, checkmispell: str) -> None:
     """

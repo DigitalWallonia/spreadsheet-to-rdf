@@ -11,7 +11,7 @@ input:
   
 transformation:
   #namespace is the base to create URI for the concepts  
-  namespace: http://data4wallonia.com/
+  namespace: http://data4wallonia.com/resource/taxonomy/
   #default_language is the default language suffix for labels and definitions
   default_language: fr
   #default_version indicates the initial version number for the concepts, in the semantic versioning format

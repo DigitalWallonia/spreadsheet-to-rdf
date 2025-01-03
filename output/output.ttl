@@ -1,4 +1,4 @@
-@prefix d4w: <http://data4wallonia.com/> .
+@prefix d4w: <http://data4wallonia.com/resource/taxonomy/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix eurovoc: <http://publications.europa.eu/ontology/euvoc#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
