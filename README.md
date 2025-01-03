@@ -12,9 +12,7 @@ This application converts taxonomy data from an Excel file into RDF format and v
 
 ![Example](/doc/example.jpg)
 
-In the above example, the Slug Categorie L5 "acces-au-wifi" is transformed in the below RDF.
-
-Note the link to the broader concept "accompagnement-citoyen" .
+In the above example, the Slug Categorie L5 "acces-au-wifi" is transformed in the below RDF:
 
 ```
 d4w:acces-au-wifi a skos:Concept ;
@@ -26,7 +24,20 @@ d4w:acces-au-wifi a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Accéder à du WiFi"@fr .
 ```
-  
+
+Note the link to the broader concept "accompagnement-citoyen" created below:
+
+```
+d4w:accompagnement-citoyen a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "5q6qx1SKaGMlPJeyGpe1zJ" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:services ;
+    skos:definition "Ensemble des accompagnements disponibles et mis à disposition du citoyen."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Accompagnement citoyen"@fr .
+```
+
 ## Prerequisites  
   
 Make sure you have the following installed:  
