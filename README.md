@@ -81,7 +81,7 @@ The output file will be created, as specified in the configuration file.
 
 ![Execution](/doc/execution.jpg)
 
-## Example input / output
+### Example input / output
 
 ![Example](/doc/example.jpg)
 
@@ -124,7 +124,7 @@ When creating these concepts, URI need to be created and labels need to be chang
 
 At the end of the creation of the taxonomy in RDF, the Transformer.py calls the shacl_validation() function, defined in the data_utils.py to validate against the ITB Shacl Validator instance.
 
-## Functions
+### Functions
 Transformer.py
 - excel_to_rdf(config): Main function that orchestrates the conversion of an Excel file to RDF format and validates it using a SHACL API having as input the configuration file object.
 - adding_triples(taxo_excel, taxo_graph, level, highest_level, column_names, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status, checkmispell): Processes taxonomy data and adds RDF triples to the graph based on the level of taxonomy, calling the functions add_concept(), add_topConcept() and add_conceptScheme().
