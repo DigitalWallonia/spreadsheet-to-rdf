@@ -88,9 +88,20 @@ Transformer.py
 - adding_triples(taxo_excel, taxo_graph, level, highest_level, column_names, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status, checkmispell): Processes taxonomy data and adds RDF triples to the graph based on the level of taxonomy, calling the functions add_concept(), add_topConcept() and add_conceptScheme().
 
 Create_triples.py
-- add_concept(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, default_status, checkmispell): Adds RDF triples representing a concept to the graph. This function relies on [lingua-language-detector](https://github.com/pemistahl/lingua-py) library which configured with English and French language detectors.
+- add_concept(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, default_status, checkmispell): Adds RDF triples representing a concept to the graph. 
 - add_topConcept(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, default_status, checkmispell): Adds RDF triples for a top-level concept and links it to the taxonomy scheme.
 - add_conceptScheme(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, creation_date): Adds RDF triples representing a concept scheme, including metadata like creation date.
+
+These functions rely on [lingua-language-detector](https://github.com/pemistahl/lingua-py) library; which is configured with English and French language detectors, to see if a label is in English or French (default).
+By default all the labels have French suffix (@fr). If the label is detected to be English, the label is also added with English suffix (@en).
+For example:
+'''
+skos:prefLabel "Access Management"@en,
+        "Access Management"@fr .
+or
+skos:prefLabel "AdTech"@en,
+        "AdTech"@fr .
+'''
 
 Data_utils.py
 - ensure_first_letter_capitalized(text): Ensures the first letter of a string is capitalized.
