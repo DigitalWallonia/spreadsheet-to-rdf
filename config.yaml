@@ -1,4 +1,4 @@
-input:  
+input:
   default_file: input\2024-12-12_taxonomie-complete.xlsx 
   highest_level: "2"
   lowest_level: "5"

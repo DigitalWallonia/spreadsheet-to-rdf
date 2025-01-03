@@ -7,6 +7,24 @@ This application converts taxonomy data from an Excel file into RDF format and v
 - Converts taxonomy data from Excel files into RDF format.
 - Evaluates the languages of labels to add the English labels and potential typos in definitions. 
 - Validates RDF content against SHACL shape.
+
+## Example input / output
+
+![Example](/doc/example.jpg)
+
+In the above example, the Slug Categorie L5 "acces-au-wifi" is transformed in the below RDF:
+Note the link to the broader concept "accompagnement-citoyen" .
+
+```
+d4w:acces-au-wifi a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "6tO7kpywpnel6H2Z7BHqUf" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:accompagnement-citoyen ;
+    skos:definition "Avoir accès à une connection Internet."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Accéder à du WiFi"@fr .
+```
   
 ## Prerequisites  
   
