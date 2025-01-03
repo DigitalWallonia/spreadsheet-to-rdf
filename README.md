@@ -8,36 +8,6 @@ This application converts taxonomy data from an Excel file into RDF format, acco
 - Evaluates the languages of labels to add the English labels and find potential typos in the definitions. 
 - Validates RDF content against SHACL shape.
 
-## Example input / output
-
-![Example](/doc/example.jpg)
-
-In the above example, the Slug Categorie L5 "acces-au-wifi" is transformed in the below RDF:
-
-```
-d4w:acces-au-wifi a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "6tO7kpywpnel6H2Z7BHqUf" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:accompagnement-citoyen ;
-    skos:definition "Avoir accès à une connection Internet."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Accéder à du WiFi"@fr .
-```
-
-Note the link to the broader concept "accompagnement-citoyen" created below:
-
-```
-d4w:accompagnement-citoyen a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "5q6qx1SKaGMlPJeyGpe1zJ" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:services ;
-    skos:definition "Ensemble des accompagnements disponibles et mis à disposition du citoyen."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Accompagnement citoyen"@fr .
-```
-
 ## Instructions
 
 ### Prerequisites  
@@ -96,12 +66,13 @@ python app.py -c path/to/yaml/file
 ```
 - -c, --config: Path to the yaml file containing the configuration.
 
-### Example
+For example: 
+
 ```bash 
 python app.py -c config.yaml  
 ```
 
-For easyness, the app.bat runs the python script directly without typing the command line.
+For easyness, the end user can click on the app.bat that runs the python script directly without typing the command line.
 
 ### Execution
 
@@ -110,6 +81,35 @@ The output file will be created, as specified in the configuration file.
 
 ![Execution](/doc/execution.jpg)
 
+## Example input / output
+
+![Example](/doc/example.jpg)
+
+In the above example, the Slug Categorie L5 "acces-au-wifi" is transformed in the below RDF:
+
+```
+d4w:acces-au-wifi a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "6tO7kpywpnel6H2Z7BHqUf" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:accompagnement-citoyen ;
+    skos:definition "Avoir accès à une connection Internet."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Accéder à du WiFi"@fr .
+```
+
+Note the link to the broader concept "accompagnement-citoyen" created below:
+
+```
+d4w:accompagnement-citoyen a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "5q6qx1SKaGMlPJeyGpe1zJ" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:services ;
+    skos:definition "Ensemble des accompagnements disponibles et mis à disposition du citoyen."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Accompagnement citoyen"@fr .
+```
 
 ## Structure
 ![Structure](/doc/structure.jpg)
