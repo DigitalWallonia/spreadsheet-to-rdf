@@ -95,13 +95,13 @@ Create_triples.py
 These functions rely on [lingua-language-detector](https://github.com/pemistahl/lingua-py) library; which is configured with English and French language detectors, to see if a label is in English or French (default).
 By default all the labels have French suffix (@fr). If the label is detected to be English, the label is also added with English suffix (@en).
 For example:
-'''
+```
 skos:prefLabel "Access Management"@en,
         "Access Management"@fr .
 or
 skos:prefLabel "AdTech"@en,
         "AdTech"@fr .
-'''
+```
 
 Data_utils.py
 - ensure_first_letter_capitalized(text): Ensures the first letter of a string is capitalized.
