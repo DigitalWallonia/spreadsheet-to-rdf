@@ -38,14 +38,16 @@ d4w:accompagnement-citoyen a skos:Concept ;
     skos:prefLabel "Accompagnement citoyen"@fr .
 ```
 
-## Prerequisites  
+## Instructions
+
+### Prerequisites  
   
 Make sure you have the following installed:  
   
 - Python 3.10.13  
 - pip (Python package installer)  
   
-## Installation  
+### Installation  
   
 1. Clone the repository:  
   
@@ -94,10 +96,20 @@ python app.py -c path/to/yaml/file
 ```
 - -c, --config: Path to the yaml file containing the configuration.
 
-#### Example
+### Example
 ```bash 
 python app.py -c config.yaml  
 ```
+
+For easyness, the app.bat runs the python script directly without typing the command line.
+
+### Execution
+
+When executing, there will be a progress bar for each level of hierarchy and 1 progress bar for the validation.
+The output file will be created, as specified in the configuration file.
+
+![Execution](/doc/execution.jpg)
+
 
 ## Structure
 ![Structure](/doc/structure.jpg)
