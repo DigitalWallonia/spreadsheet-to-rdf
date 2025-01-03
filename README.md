@@ -72,10 +72,14 @@ python app.py -c config.yaml
 ## Structure
 ![Structure](/doc/structure.jpg)
 
-The application takes 2 input (spreadsheet of the taxonomy and configuration file) and generates 2 output (taxonomy in RDF and log file)
+The application takes 2 input (spreadsheet of the taxonomy and configuration file) and generates 2 output (taxonomy in RDF and log file).
+
 The application is composed by App.py which passes the configuration file to the Transformer.py via the function excel_to_rdf() .
+
 The Transformer.py, open the spreadsheet indicated in the configuration file and it invokes functions (add_concept(), add_topConcept() and add_ConceptScheme()) to create the SKOS Concept and ConceptScheme with labels, definitions, etc. coming from the spreadsheet.
-When creating these concepts, URI need to be created and labels need to be changed via the functions get_uri() and cleaning_label() defined in data_utils.py
+
+When creating these concepts, URI need to be created and labels need to be changed via the functions get_uri() and cleaning_label() defined in data_utils.py.
+
 At the end of the creation of the taxonomy in RDF, the Transformer.py calls the shacl_validation() function, defined in the data_utils.py to validate against the ITB Shacl Validator instance.
 
 ## Functions
