@@ -1,6 +1,6 @@
 # Excel Taxonomy to RDF Converter  
   
-This application converts taxonomy data from an Excel file into RDF format and validates the RDF using against SHACL shapes. 
+This application converts taxonomy data from an Excel file into RDF format, accordingly to the [D4WTA-AP model](https://digitalwallonia.github.io/D4WTA-AP/releases/1.0.0/) and validates the RDF using against SHACL shapes. 
   
 ## Features  
   
