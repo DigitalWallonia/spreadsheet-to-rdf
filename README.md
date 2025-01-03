@@ -95,7 +95,7 @@ Create_triples.py
 Data_utils.py
 - ensure_first_letter_capitalized(text): Ensures the first letter of a string is capitalized.
 - cleaning_label(label, uri, rules): Cleans a label by replacing special characters with spaces and capitalizing the first letter.
-- check_mispell(definition): Find typos in the definitions. This function relies on [phunspell](https://github.com/dvwright/phunspell) library, in turn based on [spylls](https://github.com/zverok/spylls), that is based on vocabularies (like the [French](https://github.com/dvwright/phunspell/tree/main/phunspell/data/dictionary/fr_FR) and [English](https://github.com/dvwright/phunspell/tree/main/phunspell/data/dictionary/en)).
+- check_mispell(definition): Find typos in the definitions. This function relies on [phunspell](https://github.com/dvwright/phunspell) library, in turn based on [spylls](https://github.com/zverok/spylls), searching on the [French](https://github.com/dvwright/phunspell/tree/main/phunspell/data/dictionary/fr_FR) and [English](https://github.com/dvwright/phunspell/tree/main/phunspell/data/dictionary/en) vocabularies.
 - get_uri(namespace, concept, level): Constructs a URI for a concept within a specified namespace and level.
 - shacl_validation(turtle_data, validation_server, output_format, validation_version): Validates RDF data using the ITB Shacl Validator.
 
