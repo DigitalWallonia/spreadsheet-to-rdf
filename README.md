@@ -12,7 +12,8 @@ This application converts taxonomy data from an Excel file into RDF format and v
 
 ![Example](/doc/example.jpg)
 
-In the above example, the Slug Categorie L5 "acces-au-wifi" is transformed in the below RDF:
+In the above example, the Slug Categorie L5 "acces-au-wifi" is transformed in the below RDF.
+
 Note the link to the broader concept "accompagnement-citoyen" .
 
 ```
