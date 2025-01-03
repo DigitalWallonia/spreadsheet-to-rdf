@@ -85,7 +85,7 @@ At the end of the creation of the taxonomy in RDF, the Transformer.py calls the 
 ## Functions
 Transformer.py
 - excel_to_rdf(config): Main function that orchestrates the conversion of an Excel file to RDF format and validates it using a SHACL API having as input the configuration file object.
-- adding_triples(taxo_excel, taxo_graph, level, EXCEL_INFO, D4W_NAMESPACE): Processes taxonomy data and adds RDF triples to the graph based on the level of taxonomy, calling the functions add_concept(), add_topConcept() and add_conceptScheme().
+- adding_triples(taxo_excel, taxo_graph, level, highest_level, column_names, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status, checkmispell): Processes taxonomy data and adds RDF triples to the graph based on the level of taxonomy, calling the functions add_concept(), add_topConcept() and add_conceptScheme().
 
 Create_triples.py
 - add_concept(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, default_status, checkmispell): Adds RDF triples representing a concept to the graph.
@@ -94,10 +94,10 @@ Create_triples.py
 
 Data_utils.py
 - ensure_first_letter_capitalized(text): Ensures the first letter of a string is capitalized.
-- cleaning_label(label): Cleans a label by replacing special characters with spaces and capitalizing the first letter.
+- cleaning_label(label, uri, rules): Cleans a label by replacing special characters with spaces and capitalizing the first letter.
+- check_mispell(definition): Find typos in the definitions.
 - get_uri(namespace, concept, level): Constructs a URI for a concept within a specified namespace and level.
-- rename_columns(excel, excel_info, level): Renames columns in a DataFrame based on taxonomy information.
-- shacl_validation(turtle_data): Validates RDF data in Turtle format using a SHACL API.
+- shacl_validation(turtle_data, validation_server, output_format, validation_version): Validates RDF data using the ITB Shacl Validator.
 
 ## Validation
 After generating the RDF file, the application validates it against a SHACL API endpoint at http://localhost:8080/shacl/d4wta-ap/api/validate, specified in the configuration file. Ensure this endpoint is accessible and configured to process validation requests.
