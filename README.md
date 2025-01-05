@@ -31,29 +31,6 @@ Make sure you have the following installed:
     ```bash  
     pip install -r requirements.txt  
     ```  
-
-3. Create a yaml config file: 
-    
-    ```bash
-    input:  
-    default_file: file\path\to\taxonomy.xlsx  
-    
-    transformation:  
-    namespace: namespace\of\taxonomy  
-    rules:  
-        logfile: changes.log  
-        changes:  
-        - changelabel:  
-            from: "charactersToExcludeFromPrefLabels"  
-            to: " "  
-    
-    output:  
-    default_file: file\path\to\output.ttl 
-    default_format: turtle  
-    
-    validation:  
-    server: url\to\shacl\validator\api 
-    ``` 
   
 ## Usage  
   
