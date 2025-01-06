@@ -6,6 +6,9 @@ import requests
 from tqdm import tqdm
 from lingua import Language, LanguageDetectorBuilder
 import phunspell
+from rdflib import Graph
+from rdflib.namespace import SKOS  
+from collections import Counter 
 
 CHANGED_LABELS = {}
 
@@ -135,7 +138,34 @@ def get_uri(namespace: str, concept:dict, level: int) -> str:
     uri = namespace + slug
 
     return uri
-        
+
+def find_duplicate_values(taxo_graph: Graph) -> str:
+    """  
+    Finds duplicate values in the taxonomy labels and logs them.  
+    
+    Parameters:  
+    -----------  
+    taxo_graph : Graph    
+        The RDFLib Graph object to which RDF triples are added.  
+  
+    Returns:  
+    --------  
+    duplicates: str
+        List of duplicate prefLabel  
+    """  
+    # Extract all skos:prefLabel values  
+    pref_labels = []  
+    
+    for s, p, o in taxo_graph:  
+        if p == SKOS.prefLabel and o.language == 'fr':  
+            pref_labels.append(str(o))  
+    
+    # Find duplicate prefLabels  
+    label_counts = Counter(pref_labels)  
+    duplicates = [label for label, count in label_counts.items() if count > 1]   
+    
+    return "; ".join(duplicates)     
+
 def shacl_validation(turtle_data: str, validation_server: str, output_format: str, validation_version: str) -> None:
     """  
     Validates RDF data in Turtle format using a SHACL API.  

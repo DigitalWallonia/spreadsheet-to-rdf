@@ -4,7 +4,7 @@ import pandas as pd
 from rdflib import Graph
 from tqdm import tqdm
 from utils.creating_triples import add_concept, add_conceptScheme, add_topConcept, ENGLISH_LABELS
-from utils.data_utils import shacl_validation, CHANGED_LABELS
+from utils.data_utils import shacl_validation, CHANGED_LABELS, find_duplicate_values
 
 def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level: str, column_names: dict, D4W_NAMESPACE: str, rules: list, default_language: str, default_version: str, create_english_labels: str, creation_date: str, default_status: str, checkmispell: str) -> None:
     """
@@ -47,7 +47,7 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level:
     None
 
     """
-    unique_concepts = taxo_excel.drop_duplicates(subset=f"{column_names['prefLabel']}{level}")
+    unique_concepts = taxo_excel.drop_duplicates(subset=f"{column_names['Concept']}{level}")
     # Loop over concepts by level
     for index in tqdm(unique_concepts.index, desc=f"Processing Level {level}", colour="green"):
         if level > int(highest_level) + 1: 
@@ -66,18 +66,8 @@ def excel_to_rdf(config: dict) -> None:
   
     Parameters:  
     -----------  
-    excel : str  
-        The file path to the Excel file containing taxonomy data.  
-    namespace : str  
-        The RDF namespace to be used for the generated RDF triples.  
-    output_path : str  
-        The file path where the resulting RDF file will be saved.
-    output_format : str  
-        The format of the resulting rdf.
-    validation_server : str  
-        The API endpoint used for validating the resulting RDF file.
-    rules: list
-        Series of changes to make to the labels of the taxonomy elements.
+    config: dict
+        Dictionary containing the configuration of the app
 
     Returns:  
     -------  
@@ -130,6 +120,11 @@ def excel_to_rdf(config: dict) -> None:
             logging.info(f"Labels changed based on rule {rule_label}: {CHANGED_LABELS[rule_label]}")
 
     logging.info(f"English labels {ENGLISH_LABELS}")
+    
+    duplicates = find_duplicate_values(taxo_graph)
+    logging.info(f"Duplicate values in 'prefLabel': {duplicates}")  
+
+
 
     # Save rdf file
     taxo_graph.serialize(output_path, format=output_format)

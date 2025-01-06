@@ -3001,6 +3001,15 @@ d4w:filiere-biomethanisation a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Biométhanisation"@fr .
 
+d4w:filiere-eau a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "6BVZKZ1FXwFf3ijazuvQf9" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:eau-durable-types ;
+    skos:definition "Acteurs actifs dans la filière eau (h2o)."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Eau"@fr .
+
 d4w:filiere-efficacite-energetique a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "6lkF0gO8iypYzcN8VOneBo" ;
@@ -10063,15 +10072,6 @@ d4w:dis-4 a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "DIS 4   Systèmes énergétiques et habitats durables"@fr .
 
-d4w:eau-durable-types a skos:Concept ;
-    eurovoc:status status:CURRENT ;
-    dcterms:identifier "NtlYH2S5QFt9qrCuK521d" ;
-    owl:versionInfo "0.0.1" ;
-    skos:broader d4w:filieres-durables ;
-    skos:definition "Types d'eau concernés par les activités des organisations."@fr ;
-    skos:inScheme d4w:digital-wallonia ;
-    skos:prefLabel "Eau durable   Types"@fr .
-
 d4w:education a skos:Concept ;
     eurovoc:status status:CURRENT ;
     dcterms:identifier "1MLaxv7yo0ITddU2fjCosi" ;
@@ -10118,6 +10118,15 @@ d4w:smartgrids-cdv-rewan a skos:Concept ;
     skos:inScheme d4w:digital-wallonia ;
     skos:prefLabel "Smartgrids CDV ReWaN"@en,
         "Smartgrids CDV ReWaN"@fr .
+
+d4w:eau-durable-types a skos:Concept ;
+    eurovoc:status status:CURRENT ;
+    dcterms:identifier "NtlYH2S5QFt9qrCuK521d" ;
+    owl:versionInfo "0.0.1" ;
+    skos:broader d4w:filieres-durables ;
+    skos:definition "Types d'eau concernés par les activités des organisations."@fr ;
+    skos:inScheme d4w:digital-wallonia ;
+    skos:prefLabel "Eau durable   Types"@fr .
 
 d4w:equipement-a-dsiposition a skos:Concept ;
     eurovoc:status status:CURRENT ;
