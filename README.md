@@ -6,7 +6,7 @@ This application converts taxonomy data from an Excel file into RDF format, acco
   
 - Converts taxonomy data from Excel files into RDF format.
 - Evaluates the languages of labels to add the English labels and find potential typos in the definitions. 
-- Validates RDF content against SHACL shape.
+- Performs size check (input vs output), looks for duplicate values, validates RDF content against SHACL shape.
 
 ## Instructions
 
@@ -107,9 +107,9 @@ Transformer.py
 - adding_triples(taxo_excel, taxo_graph, level, highest_level, column_names, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status, checkmispell): Processes taxonomy data and adds RDF triples to the graph based on the level of taxonomy, calling the functions add_concept(), add_topConcept() and add_conceptScheme().
 
 Create_triples.py
-- add_concept(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, default_status, checkmispell): Adds RDF triples representing a concept to the graph. 
-- add_topConcept(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, default_status, checkmispell): Adds RDF triples for a top-level concept and links it to the taxonomy scheme.
-- add_conceptScheme(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, creation_date): Adds RDF triples representing a concept scheme, including metadata like creation date.
+- add_concept(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, default_status, checkmispell, column_names): Adds RDF triples representing a concept to the graph. 
+- add_topConcept(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, default_status, checkmispell, column_names): Adds RDF triples for a top-level concept and links it to the taxonomy scheme.
+- add_conceptScheme(taxonomy, namespace, concept, level, rules, default_language, default_version, create_english_labels, creation_date, column_names): Adds RDF triples representing a concept scheme, including metadata like creation date.
 
 These functions rely on [lingua-language-detector](https://github.com/pemistahl/lingua-py) library; which is configured with English and French language detectors, to see if a label is in English or French (default).
 By default all the labels have French suffix (@fr). If the label is detected to be English, the label is also added with English suffix (@en).
@@ -127,10 +127,15 @@ Data_utils.py
 - cleaning_label(label, uri, rules): Cleans a label by replacing special characters with spaces and capitalizing the first letter.
 - check_mispell(definition): Find typos in the definitions. This function relies on [phunspell](https://github.com/dvwright/phunspell) library, in turn based on [spylls](https://github.com/zverok/spylls), searching on the [French](https://github.com/dvwright/phunspell/tree/main/phunspell/data/dictionary/fr_FR) and [English](https://github.com/dvwright/phunspell/tree/main/phunspell/data/dictionary/en) vocabularies. As there are many nouns, not really typos, the potential mispells are inserted in the [log file](https://github.com/DigitalWallonia/spreadsheet-to-rdf/blob/main/changes.log).
 - get_uri(namespace, concept, level): Constructs a URI for a concept within a specified namespace and level.
+- find_duplicate_values(taxo_graph): Finds duplicate values in the taxonomy labels and logs them.
+- taxonomy_size_validation(taxo_graph, taxo_size): Validates the size of the taxonomy graph against an expected number of concepts or schemes.
 - shacl_validation(turtle_data, validation_server, output_format, validation_version): Validates RDF data using the ITB Shacl Validator.
 
 ## Validation
-After generating the RDF file, the application validates it against a SHACL API endpoint at http://localhost:8080/shacl/d4wta-ap/api/validate, specified in the configuration file. Ensure this endpoint is accessible and configured to process validation requests.
+After generating the RDF file, the transformer.py perform 2 validation steps:
+
+1. comparing the number of concept extracted from the spreadsheet vs the number of concepts (including concept scheme) in the RDF generated thanks to the taxonomy_size_validation() function.
+2. it validates the RDF against a SHACL API endpoint at http://localhost:8080/shacl/d4wta-ap/api/validate, specified in the configuration file. Ensure this endpoint is accessible and configured to process validation requests.
 
 ### Error Handling
-If the validation fails or the API returns an error, the application will log the status code and error message. Ensure the API service is running and accessible.
+If the application fails or the API returns an error, the application will log the error message.
