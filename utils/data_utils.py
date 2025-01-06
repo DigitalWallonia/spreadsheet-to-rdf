@@ -166,8 +166,27 @@ def find_duplicate_values(taxo_graph: Graph) -> str:
     
     return "; ".join(duplicates)     
 
-def taxonomy_size_validation(taxo_graph: Graph, taxo_size: int) -> int:
+def taxonomy_size_validation(taxo_graph: Graph, taxo_size: int) -> None:
+    """    
+    Validates the size of the taxonomy graph against an expected number of concepts or schemes.    
     
+    This function performs a SPARQL query on the RDF graph to count the number of concepts or schemes and compares it to an expected size, logging the result.    
+    
+    Parameters:    
+    -----------    
+    taxo_graph : Graph      
+        The RDFLib Graph object to validate.    
+    taxo_size : int    
+        The expected number of concepts in the taxonomy.    
+    
+    Returns:    
+    --------    
+    None    
+    
+    Side Effects:    
+    -------------    
+    - Logs a message indicating whether the validation passed or failed and the difference in concept count if it failed.    
+    """    
     query = """
     SELECT (count(?conceptOrScheme) as ?total)
     WHERE {

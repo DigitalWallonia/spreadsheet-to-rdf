@@ -58,11 +58,36 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level:
             add_conceptScheme(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules, default_language, default_version, create_english_labels, creation_date, column_names)
 
 def validation(count: int, taxo_graph: Graph, taxo_size: int, turtle_data: str, validation_server: str, output_format: str, validation_version: str):
-
-        if count == 1: 
-            taxonomy_size_validation(taxo_graph, taxo_size)
-        else: 
-            shacl_validation(turtle_data, validation_server, output_format, validation_version)
+    """  
+    Validates the RDF graph using taxonomy size and SHACL rules.  
+  
+    This function either validates the size of the RDF graph against an expected taxonomy size or performs SHACL validation using a specified server and format.  
+  
+    Parameters:  
+    -----------  
+    count : int  
+        Determines the type of validation to perform. 1 for size validation, otherwise SHACL validation.  
+    taxo_graph : Graph  
+        The RDFLib Graph object that requires validation.  
+    taxo_size : int  
+        The expected number of concepts in the taxonomy for size validation.  
+    turtle_data : str  
+        Serialized RDF data in Turtle format for SHACL validation.  
+    validation_server : str  
+        The server endpoint for SHACL validation.  
+    output_format : str  
+        The format of the RDF output, used for SHACL validation.  
+    validation_version : str  
+        The version of the validation rules to be applied.  
+  
+    Returns:  
+    --------  
+    None  
+    """  
+    if count == 1: 
+        taxonomy_size_validation(taxo_graph, taxo_size)
+    else: 
+        shacl_validation(turtle_data, validation_server, output_format, validation_version)
 
 def excel_to_rdf(config: dict) -> None:
     """
@@ -144,5 +169,3 @@ def excel_to_rdf(config: dict) -> None:
 
     for index in tqdm([1, 2], desc="SHACL and size validation"):
         validation(index, taxo_graph, taxo_size, turtle_data, validation_server, output_format, validation_version)
-        # taxonomy_size_validation(taxo_graph, taxo_size)
-        # shacl_validation(turtle_data, validation_server, output_format, validation_version)
