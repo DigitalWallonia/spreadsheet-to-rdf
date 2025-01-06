@@ -97,9 +97,9 @@ The application is composed by App.py which passes the configuration file to the
 
 The Transformer.py, open the spreadsheet indicated in the configuration file and it invokes functions (add_concept(), add_topConcept() and add_ConceptScheme()) to create the SKOS Concept and ConceptScheme with labels, definitions, etc. coming from the spreadsheet.
 
-When creating these concepts, URI need to be created and labels need to be changed via the functions get_uri() and cleaning_label() defined in data_utils.py.
+When creating these concepts, URI need to be created and labels need to be changed via the functions get_uri(), cleaning_label(), check_mispell() defined in data_utils.py.
 
-At the end of the creation of the taxonomy in RDF, the Transformer.py calls the shacl_validation() function, defined in the data_utils.py to validate against the ITB Shacl Validator instance.
+At the end of the creation of the taxonomy in RDF, the Transformer.py calls the functions find_duplicate_values(), taxonomy_size_validation() and shacl_validation() functions, defined in the data_utils.py to verify the transformation is went well and validate against the ITB Shacl Validator instance.
 
 ### Functions
 Transformer.py
