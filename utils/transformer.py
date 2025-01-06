@@ -4,7 +4,7 @@ import pandas as pd
 from rdflib import Graph
 from tqdm import tqdm
 from utils.creating_triples import add_concept, add_conceptScheme, add_topConcept, ENGLISH_LABELS
-from utils.data_utils import shacl_validation, CHANGED_LABELS, find_duplicate_values
+from utils.data_utils import shacl_validation, CHANGED_LABELS, find_duplicate_values, taxonomy_size_validation
 
 def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level: str, column_names: dict, D4W_NAMESPACE: str, rules: list, default_language: str, default_version: str, create_english_labels: str, creation_date: str, default_status: str, checkmispell: str) -> None:
     """
@@ -57,6 +57,12 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level:
         else: 
             add_conceptScheme(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules, default_language, default_version, create_english_labels, creation_date, column_names)
 
+def validation(count: int, taxo_graph: Graph, taxo_size: int, turtle_data: str, validation_server: str, output_format: str, validation_version: str):
+
+        if count == 1: 
+            taxonomy_size_validation(taxo_graph, taxo_size)
+        else: 
+            shacl_validation(turtle_data, validation_server, output_format, validation_version)
 
 def excel_to_rdf(config: dict) -> None:
     """
@@ -130,5 +136,13 @@ def excel_to_rdf(config: dict) -> None:
     taxo_graph.serialize(output_path, format=output_format)
     turtle_data = taxo_graph.serialize(format=output_format)  
     
-    # Validate rdf file
-    shacl_validation(turtle_data, validation_server, output_format, validation_version)
+    # Validate rdf file (number of concepts, shacl shapes)
+    taxo_size = 0
+
+    for level in range(int(highest_level), int(lowest_level) + 1):
+        taxo_size += taxo_excel.drop_duplicates(subset=f"{column_names['Concept']}{level}")[f"{column_names['Concept']}{level}"].count()
+
+    for index in tqdm([1, 2], desc="SHACL and size validation"):
+        validation(index, taxo_graph, taxo_size, turtle_data, validation_server, output_format, validation_version)
+        # taxonomy_size_validation(taxo_graph, taxo_size)
+        # shacl_validation(turtle_data, validation_server, output_format, validation_version)

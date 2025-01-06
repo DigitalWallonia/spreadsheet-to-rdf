@@ -166,6 +166,23 @@ def find_duplicate_values(taxo_graph: Graph) -> str:
     
     return "; ".join(duplicates)     
 
+def taxonomy_size_validation(taxo_graph: Graph, taxo_size: int) -> int:
+    
+    query = """
+    SELECT (count(?conceptOrScheme) as ?total)
+    WHERE {
+        ?conceptOrScheme rdf:type ?type
+    }
+    """
+
+    count = taxo_graph.query(query)
+    
+    for row in count: 
+        if int(row.total) != int(taxo_size):
+            logging.info(f"Validation failed: {int(taxo_size) - int(row.total)} concepts were dropped during the process")
+        else: 
+            logging.info(f"Validation passed: The number of concepts in the taxonomy is {row.total}")
+
 def shacl_validation(turtle_data: str, validation_server: str, output_format: str, validation_version: str) -> None:
     """  
     Validates RDF data in Turtle format using a SHACL API.  
@@ -204,8 +221,7 @@ def shacl_validation(turtle_data: str, validation_server: str, output_format: st
 
 
     # Send the POST request 
-    for index in tqdm([1], desc="SHACL validation"): 
-        response = requests.post(validation_server, json=payload)  
+    response = requests.post(validation_server, json=payload)  
 
     # Check the response  
     if response.status_code == 200:  
