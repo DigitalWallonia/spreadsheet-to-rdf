@@ -1,5 +1,5 @@
 input:
-  default_file: input\2024-12-12_taxonomie-complete.xlsx 
+  default_file: input
   highest_level: "2"
   lowest_level: "5"
   information_by_level:
@@ -23,7 +23,7 @@ transformation:
   #check_mispell, if enabled, verifies typos in the concept definitions checking against French and English vocabularies and report in the log file
   check_mispell: True
   #create_english_labels, if enabled, creates english labels for the concepts if they look like containing English words 
-  create_english_labels: True
+  create_english_labels: False
   rules:  
     changes:  
       - changelabel:  
