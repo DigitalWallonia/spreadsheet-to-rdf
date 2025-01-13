@@ -1,3 +1,4 @@
+import os
 import json
 import logging
 from datetime import date
@@ -50,7 +51,7 @@ def adding_triples(taxo_excel: pd, taxo_graph: Graph, level: int, highest_level:
     """
     unique_concepts = taxo_excel.drop_duplicates(subset=f"{column_names['Concept']}{level}")
     # Loop over concepts by level
-    for index in tqdm(unique_concepts.index, desc=f"Processing Level {level}", colour="green"):
+    for index in tqdm(unique_concepts.index, desc=f"Processing Level {level}", colour="green", leave=False):
         if level > int(highest_level) + 1: 
             add_concept(taxo_graph, D4W_NAMESPACE, unique_concepts.loc[index], level, rules, default_language, default_version, create_english_labels, default_status, checkmispell, column_names)
         elif level == int(highest_level) + 1: 
@@ -74,7 +75,7 @@ def excel_to_rdf(config: dict) -> None:
     None  
 
     """
-    excel_path = config['input']['default_file'] 
+    input_folder = os.path.join(str(os.getcwd()), config['input']['default_file']) 
     highest_level = config['input']['highest_level']
     lowest_level = config['input']['lowest_level']
     column_names = config['input']['information_by_level']
@@ -90,9 +91,7 @@ def excel_to_rdf(config: dict) -> None:
     default_version = config['transformation']['default_version']
     default_status = config['transformation']['default_status']
     checkmispell = config['transformation']['check_mispell']
-    # Defining static variables
-    EXCEL_PATH = excel_path 
-    
+    # Defining static variables    
     D4W_NAMESPACE = namespace
     EUROVOC_NS = "http://publications.europa.eu/ontology/euvoc#"
     STATUS_NS = "http://publications.europa.eu/resource/authority/concept-status/"
@@ -101,20 +100,22 @@ def excel_to_rdf(config: dict) -> None:
         for rule_label in rule: 
             CHANGED_LABELS[rule_label] = []
 
-    # Read taxonomy from excel
-    taxo_excel = pd.read_excel(EXCEL_PATH)
-
     # Create rdf version of taxonomy
     taxo_graph = Graph()
     taxo_graph.bind("d4w", D4W_NAMESPACE)
     taxo_graph.bind("status", STATUS_NS)
     taxo_graph.bind("eurovoc", EUROVOC_NS)
 
-    # Add triples to the rdf by level of the taxonomy
-    for level in range(int(highest_level), int(lowest_level) + 1):
+    for file_name in tqdm(os.listdir(input_folder), total=len(os.listdir(input_folder)), desc="Processing taxonomy", position=0, leave=True):
+        # Read taxonomy from excel
+        taxo_excel = pd.read_excel(os.path.join(input_folder, file_name))
+        taxo_language = file_name[:2]
 
-        adding_triples(taxo_excel, taxo_graph, level, highest_level, column_names, D4W_NAMESPACE, rules, default_language, default_version, create_english_labels, creation_date, default_status, checkmispell) 
-            
+        # Add triples to the rdf by level of the taxonomy
+        for level in range(int(highest_level), int(lowest_level) + 1):
+
+            adding_triples(taxo_excel, taxo_graph, level, highest_level, column_names, D4W_NAMESPACE, rules, taxo_language, default_version, create_english_labels, creation_date, default_status, checkmispell) 
+                
     for rule in rules:
         for rule_label in rule: 
             logging.info(f"Labels changed based on rule {rule_label}: {CHANGED_LABELS[rule_label]}")
@@ -136,7 +137,7 @@ def excel_to_rdf(config: dict) -> None:
     for level in range(int(highest_level), int(lowest_level) + 1):
         taxo_size += taxo_excel.drop_duplicates(subset=f"{column_names['Concept']}{level}")[f"{column_names['Concept']}{level}"].count()
 
-    progress_bar = tqdm(total=2, desc="SHACL and size validation")
+    progress_bar = tqdm(total=2, desc="SHACL and size validation", leave=True)
     
     taxonomy_size_validation(taxo_graph, taxo_size)
     progress_bar.update(1)
