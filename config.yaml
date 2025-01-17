@@ -27,7 +27,7 @@ transformation:
   rules:  
     changes:  
       - changelabel:  
-          from: "-()\/"  
+          from: "()\/"  
           to: " "  
           exceptions:
           - ""
