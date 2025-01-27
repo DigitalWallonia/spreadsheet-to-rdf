@@ -114,7 +114,7 @@ def check_mispell(definition: str) -> None:
         logging.info(f" mispelled: {mispelled_en} in {definition}")
 
 
-def get_uri(namespace: str, concept:dict, level: int) -> str:
+def get_uri(namespace: str, concept:dict, level: int, column_names:dict) -> str:
     """  
     Constructs a URI for a concept within a specified namespace and level.  
   
@@ -127,14 +127,17 @@ def get_uri(namespace: str, concept:dict, level: int) -> str:
     concept : dict  
         A dictionary containing the concept's details, including its name.  
     level : int  
-        The level of the concept in the taxonomy, used to access the appropriate field in the concept dictionary.  
+        The level of the concept in the taxonomy, used to access the appropriate field in the concept dictionary.
+    column_names: dict    
+        The column names prefix used in the Excel file.  
+
   
     Returns:  
     --------  
     str  
         The constructed URI for the concept.  
     """  
-    slug = concept[f"Slug Catégorie L{level}"].lower().replace(" ", "_")
+    slug = concept[f"{column_names['Concept']}{level}"].lower().replace(" ", "_")
     uri = namespace + slug
 
     return uri
