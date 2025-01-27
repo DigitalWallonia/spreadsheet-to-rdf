@@ -112,10 +112,18 @@ def excel_to_rdf(config: dict) -> None:
     taxo_graph.bind("status", STATUS_NS)
     taxo_graph.bind("eurovoc", EUROVOC_NS)
 
+    for file_name in os.listdir(input_folder):
+        # Find the french slugs
+        if  file_name.split('.')[0].split("_")[-1].lower() == "fr":
+                slug_df = pd.read_excel(os.path.join(input_folder, file_name))
+
     for file_name in tqdm(os.listdir(input_folder), total=len(os.listdir(input_folder)), desc="Processing taxonomy", position=0):
         # Read taxonomy from excel
         taxo_excel = pd.read_excel(os.path.join(input_folder, file_name))
-        taxo_language = file_name[:2]
+        for level in range(int(highest_level), int(lowest_level) + 1):
+            taxo_excel[f"{column_names['Concept']}{level}"] = slug_df[f"{column_names['Concept']}{level}"]
+        taxo_excel = taxo_excel.fillna("")
+        taxo_language = file_name.split('.')[0].split("_")[-1].lower()
         level_pbars = []  # Keep track of level progress bars
         
         # Add triples to the rdf by level of the taxonomy
