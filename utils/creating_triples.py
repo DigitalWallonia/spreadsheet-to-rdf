@@ -44,28 +44,30 @@ def add_concept(taxonomy: Graph, namespace: str, concept:dict, level: int, rules
     --------  
     None  
     """
-    uri = get_uri(namespace, concept, level)
+    uri = get_uri(namespace, concept, level, column_names)
 
     # Concept
     taxonomy.add((URIRef(uri), RDF.type, SKOS.Concept)) 
 
-    #taxonomy.add((URIRef(uri), SKOS.altLabel, LiteralRDF("altLabel", lang="fr")))
-    taxonomy.add((URIRef(uri), SKOS.broader, URIRef(get_uri(namespace, concept, level-1))))
+    if concept[f"{column_names['popTitle']}{level}"] != "":
+        taxonomy.add((URIRef(uri), DCTERMS.title, LiteralRDF(concept[f"{column_names['popTitle']}{level}"], lang=f"{default_language}")))
+    taxonomy.add((URIRef(uri), SKOS.broader, URIRef(get_uri(namespace, concept, level-1, column_names))))
     definition = concept[f"{column_names['Definition']}{level}"]
-    if(checkmispell == True):
-        check_mispell(definition)
-    taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(definition, lang=f"{default_language}")))
+    if definition != "":
+        if(checkmispell == True):
+            check_mispell(definition)
+        taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(definition, lang=f"{default_language}")))
     taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"{column_names['ID']}{level}"])))
-    taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2))))
+    taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2, column_names))))
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
     cleaned_label = cleaning_label(concept[f"{column_names['prefLabel']}{level}"], uri, rules)
-    
-    language = detector.detect_language_of(cleaned_label) 
-    if(language.iso_code_639_1.name == 'EN'):
-        ENGLISH_LABELS.append(cleaned_label)
-        if(create_english_labels == True):
-            taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
-    taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
+    if cleaned_label != "":
+        language = detector.detect_language_of(cleaned_label) 
+        if(language.iso_code_639_1.name == 'EN'):
+            ENGLISH_LABELS.append(cleaned_label)
+            if(create_english_labels == True):
+                taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
+        taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
     #taxonomy.add((URIRef(uri), DCTERMS.replaces, URIRef(get_uri(namespace, concept, level-1))))
     taxonomy.add((URIRef(uri), URIRef("http://publications.europa.eu/ontology/euvoc#status"), URIRef(f"{default_status}")))
     taxonomy.add((URIRef(uri), OWL.versionInfo, LiteralRDF(f"{default_version}")))
@@ -106,31 +108,34 @@ def add_topConcept(taxonomy: Graph, namespace: str, concept:dict, level: int, ru
     --------  
     None  
     """
-    uri = get_uri(namespace, concept, level)
+    uri = get_uri(namespace, concept, level, column_names)
     # Concept
     taxonomy.add((URIRef(uri), RDF.type, SKOS.Concept)) 
 
-    #taxonomy.add((URIRef(uri), SKOS.altLabel, LiteralRDF("", lang="fr")))^
+    if concept[f"{column_names['popTitle']}{level}"] != "":
+        taxonomy.add((URIRef(uri), DCTERMS.title, LiteralRDF(concept[f"{column_names['popTitle']}{level}"], lang=f"{default_language}")))
     definition = concept[f"{column_names['Definition']}{level}"]
-    if(checkmispell == True):
-        check_mispell(definition)
-    taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(definition, lang=f"{default_language}")))
+    if definition != "":
+        if(checkmispell == True):
+            check_mispell(definition)
+        taxonomy.add((URIRef(uri), SKOS.definition, LiteralRDF(definition, lang=f"{default_language}")))
     taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"{column_names['ID']}{level}"])))
-    taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2))))
+    taxonomy.add((URIRef(uri), SKOS.inScheme, URIRef(get_uri(namespace, concept, 2, column_names))))
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
     cleaned_label = cleaning_label(concept[f"{column_names['prefLabel']}{level}"], uri, rules)
-    language = detector.detect_language_of(cleaned_label) 
-    if(language.iso_code_639_1.name == 'EN'):
-        ENGLISH_LABELS.append(cleaned_label)
-        if(create_english_labels == True):
-            taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
-    taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
+    if cleaned_label != "":
+        language = detector.detect_language_of(cleaned_label) 
+        if(language.iso_code_639_1.name == 'EN'):
+            ENGLISH_LABELS.append(cleaned_label)
+            if(create_english_labels == True):
+                taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
+        taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
     #taxonomy.add((URIRef(uri), DCTERMS.replaces, URIRef(get_uri(namespace, concept, level-1))))
     taxonomy.add((URIRef(uri), URIRef("http://publications.europa.eu/ontology/euvoc#status"), URIRef(f"{default_status}")))
-    taxonomy.add((URIRef(uri), SKOS.topConceptOf, URIRef(get_uri(namespace, concept, 2))))
+    taxonomy.add((URIRef(uri), SKOS.topConceptOf, URIRef(get_uri(namespace, concept, 2, column_names))))
     taxonomy.add((URIRef(uri), OWL.versionInfo, LiteralRDF(f"{default_version}")))
 
-    taxonomy.add((URIRef(get_uri(namespace, concept, 2)), SKOS.hasTopConcept, URIRef(uri)))
+    taxonomy.add((URIRef(get_uri(namespace, concept, 2, column_names)), SKOS.hasTopConcept, URIRef(uri)))
 
 def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int, rules: dict, default_language: str, default_version: str, create_english_labels: str, creation_date: str, column_names: dict) -> None:
     """
@@ -165,7 +170,7 @@ def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int,
     --------  
     None  
     """
-    uri = get_uri(namespace, concept, level)
+    uri = get_uri(namespace, concept, level, column_names)
 
     # Concept
     taxonomy.add((URIRef(uri), RDF.type, SKOS.ConceptScheme))
@@ -176,12 +181,13 @@ def add_conceptScheme(taxonomy: Graph, namespace: str, concept:dict, level: int,
     taxonomy.add((URIRef(uri), DCTERMS.identifier, LiteralRDF(concept[f"{column_names['ID']}{level}"])))
     #taxonomy.add((URIRef(uri), DCTERMS.isReplacedBy, URIRef(get_uri(namespace, concept, level-1))))
     cleaned_label = cleaning_label(concept[f"{column_names['prefLabel']}{level}"], uri, rules)
-    language = detector.detect_language_of(cleaned_label) 
-    if(language.iso_code_639_1.name == 'EN'):
-        ENGLISH_LABELS.append(cleaned_label)
-        if(create_english_labels == True):
-            taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
-    taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
+    if cleaned_label != "":
+        language = detector.detect_language_of(cleaned_label) 
+        if(language.iso_code_639_1.name == 'EN'):
+            ENGLISH_LABELS.append(cleaned_label)
+            if(create_english_labels == True):
+                taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, "en")))
+        taxonomy.add((URIRef(uri), SKOS.prefLabel, LiteralRDF(cleaned_label, f"{default_language}")))
     #taxonomy.add((URIRef(uri), DCTERMS.replaces, URIRef(get_uri(namespace, concept, level-1))))
     taxonomy.add((URIRef(uri), DCTERMS.title, LiteralRDF(concept[f"{column_names['prefLabel']}{level}"], lang=f"{default_language}")))
     taxonomy.add((URIRef(uri), OWL.versionInfo, LiteralRDF(f"{default_version}")))
