@@ -8,6 +8,7 @@ input:
     Definition: "Description Catégorie L"
     ID: "ID catégorie L"  
     altLabel: ""
+    popTitle: "Popularized Title Catégorie L"
   
 transformation:
   #namespace is the base to create URI for the concepts  
