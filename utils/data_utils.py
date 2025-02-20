@@ -73,7 +73,7 @@ def cleaning_label(label: str, uri: str, rules: list) -> str:
                 else:
                     CHANGED_LABELS[rule_label].append(label)
                     # Replace them with a space  
-                    label = re.sub(pattern, _to, label)
+                    # label = re.sub(pattern, _to, label)
 
     return ensure_first_letter_capitalized(label)
 

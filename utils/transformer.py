@@ -88,7 +88,7 @@ def excel_to_rdf(config: dict) -> None:
     namespace = config['transformation']['namespace']
     create_english_labels = config['transformation']['create_english_labels']
     creation_date = config['transformation']['creation_date']
-    output_path = config['output']['default_file'].split(".")[0] + date.today().strftime("%d%m%Y") + "." + config['output']['default_file'].split(".")[1]
+    output_path = config['output']['default_file'].split(".")[0] + date.today().strftime("%Y%m%d") + "." + config['output']['default_file'].split(".")[1]
     output_format = config['output']['default_format']
     validation_server = config['validation']['server']
     validation_version = config['validation']['version']
